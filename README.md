@@ -23,9 +23,9 @@ The project focuses on:
 
 **This is an experimental research project, not a released jailbreak.**
 
-## Research update — 15 November 2026
+## Research summary — updated through Phase 9 (15 November 2026)
 
-**Phases 1–5 are complete (26 local research deliverables).** The project has documented historical public exploits, reviewed firmware notices, evaluated disputed patch claims, and reported a local hash-based comparison of Sony's published PS5 WebKit 13.x and 14.x source distributions.
+**Phases 1–9 are reported complete (49 local research deliverables).** The project has documented historical public exploits, reviewed firmware notices, evaluated disputed patch claims, and reported a local hash-based comparison of Sony's published PS5 WebKit 13.x and 14.x source distributions.
 
 - **WebKit source comparison (reported):** 985 added, 2 removed, 54 changed, and 393,117 unchanged source-relative paths. Both source distributions declare version `616.1.27.211.1`. These results do not establish specific retail 14.22 vulnerability fixes.
 - **Relapse:** Both public implementations list supported builds only through 13.60; the technical reason support stops before 14.00 remains unconfirmed.
@@ -33,18 +33,18 @@ The project focuses on:
 - **14.22:** Sony's public notes mention security fixes without identifying affected components or CVEs.
 - **Firmware 14.10 metadata:** Community indexes disagree about the standard-update SHA-256; apparent duplication of the recovery hash is a hypothesis, not yet byte-verified.
 
-**Read the full research update:**
+**Read the evolving research record:**
 
-- [Research status and Phase 1–5 summary](docs/RESEARCH-STATUS.md)
+- [Research status through Phase 9](docs/RESEARCH-STATUS.md)
 - [WebKit 13.x vs 14.x source comparison](docs/WEBKIT-COMPARISON.md)
 - [Firmware and public exploit evidence](docs/FIRMWARE-AND-EXPLOIT-EVIDENCE.md)
-- [Research sources, checksum issue and Phases 6–10 roadmap](docs/SOURCES-AND-NEXT-STEPS.md)
+- [Research sources, checksum issue and final dossier roadmap](docs/SOURCES-AND-NEXT-STEPS.md)
 
 *Evidence standard:* The GitHub summaries cite public sources and user-provided Codex phase reports; the original local archives and 336 MB inventory have not been independently audited or published here. **No PS5 14.22 jailbreak is demonstrated.**
 
 ---
 
-## Latest research update — Phases 6–7 (15 November 2026)
+## Phase 6–7 findings — WebKit validation and upstream provenance
 
 **Seven research phases are now reported complete (36 local deliverables).** Phase 6 reproduced the Sony WebKit archive comparison and reported an integrity check of every changed/added/removed path. Phase 7 compared the 27 changed production-tree paths with sampled upstream WebKit revisions and public security advisories.
 
@@ -68,13 +68,23 @@ The [MewX package index](https://github.com/MewX/ps5-official-firmware-list/blob
 
 ---
 
+## Phase 9 audit — 15 November 2026
+
+**PASS WITH QUALIFICATIONS:** All **42 earlier deliverables** were present and SHA-256 fingerprinted, with no byte-identical duplicates. The local audit rehashed **787,329 Sony WebKit ZIP members**. A first-run manifest-renaming misclassification was corrected, after which all comparison counts matched with zero reported discrepancies. Of **14 major claims**, **6 were confirmed**, including **4 computationally reproduced**; unresolved security-attribution claims remain explicitly unknown.
+
+**[Read the Phase 9 independent audit summary](docs/PHASE-9-INDEPENDENT-AUDIT.md).** The corrected press-report date is **27 October 2026** (Tom's Hardware), distinct from the firmware 14.20 release it reports as 21 October.
+
+*This summary reflects locally reported audit work rather than GitHub-hosted original data. No complete retail 14.22 jailbreak or patch-by-patch security diff has been shown.*
+
+---
+
 ## Current Research Status
 
 **Target firmware:** 14.22
 
 **Platform:** Sony PlayStation 5
 
-**Project status:** Public-source comparison and advisory review completed through Phase 7
+**Project status:** Phases 1–9 complete; independent research audit passed with qualifications; Phase 10 draft next
 
 **Public jailbreak:** Not demonstrated by this project
 
