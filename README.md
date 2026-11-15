@@ -1,4 +1,4 @@
-# PS5 Firmware 14.22 — Jailbreak & Security Research
+# PS5 Firmware 14.22 — Security Research
 
 **Independent PlayStation 5 firmware 14.22 security research, vulnerability analysis, WebKit investigation and AI-assisted development.**
 
@@ -23,84 +23,50 @@ The project focuses on:
 
 **This is an experimental research project, not a released jailbreak.**
 
-## Research summary — updated through Phase 9 (15 November 2026)
+## Research publication — 15 November 2026
 
-**Phases 1–9 are reported complete (49 local research deliverables).** The project has documented historical public exploits, reviewed firmware notices, evaluated disputed patch claims, and reported a local hash-based comparison of Sony's published PS5 WebKit 13.x and 14.x source distributions.
+**All 10 planned phases are reported complete — 57 Windows-local research deliverables.** The reported Phase 9 review concluded **PASS WITH QUALIFICATIONS**; Phase 10 concluded **PUBLICATION READY WITH QUALIFICATIONS**.
 
-- **WebKit source comparison (reported):** 985 added, 2 removed, 54 changed, and 393,117 unchanged source-relative paths. Both source distributions declare version `616.1.27.211.1`. These results do not establish specific retail 14.22 vulnerability fixes.
-- **Relapse:** Both public implementations list supported builds only through 13.60; the technical reason support stops before 14.00 remains unconfirmed.
-- **Byepervisor-Reborn:** A dated researcher attribution points to a hypervisor fix in 14.10, but the independently demonstrated first fixed retail build remains unknown.
-- **14.22:** Sony's public notes mention security fixes without identifying affected components or CVEs.
-- **Firmware 14.10 metadata:** Community indexes disagree about the standard-update SHA-256; apparent duplication of the recovery hash is a hypothesis, not yet byte-verified.
+**Main findings**
 
-**Read the evolving research record:**
+- The [published Sony WebKit 13.x and 14.x source groups](https://www.playstation.com/en-us/oss/ps5/webkit/) differ by **985 added, 2 removed, 54 content-changed and 393,117 unchanged paths** in the local hash-based comparison. The corrected Phase 9 audit reported **787,329 ZIP members rehashed** and zero final classification discrepancies.
+- Of the 54 changed files, **27** are in production-source trees; **26 of those 27** have upstream path counterparts, but **none** matched exactly at the sampled upstream revisions. No public advisory in the reviewed sample was directly linked to a verified Sony change.
+- The public [Relapse implementations](https://github.com/ntfargo/Relapse-Exploit) list support through **13.60**. The reason they do not document support for 14.00 remains **unknown**.
+- A dated [researcher attribution](https://teapawt.net/Sonic_Iso/status/2109626943213638032) associates an S3-resume hypervisor fix with **14.10**; the first fixed retail build is **unverified**. Later [press reporting published 27 October 2026](https://www.tomshardware.com/video-games/playstation/hacker-awarded-usd50k-bounty-for-reporting-bug-to-sony-that-allowed-ps5-linux-exploit-move-sparks-backlash-from-jailbreaking-community) cites 14.20 but does not supply an independent first-fixed-build demonstration.
+- The [MewX firmware index](https://github.com/MewX/ps5-official-firmware-list) and a reported Midnight archive record distinguish 14.10 standard-update and recovery digests. A repeated recovery digest in the PS5 Developer Wiki's standard update row is the **leading metadata-error hypothesis**; authentic package bytes have not been hashed.
+- Sony [announces security fixes in 14.22](https://www.playstation.com/en-gb/support/hardware/ps5/system-software-info/) without identifying the exact vulnerabilities in its general public notes. **This project has not demonstrated a 14.22 jailbreak**.
 
-- [Research status through Phase 9](docs/RESEARCH-STATUS.md)
-- [WebKit 13.x vs 14.x source comparison](docs/WEBKIT-COMPARISON.md)
-- [Firmware and public exploit evidence](docs/FIRMWARE-AND-EXPLOIT-EVIDENCE.md)
-- [Research sources, checksum issue and final dossier roadmap](docs/SOURCES-AND-NEXT-STEPS.md)
+### Read the completed public research publication
 
-*Evidence standard:* The GitHub summaries cite public sources and user-provided Codex phase reports; the original local archives and 336 MB inventory have not been independently audited or published here. **No PS5 14.22 jailbreak is demonstrated.**
+| Publication document | Description |
+|---|---|
+| [Final research dossier](docs/FINAL-RESEARCH-DOSSIER.md) | Consolidated findings, sources, uncertainties and final conclusions |
+| [Executive summary](docs/EXECUTIVE-SUMMARY.md) | Concise project findings |
+| [Public evidence register](docs/FINAL-EVIDENCE-REGISTER.csv) | Claim-by-claim source, classification and limitation register |
+| [Reproducibility & integrity](docs/REPRODUCIBILITY-AND-INTEGRITY.md) | Source archive and checksum methodology, audit history |
+| [Unresolved questions](docs/UNRESOLVED-QUESTIONS.md) | Research gaps and material needed to resolve them |
+| [Research status](docs/RESEARCH-STATUS.md) | Ten-phase history and published notes |
+| [Publication manifest](docs/PUBLICATION-MANIFEST.md) | Published file inventory and provenance limits |
 
----
+**Publication provenance:** The documents linked above are **GitHub publication syntheses**, not direct uploads of the eight original Windows-local Phase 10 files. The original local ZIPs, full 336 MB file inventory, detailed CSVs and all 57 local phase reports are not in this repository. File-comparison and audit metrics are described as *results reported by the Codex local workflow*, not independent third-party replication.
 
-## Phase 6–7 findings — WebKit validation and upstream provenance
-
-**Seven research phases are now reported complete (36 local deliverables).** Phase 6 reproduced the Sony WebKit archive comparison and reported an integrity check of every changed/added/removed path. Phase 7 compared the 27 changed production-tree paths with sampled upstream WebKit revisions and public security advisories.
-
-- **Phase 6:** Reproduced **985 added, 2 removed, 54 changed and 393,117 unchanged** paths. Its compact changed-only inventory has **1,041 rows**; all changed entries were rehashed against ZIP and extracted copies. Of 54 content-changed files, 27 are in production-source trees (18 JavaScriptCore, 8 WebCore, 1 PlayStation UI-process).
-- **Phase 7:** **26/27** production-tree paths have upstream path counterparts, but **0** exact content matches were found at the sampled upstream revisions. The remaining `PlayStationWebView.cpp` is PlayStation integration code with an **unverified** runtime impact. No sampled advisory could be directly mapped to a changed Sony source file.
-- **Still unknown:** The meaning of the Relapse 13.60 support ceiling, the precise components fixed in retail 14.22, and the exact source-to-retail build correspondence.
-
-Read [Phase 6 validation](docs/PHASE-6-COMPARISON-VALIDATION.md) and [Phase 7 upstream correlation](docs/PHASE-7-UPSTREAM-CORRELATION.md).
-
-*The numbers and file-level checks above are reported outcomes of the local Codex workflow; the source archives and detailed local CSVs are not included in this GitHub repository. No jailbreak or named security fix is established.*
-
----
-
-## Phase 8 research update — 15 November 2026
-
-**Phase 8 is reported complete (42 local research deliverables across eight phases).** A read-only metadata validator evaluated **30 records in 10 firmware-build/package-class groups** and found **one conflicting reported digest group and one cross-class duplicated digest**, both for firmware **14.10**.
-
-The [MewX package index](https://github.com/MewX/ps5-official-firmware-list/blob/6f4bc337885d51280529b729fed69ae11754066a/README.md) and [Midnight standard](https://archive.midnightchannel.net/SonyPS/Firmware/?cat=ps5sys&legacy=1)/[recovery](https://archive.midnightchannel.net/SonyPS/Firmware/?cat=ps5rec&legacy=1) indexes agree on distinct 14.10 values. A wiki transcription error copying the recovery digest to the standard-update row is the leading **hypothesis**, not a proof based on Sony package bytes.
-
-**[Read the Phase 8 firmware integrity summary](docs/PHASE-8-FIRMWARE-METADATA.md).** The project still has no verified 14.22 jailbreak or named vulnerability-fix mapping.
-
----
-
-## Phase 9 audit — 15 November 2026
-
-**PASS WITH QUALIFICATIONS:** All **42 earlier deliverables** were present and SHA-256 fingerprinted, with no byte-identical duplicates. The local audit rehashed **787,329 Sony WebKit ZIP members**. A first-run manifest-renaming misclassification was corrected, after which all comparison counts matched with zero reported discrepancies. Of **14 major claims**, **6 were confirmed**, including **4 computationally reproduced**; unresolved security-attribution claims remain explicitly unknown.
-
-**[Read the Phase 9 independent audit summary](docs/PHASE-9-INDEPENDENT-AUDIT.md).** The corrected press-report date is **27 October 2026** (Tom's Hardware), distinct from the firmware 14.20 release it reports as 21 October.
-
-*This summary reflects locally reported audit work rather than GitHub-hosted original data. No complete retail 14.22 jailbreak or patch-by-patch security diff has been shown.*
+**Research limitations:** No retail firmware download, console access, exploit execution or payload deployment occurred in the reported phases. A source-difference finding does **not** prove a named fix or working jailbreak in retail firmware 14.22.
 
 ---
 
 ## Current Research Status
 
-**Target firmware:** 14.22
-
-**Platform:** Sony PlayStation 5
-
-**Project status:** Phases 1–9 complete; independent research audit passed with qualifications; Phase 10 draft next
-
-**Public jailbreak:** Not demonstrated by this project
-
 | Research component | Status |
 |---|---|
-| Firmware 14.22 environment analysis | Planned |
-| Browser and WebKit identification | Pending verification |
-| Existing vulnerability compatibility | Under investigation |
-| WebKit source code review | Scoped 13.x/14.x comparison and provenance review complete; retail impact unverified |
-| Memory-safety research | Planned |
-| Browser code execution | Not demonstrated |
-| Kernel-level research | Preliminary |
-| Working jailbreak | Not available |
-| Public release | Not available |
-
-Status descriptions will be updated only when supported by documented evidence.
+| Historical public exploit research | Documented with pinned source references |
+| Firmware release and patch attribution | Documented; key fix boundaries unresolved |
+| Sony 13.x vs 14.x WebKit source comparison | Locally reproduced and audited (reported) |
+| Changed-source classification | Completed |
+| Upstream WebKit provenance | Bounded sampling completed; exact change origins unverified |
+| 14.10 package metadata discrepancy | Corroborated catalogue conflict; original bytes unverified |
+| Phase 9 independent evidence audit | PASS WITH QUALIFICATIONS (reported) |
+| Phase 10 final research draft | PUBLICATION READY WITH QUALIFICATIONS (reported) |
+| Complete 14.22 jailbreak | **Not demonstrated** |
 
 ## Research Objectives
 
