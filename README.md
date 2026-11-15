@@ -44,13 +44,27 @@ The project focuses on:
 
 ---
 
+## Latest research update — Phases 6–7 (15 November 2026)
+
+**Seven research phases are now reported complete (36 local deliverables).** Phase 6 reproduced the Sony WebKit archive comparison and reported an integrity check of every changed/added/removed path. Phase 7 compared the 27 changed production-tree paths with sampled upstream WebKit revisions and public security advisories.
+
+- **Phase 6:** Reproduced **985 added, 2 removed, 54 changed and 393,117 unchanged** paths. Its compact changed-only inventory has **1,041 rows**; all changed entries were rehashed against ZIP and extracted copies. Of 54 content-changed files, 27 are in production-source trees (18 JavaScriptCore, 8 WebCore, 1 PlayStation UI-process).
+- **Phase 7:** **26/27** production-tree paths have upstream path counterparts, but **0** exact content matches were found at the sampled upstream revisions. The remaining `PlayStationWebView.cpp` is PlayStation integration code with an **unverified** runtime impact. No sampled advisory could be directly mapped to a changed Sony source file.
+- **Still unknown:** The meaning of the Relapse 13.60 support ceiling, the precise components fixed in retail 14.22, and the exact source-to-retail build correspondence.
+
+Read [Phase 6 validation](docs/PHASE-6-COMPARISON-VALIDATION.md) and [Phase 7 upstream correlation](docs/PHASE-7-UPSTREAM-CORRELATION.md).
+
+*The numbers and file-level checks above are reported outcomes of the local Codex workflow; the source archives and detailed local CSVs are not included in this GitHub repository. No jailbreak or named security fix is established.*
+
+---
+
 ## Current Research Status
 
 **Target firmware:** 14.22
 
 **Platform:** Sony PlayStation 5
 
-**Project status:** Initial research and investigation
+**Project status:** Public-source comparison and advisory review completed through Phase 7
 
 **Public jailbreak:** Not demonstrated by this project
 
@@ -59,7 +73,7 @@ The project focuses on:
 | Firmware 14.22 environment analysis | Planned |
 | Browser and WebKit identification | Pending verification |
 | Existing vulnerability compatibility | Under investigation |
-| WebKit source code review | Planned |
+| WebKit source code review | Scoped 13.x/14.x comparison and provenance review complete; retail impact unverified |
 | Memory-safety research | Planned |
 | Browser code execution | Not demonstrated |
 | Kernel-level research | Preliminary |
