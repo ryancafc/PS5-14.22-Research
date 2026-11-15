@@ -1,8 +1,8 @@
 # Research status — PS5 firmware 14.22
 
-**Status as of 15 November 2026:** Phases 1–5 complete; Phase 6 planned. This is an independent, AI-assisted documentary and source-comparison project, **not a working jailbreak**.
+**Status as of 15 November 2026:** All ten planned phases reported complete; Phase 10 concluded PUBLICATION READY WITH QUALIFICATIONS. This is an independent, AI-assisted documentary and source-comparison project, **not a working jailbreak**.
 
-> **Evidence note:** The five phases produced 26 local research deliverables. This public summary is based on the submitted phase reports and selected public sources checked independently. The original local reports, source archives, and 336 MB comparison inventory have **not** been uploaded to this repository. File counts and local extraction checks below are therefore reported results, not a separately audited reproduction.
+> **Evidence note:** The ten phases produced 57 Windows-local research deliverables (the Phase 9 audit reviewed the 42 deliverables from Phases 1–8). The eight original Phase 10 outputs are not attached to this public GitHub publication. This public summary is based on the submitted phase reports and selected public sources checked independently. The original local reports, source archives, and 336 MB comparison inventory have **not** been uploaded to this repository. File counts and local extraction checks below are therefore reported results, not a separately audited reproduction.
 
 ## Executive summary
 
@@ -22,11 +22,47 @@
 | 3 | Independent evidence validation | Complete | Strengthened 14.10 attribution; preserved unknowns |
 | 4 | Technical comparison feasibility | Complete | Identified WebKit source split and checksum conflict |
 | 5 | WebKit source and package-metadata comparison | Complete | Reproducible local source inventories reported |
-| 6 | Changed-source review | Planned | Classify the 54 content-changed files |
-| 7 | Upstream WebKit/security advisory mapping | Planned | Check attributable upstream fixes |
-| 8 | Firmware package identity verification | Planned | Resolve 14.10 digest discrepancy with authorised evidence |
-| 9 | Independent evidence audit | Planned | Review reproducibility and contradictions |
-| 10 | Final research assessment | Planned | Consolidated conclusions and limitations |
+| 6 | Changed-source review | Complete | Reproduced source-file inventory and classified 54 changed paths |
+| 7 | Upstream WebKit/security advisory mapping | Complete | 26/27 upstream path counterparts; no exact matches at sampled revisions or linked advisories |
+| 8 | Firmware package identity and metadata verification | Complete | 30 metadata records, a corroborated catalogue mismatch and unverified original bytes |
+| 9 | Independent evidence audit | Complete | PASS WITH QUALIFICATIONS: 42 deliverables fingerprinted, six of 14 claims confirmed, four computationally reproduced |
+| 10 | Final research assessment | Complete | PUBLICATION READY WITH QUALIFICATIONS: reconciled the 14 audit claims and verified local inventory figures |
+
+## Phase 6–7 validation highlights
+
+- **Phase 6:** Reproduced the local file comparison counts (985 added, 2 removed, 54 changed, 393,117 unchanged), validated a 1,041-row changed-only subset, and reported that all added/removed/changed entries matched the downloaded ZIP source and extracted copies. The original full inventory hash reportedly remained stable. Twenty-seven of 54 changed paths were classified in production-source trees: 18 JavaScriptCore, 8 WebCore, and one PlayStation UI-process file.
+- **Phase 7:** Found upstream path counterparts for 26 of those 27 paths but no exact content match to either Sony copy at the sampled upstream revisions. The remaining `PlayStationWebView.cpp` file is PlayStation integration code; purpose and runtime effect remain unverified. No reviewed public advisory was directly linked to a verified Sony source change.
+- **Inference limits:** Source path ancestry does not identify the origin of a specific change; negative results from sampled revisions are not exhaustive. No retail 14.22 binary mapping or new explanation for the 13.60 Relapse compatibility boundary resulted.
+
+See [Phase 6 comparison validation](PHASE-6-COMPARISON-VALIDATION.md) and [Phase 7 upstream correlation](PHASE-7-UPSTREAM-CORRELATION.md).
+
+## Phase 8 integrity highlights
+
+- Thirty metadata records were reportedly evaluated across ten firmware-build and package-class groups (13.60 through 14.22, standard/recovery separated).
+- MewX and Midnight both list the 14.10 standard digest beginning `c1738494` and recovery digest beginning `9f3a0b88`, while the Developer Wiki apparently lists the recovery digest in both classes.
+- The duplicated-recovery-entry explanation is corroborated by catalogue comparisons, but **no historical retail PUP bytes were acquired or independently hashed**.
+- The local audit reported one conflicting digest group and one cross-class duplicate, both concerning 14.10; original source-record independence is not established.
+
+See [Phase 8 package integrity evidence](PHASE-8-FIRMWARE-METADATA.md). Phase 9 will audit all eight completed research phases for reproducibility, unsupported claims, and sources that merely copy one another.
+
+## Phase 9 reproducibility and publication corrections
+
+- **Audit result:** PASS WITH QUALIFICATIONS; all **42** Phase 1–8 deliverables were present and fingerprinted, with no byte-identical duplicates.
+- **WebKit:** **787,329** ZIP members rehashed. The first audit run misclassified a renamed Sony manifest; the corrected run reproduced 985 added, 2 removed, 54 changed and 393,117 unchanged paths with no discrepancies.
+- **Firmware metadata:** Reproduced the 14.10 catalogue conflict and cross-package duplicate; authentic package bytes were not acquired.
+- **Claim audit:** Six of 14 claims confirmed, four of those reproduced computationally. Remaining uncertainty about Relapse's 14.00 support gap, first patched S3-resume version, and 14.22's unnamed fixes is preserved.
+- **Correction:** Tom's Hardware published its **14.20-attribution article on 27 October 2026**, referring to a **21 October** firmware release. Publication and release dates are different; neither date independently proves when the vulnerability was fixed.
+
+See the [Phase 9 independent audit summary](PHASE-9-INDEPENDENT-AUDIT.md). The next phase should prepare a final draft with explicit source provenance, remaining gaps, and the Phase 9 qualifications.
+
+## Phase 10 publication summary
+
+- **Phase 10 verdict:** PUBLICATION READY WITH QUALIFICATIONS; the dossier reportedly reconciled Phase 9's 14 claim classifications.
+- **Input-integrity checks:** Phase 10 reported all **53 prior top-level file fingerprints** and both source-extraction tree counts unchanged.
+- **GitHub publication distinction:** The [final dossier](FINAL-RESEARCH-DOSSIER.md), [executive summary](EXECUTIVE-SUMMARY.md), [public evidence register](FINAL-EVIDENCE-REGISTER.csv), [integrity statement](REPRODUCIBILITY-AND-INTEGRITY.md) and [open questions](UNRESOLVED-QUESTIONS.md) are **new public-facing syntheses** written from phase-completion reports. They are **not** the verbatim local Phase 10 files, which were not uploaded to ChatGPT or GitHub.
+- **Outstanding security attribution:** The 14.00 Relapse support-gap mechanism, first fixed hypervisor build and named 14.22 security fixes all remain unresolved.
+
+See the [publication manifest](PUBLICATION-MANIFEST.md) for exactly what is hosted.
 
 ## Evidence status definitions
 
@@ -39,7 +75,7 @@ These are claim-level classifications. A report can be accurate about one capabi
 
 ## Current safety boundaries
 
-Phases 1–5 were described as public-document and local-source analysis. No console access, exploit execution, payload deployment, retail firmware unpacking, or firmware change was performed as part of these research phases.
+Phases 1–10 were described as public-document and local-source analysis. No console access, exploit execution, payload deployment, retail firmware unpacking, or firmware change was performed as part of these research phases.
 
 The project neither provides nor promises a firmware 14.22 jailbreak. It should not equate published source differences, unsupported firmware versions, or archive hashes with proven exploitability.
 

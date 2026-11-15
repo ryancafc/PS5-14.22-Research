@@ -20,7 +20,7 @@
 - [MewX firmware list](https://github.com/MewX/ps5-official-firmware-list/blob/6f4bc337885d51280529b729fed69ae11754066a/README.md)
 - [PS5 Developer Wiki vulnerability overview](https://www.psdevwiki.com/ps5/Vulnerabilities)
 - [PSXHAX](https://www.psxhax.com/) — discovery/secondary reporting only; reported inaccessible in Phase 1
-- [Tom's Hardware discussion](https://www.tomshardware.com/video-games/playstation/hacker-awarded-usd50k-bounty-for-reporting-bug-to-sony-that-allowed-ps5-linux-exploit-move-sparks-backlash-from-jailbreaking-community) — secondary 14.20 attribution, not primary first-fixed-build evidence
+- [Tom's Hardware discussion](https://www.tomshardware.com/video-games/playstation/hacker-awarded-usd50k-bounty-for-reporting-bug-to-sony-that-allowed-ps5-linux-exploit-move-sparks-backlash-from-jailbreaking-community) — **published 27 October 2026** by Jowi Morales; discusses a **21 October 2026** 14.20 release and makes a secondary patch attribution, **not** primary first-fixed-build evidence
 
 ## 14.10 standard update vs recovery package identity
 
@@ -35,6 +35,14 @@ MewX additionally lists different package sizes for the two types. A **duplicate
 
 Do not use either disputed value as a verified standard-update hash until official-byte verification or independently authoritative evidence is available.
 
+## Phase 8 update — catalogue reconciliation
+
+The metadata-only Phase 8 validator reportedly checked 30 records in ten package-class groups (standard update and recovery for 13.60, 14.00, 14.10, 14.20 and 14.22). Its sole conflict and cross-class duplicate concerned 14.10.
+
+[MewX](https://github.com/MewX/ps5-official-firmware-list/blob/6f4bc337885d51280529b729fed69ae11754066a/README.md) and [Midnight's standard](https://archive.midnightchannel.net/SonyPS/Firmware/?cat=ps5sys&legacy=1) and [recovery](https://archive.midnightchannel.net/SonyPS/Firmware/?cat=ps5rec&legacy=1) indexes both assign `c1738494…` to the 14.10 standard update and `9f3a0b88…` to recovery. The wiki appears to repeat the recovery digest in the standard-update row. This supports a **catalogue transcription-error hypothesis**, not a byte-verified checksum correction. Public records may not be independent.
+
+See [Phase 8 package metadata report](PHASE-8-FIRMWARE-METADATA.md).
+
 ## Outstanding questions
 
 1. **Relapse 13.60 to 14.00 boundary:** Which component, if any, was actually fixed or made incompatible, and what original evidence establishes this?
@@ -47,11 +55,17 @@ Do not use either disputed value as a verified standard-update hash until offici
 
 - **Phase 6:** Validate the Phase 5 comparison and classify all 54 content-changed files; create a small changed-only inventory.
 - **Phase 7:** Compare identified source changes against attributable upstream WebKit security advisories.
-- **Phase 8:** Validate firmware package identity and digest provenance, with new authorisation before any official firmware download.
-- **Phase 9:** Independent evidence and reproducibility audit.
-- **Phase 10:** Final security research assessment and unresolved-questions register.
+- **Phase 8 (reported complete):** Documented package identities and hash discrepancies without downloading firmware; authentic bytes remain unverified.
+- **Phase 9 (completed):** PASS WITH QUALIFICATIONS; reproduced comparison counts, reviewed 14 claims and identified publication corrections. See [the Phase 9 audit](PHASE-9-INDEPENDENT-AUDIT.md).
+- **Phase 10 (reported complete):** Final research dossier, with explicit Phase 9 audit qualifications and an unresolved-questions register. The publicly available [final research dossier](FINAL-RESEARCH-DOSSIER.md) is a publication synthesis, not a direct copy of the original local Phase 10 document.
 
 Broad repeated searches are unlikely to resolve closed-source patch questions absent new official or original-researcher disclosures. A focused source watchlist is more useful.
+
+## Final publication (all ten phases)
+
+The project now has a completed public-facing [research dossier](FINAL-RESEARCH-DOSSIER.md), [executive summary](EXECUTIVE-SUMMARY.md), [evidence register](FINAL-EVIDENCE-REGISTER.csv), [reproducibility report](REPRODUCIBILITY-AND-INTEGRITY.md), [unresolved-questions register](UNRESOLVED-QUESTIONS.md) and [publication manifest](PUBLICATION-MANIFEST.md).
+
+The evidence register is a new selection of public-facing claims and is **not** the original Phase 9 14-claim item-level audit CSV. Those original local files were not available to the GitHub publication process.
 
 ## Scope and publication cautions
 

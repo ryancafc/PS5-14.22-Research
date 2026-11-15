@@ -50,6 +50,6 @@ During extraction/output handling, an output-name collision was reported. The wo
 
 ## Next review
 
-Phase 6 should validate the path-classification inventory independently and classify the **54 changed files** before drawing conclusions about their purpose. Phase 7 may compare documented upstream WebKit security advisories with attributable source changes.
+**Phase 6 (reported complete):** Reproduced all counts, checked added/removed/changed paths against ZIPs and extracted copies, and classified the 54 changed files. Of those, 27 were in production-source trees (18 JavaScriptCore, 8 WebCore, 1 PlayStation UI-process). **Phase 7 (reported complete):** Found upstream path counterparts for 26/27 production paths, but no exact content match in the sampled upstream snapshots and no directly mapped public security advisory. These findings do not establish a named patch or retail 14.22 security diff. Read [Phase 6](PHASE-6-COMPARISON-VALIDATION.md) and [Phase 7](PHASE-7-UPSTREAM-CORRELATION.md).
 
 See [Research status](RESEARCH-STATUS.md).
