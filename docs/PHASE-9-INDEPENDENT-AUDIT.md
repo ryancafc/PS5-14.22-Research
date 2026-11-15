@@ -54,11 +54,13 @@ The firmware metadata audit reproduced the 14.10 catalogue checksum conflict and
 
 ## Publication readiness and next step
 
-**PASS WITH QUALIFICATIONS** means the project may prepare a Phase 10 **draft**, with these conditions:
+**PASS WITH QUALIFICATIONS** permitted drafting Phase 10; the later Phase 10 review reported **PUBLICATION READY WITH QUALIFICATIONS**, subject to these continuing conditions:
 
 1. Keep first-hand, catalogued, computationally reproduced and still unverified claims separately labelled.
 2. Correct the press-article date and superseded Phase 1–5 GitHub status summaries.
 3. Preserve source provenance and discrepancies in the final report.
 4. Do not publish claims of a retail 14.22 binary security diff or functional jailbreak.
+
+The [public final dossier](FINAL-RESEARCH-DOSSIER.md) records Phase 10's reported conclusion. It is a separate public-facing synthesis rather than an uploaded original Windows-local report.
 
 Read the [current research status](RESEARCH-STATUS.md), [WebKit comparison](WEBKIT-COMPARISON.md), and [source register and open questions](SOURCES-AND-NEXT-STEPS.md).
