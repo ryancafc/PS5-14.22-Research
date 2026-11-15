@@ -58,6 +58,16 @@ Read [Phase 6 validation](docs/PHASE-6-COMPARISON-VALIDATION.md) and [Phase 7 up
 
 ---
 
+## Phase 8 research update — 15 November 2026
+
+**Phase 8 is reported complete (42 local research deliverables across eight phases).** A read-only metadata validator evaluated **30 records in 10 firmware-build/package-class groups** and found **one conflicting reported digest group and one cross-class duplicated digest**, both for firmware **14.10**.
+
+The [MewX package index](https://github.com/MewX/ps5-official-firmware-list/blob/6f4bc337885d51280529b729fed69ae11754066a/README.md) and [Midnight standard](https://archive.midnightchannel.net/SonyPS/Firmware/?cat=ps5sys&legacy=1)/[recovery](https://archive.midnightchannel.net/SonyPS/Firmware/?cat=ps5rec&legacy=1) indexes agree on distinct 14.10 values. A wiki transcription error copying the recovery digest to the standard-update row is the leading **hypothesis**, not a proof based on Sony package bytes.
+
+**[Read the Phase 8 firmware integrity summary](docs/PHASE-8-FIRMWARE-METADATA.md).** The project still has no verified 14.22 jailbreak or named vulnerability-fix mapping.
+
+---
+
 ## Current Research Status
 
 **Target firmware:** 14.22
