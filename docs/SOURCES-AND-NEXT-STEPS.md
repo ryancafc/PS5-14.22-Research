@@ -20,7 +20,7 @@
 - [MewX firmware list](https://github.com/MewX/ps5-official-firmware-list/blob/6f4bc337885d51280529b729fed69ae11754066a/README.md)
 - [PS5 Developer Wiki vulnerability overview](https://www.psdevwiki.com/ps5/Vulnerabilities)
 - [PSXHAX](https://www.psxhax.com/) — discovery/secondary reporting only; reported inaccessible in Phase 1
-- [Tom's Hardware discussion](https://www.tomshardware.com/video-games/playstation/hacker-awarded-usd50k-bounty-for-reporting-bug-to-sony-that-allowed-ps5-linux-exploit-move-sparks-backlash-from-jailbreaking-community) — secondary 14.20 attribution, not primary first-fixed-build evidence
+- [Tom's Hardware discussion](https://www.tomshardware.com/video-games/playstation/hacker-awarded-usd50k-bounty-for-reporting-bug-to-sony-that-allowed-ps5-linux-exploit-move-sparks-backlash-from-jailbreaking-community) — **published 27 October 2026** by Jowi Morales; discusses a **21 October 2026** 14.20 release and makes a secondary patch attribution, **not** primary first-fixed-build evidence
 
 ## 14.10 standard update vs recovery package identity
 
@@ -56,8 +56,8 @@ See [Phase 8 package metadata report](PHASE-8-FIRMWARE-METADATA.md).
 - **Phase 6:** Validate the Phase 5 comparison and classify all 54 content-changed files; create a small changed-only inventory.
 - **Phase 7:** Compare identified source changes against attributable upstream WebKit security advisories.
 - **Phase 8 (reported complete):** Documented package identities and hash discrepancies without downloading firmware; authentic bytes remain unverified.
-- **Phase 9 (next):** Independent evidence and reproducibility audit across Phases 1–8.
-- **Phase 10:** Final security research assessment and unresolved-questions register.
+- **Phase 9 (completed):** PASS WITH QUALIFICATIONS; reproduced comparison counts, reviewed 14 claims and identified publication corrections. See [the Phase 9 audit](PHASE-9-INDEPENDENT-AUDIT.md).
+- **Phase 10 (next):** Final security research dossier, with explicit Phase 9 audit qualifications and unresolved-questions register.
 
 Broad repeated searches are unlikely to resolve closed-source patch questions absent new official or original-researcher disclosures. A focused source watchlist is more useful.
 
