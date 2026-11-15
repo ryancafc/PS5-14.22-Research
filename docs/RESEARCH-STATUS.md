@@ -1,8 +1,8 @@
 # Research status — PS5 firmware 14.22
 
-**Status as of 15 November 2026:** Phases 1–9 reported complete; Phase 10 draft planned. This is an independent, AI-assisted documentary and source-comparison project, **not a working jailbreak**.
+**Status as of 15 November 2026:** All ten planned phases reported complete; Phase 10 concluded PUBLICATION READY WITH QUALIFICATIONS. This is an independent, AI-assisted documentary and source-comparison project, **not a working jailbreak**.
 
-> **Evidence note:** The nine phases produced 49 local research deliverables (the Phase 9 audit reviewed the 42 earlier deliverables). This public summary is based on the submitted phase reports and selected public sources checked independently. The original local reports, source archives, and 336 MB comparison inventory have **not** been uploaded to this repository. File counts and local extraction checks below are therefore reported results, not a separately audited reproduction.
+> **Evidence note:** The ten phases produced 57 Windows-local research deliverables (the Phase 9 audit reviewed the 42 deliverables from Phases 1–8). The eight original Phase 10 outputs are not attached to this public GitHub publication. This public summary is based on the submitted phase reports and selected public sources checked independently. The original local reports, source archives, and 336 MB comparison inventory have **not** been uploaded to this repository. File counts and local extraction checks below are therefore reported results, not a separately audited reproduction.
 
 ## Executive summary
 
@@ -26,7 +26,7 @@
 | 7 | Upstream WebKit/security advisory mapping | Complete | 26/27 upstream path counterparts; no exact matches at sampled revisions or linked advisories |
 | 8 | Firmware package identity and metadata verification | Complete | 30 metadata records, a corroborated catalogue mismatch and unverified original bytes |
 | 9 | Independent evidence audit | Complete | PASS WITH QUALIFICATIONS: 42 deliverables fingerprinted, six of 14 claims confirmed, four computationally reproduced |
-| 10 | Final research assessment | Planned | Consolidated conclusions and limitations |
+| 10 | Final research assessment | Complete | PUBLICATION READY WITH QUALIFICATIONS: reconciled the 14 audit claims and verified local inventory figures |
 
 ## Phase 6–7 validation highlights
 
@@ -55,6 +55,15 @@ See [Phase 8 package integrity evidence](PHASE-8-FIRMWARE-METADATA.md). Phase 9 
 
 See the [Phase 9 independent audit summary](PHASE-9-INDEPENDENT-AUDIT.md). The next phase should prepare a final draft with explicit source provenance, remaining gaps, and the Phase 9 qualifications.
 
+## Phase 10 publication summary
+
+- **Phase 10 verdict:** PUBLICATION READY WITH QUALIFICATIONS; the dossier reportedly reconciled Phase 9's 14 claim classifications.
+- **Input-integrity checks:** Phase 10 reported all **53 prior top-level file fingerprints** and both source-extraction tree counts unchanged.
+- **GitHub publication distinction:** The [final dossier](FINAL-RESEARCH-DOSSIER.md), [executive summary](EXECUTIVE-SUMMARY.md), [public evidence register](FINAL-EVIDENCE-REGISTER.csv), [integrity statement](REPRODUCIBILITY-AND-INTEGRITY.md) and [open questions](UNRESOLVED-QUESTIONS.md) are **new public-facing syntheses** written from phase-completion reports. They are **not** the verbatim local Phase 10 files, which were not uploaded to ChatGPT or GitHub.
+- **Outstanding security attribution:** The 14.00 Relapse support-gap mechanism, first fixed hypervisor build and named 14.22 security fixes all remain unresolved.
+
+See the [publication manifest](PUBLICATION-MANIFEST.md) for exactly what is hosted.
+
 ## Evidence status definitions
 
 - **Confirmed:** A public primary source directly supports a specific, limited claim (for example, Sony's release note explicitly mentions security fixes).
@@ -66,7 +75,7 @@ These are claim-level classifications. A report can be accurate about one capabi
 
 ## Current safety boundaries
 
-Phases 1–9 were described as public-document and local-source analysis. No console access, exploit execution, payload deployment, retail firmware unpacking, or firmware change was performed as part of these research phases.
+Phases 1–10 were described as public-document and local-source analysis. No console access, exploit execution, payload deployment, retail firmware unpacking, or firmware change was performed as part of these research phases.
 
 The project neither provides nor promises a firmware 14.22 jailbreak. It should not equate published source differences, unsupported firmware versions, or archive hashes with proven exploitability.
 
