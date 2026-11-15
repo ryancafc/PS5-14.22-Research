@@ -23,6 +23,27 @@ The project focuses on:
 
 **This is an experimental research project, not a released jailbreak.**
 
+## Research update — 15 November 2026
+
+**Phases 1–5 are complete (26 local research deliverables).** The project has documented historical public exploits, reviewed firmware notices, evaluated disputed patch claims, and reported a local hash-based comparison of Sony's published PS5 WebKit 13.x and 14.x source distributions.
+
+- **WebKit source comparison (reported):** 985 added, 2 removed, 54 changed, and 393,117 unchanged source-relative paths. Both source distributions declare version `616.1.27.211.1`. These results do not establish specific retail 14.22 vulnerability fixes.
+- **Relapse:** Both public implementations list supported builds only through 13.60; the technical reason support stops before 14.00 remains unconfirmed.
+- **Byepervisor-Reborn:** A dated researcher attribution points to a hypervisor fix in 14.10, but the independently demonstrated first fixed retail build remains unknown.
+- **14.22:** Sony's public notes mention security fixes without identifying affected components or CVEs.
+- **Firmware 14.10 metadata:** Community indexes disagree about the standard-update SHA-256; apparent duplication of the recovery hash is a hypothesis, not yet byte-verified.
+
+**Read the full research update:**
+
+- [Research status and Phase 1–5 summary](docs/RESEARCH-STATUS.md)
+- [WebKit 13.x vs 14.x source comparison](docs/WEBKIT-COMPARISON.md)
+- [Firmware and public exploit evidence](docs/FIRMWARE-AND-EXPLOIT-EVIDENCE.md)
+- [Research sources, checksum issue and Phases 6–10 roadmap](docs/SOURCES-AND-NEXT-STEPS.md)
+
+*Evidence standard:* The GitHub summaries cite public sources and user-provided Codex phase reports; the original local archives and 336 MB inventory have not been independently audited or published here. **No PS5 14.22 jailbreak is demonstrated.**
+
+---
+
 ## Current Research Status
 
 **Target firmware:** 14.22
