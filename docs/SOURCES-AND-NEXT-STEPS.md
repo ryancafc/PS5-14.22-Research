@@ -57,9 +57,15 @@ See [Phase 8 package metadata report](PHASE-8-FIRMWARE-METADATA.md).
 - **Phase 7:** Compare identified source changes against attributable upstream WebKit security advisories.
 - **Phase 8 (reported complete):** Documented package identities and hash discrepancies without downloading firmware; authentic bytes remain unverified.
 - **Phase 9 (completed):** PASS WITH QUALIFICATIONS; reproduced comparison counts, reviewed 14 claims and identified publication corrections. See [the Phase 9 audit](PHASE-9-INDEPENDENT-AUDIT.md).
-- **Phase 10 (next):** Final security research dossier, with explicit Phase 9 audit qualifications and unresolved-questions register.
+- **Phase 10 (reported complete):** Final research dossier, with explicit Phase 9 audit qualifications and an unresolved-questions register. The publicly available [final research dossier](FINAL-RESEARCH-DOSSIER.md) is a publication synthesis, not a direct copy of the original local Phase 10 document.
 
 Broad repeated searches are unlikely to resolve closed-source patch questions absent new official or original-researcher disclosures. A focused source watchlist is more useful.
+
+## Final publication (all ten phases)
+
+The project now has a completed public-facing [research dossier](FINAL-RESEARCH-DOSSIER.md), [executive summary](EXECUTIVE-SUMMARY.md), [evidence register](FINAL-EVIDENCE-REGISTER.csv), [reproducibility report](REPRODUCIBILITY-AND-INTEGRITY.md), [unresolved-questions register](UNRESOLVED-QUESTIONS.md) and [publication manifest](PUBLICATION-MANIFEST.md).
+
+The evidence register is a new selection of public-facing claims and is **not** the original Phase 9 14-claim item-level audit CSV. Those original local files were not available to the GitHub publication process.
 
 ## Scope and publication cautions
 
