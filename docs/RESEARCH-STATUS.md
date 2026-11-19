@@ -4,6 +4,7 @@
 
 > **Evidence note:** The ten phases produced 57 Windows-local research deliverables (the Phase 9 audit reviewed the 42 deliverables from Phases 1–8). The eight original Phase 10 outputs are not attached to this public GitHub publication. This public summary is based on the submitted phase reports and selected public sources checked independently. The original local reports, source archives, and 336 MB comparison inventory have **not** been uploaded to this repository. File counts and local extraction checks below are therefore reported results, not a separately audited reproduction.
 
+> **Update 19 November 2026:** The phase history below originally ended at Phase 10. The maintainer subsequently recorded Phases 11–18 and started but did not execute Phase 19. The project was then stopped. See [full closeout](PROJECT-CLOSEOUT-2026-11-19.md) and [Phases 11–19 evidence register](PHASES-11-19-EVIDENCE-REGISTER.csv). Historical descriptions of 'no console access' in Phase 1–10 refer only to **those earlier phases**; retail browser tests were reported later.
 ## Executive summary
 
 - Sony officially describes **security fixes** for **14.10** and **14.22**, but does not identify specific patched components or CVEs in its public PS5 release notes.
@@ -27,6 +28,20 @@
 | 8 | Firmware package identity and metadata verification | Complete | 30 metadata records, a corroborated catalogue mismatch and unverified original bytes |
 | 9 | Independent evidence audit | Complete | PASS WITH QUALIFICATIONS: 42 deliverables fingerprinted, six of 14 claims confirmed, four computationally reproduced |
 | 10 | Final research assessment | Complete | PUBLICATION READY WITH QUALIFICATIONS: reconciled the 14 audit claims and verified local inventory figures |
+
+## Later phase history (11–19)
+
+| Phase | Scope | Status | Outcome |
+|---|---|---|---|
+| 11 | Retail benign WebKit runtime baselines | Complete | v3.0 10/10; v4.0 42/42 across three sessions, reported |
+| 12 | Canvas vulnerability claim review | Complete | 20 claims classified; PS5 implications unresolved |
+| 13 | Claim-quality and alleged leak audit | Complete | 13 claims; unsupported address leak and JIT assertions rejected |
+| 14 | Retail reentrant Canvas witness | Complete (behaviour only) | Two PS5 runs reported; no native UAF proof |
+| 15 | Linux vulnerable WebKitGTK ASan experiment | Complete (Linux) | Heap-use-after-free reported, not PS5 |
+| 16 | Linux patched upstream comparison | Complete (Linux) | Modified test 32/32 expected; no observed ASan report |
+| 17 | Sony published WebKit 14.00 source audit | Complete | Missing guard pattern; retail binary mapping not verified |
+| 18 | PS5 User's Guide Canvas capability diagnostics | Complete | Seven report lines received over HTTPS |
+| 19 | Linux 2D/BitmapRenderer matrix | **Stopped / not run** | Test file created; MiniBrowser comparison not performed |
 
 ## Phase 6–7 validation highlights
 
