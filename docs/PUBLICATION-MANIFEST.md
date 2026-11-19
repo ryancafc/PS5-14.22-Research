@@ -1,5 +1,8 @@
 # Public research publication manifest
 
+> **19 November 2026 addendum:** This manifest originally described only the 15 November Phase 1–10 publication. The repository now also contains documentation-only syntheses of Phases 11–19. See [closeout](PROJECT-CLOSEOUT-2026-11-19.md) for the later phase register; original logs and local test files were not uploaded.
+
+
 **As of:** 15 November 2026  
 **Repository:** [ryancafc/PS5-14.22-Research](https://github.com/ryancafc/PS5-14.22-Research)  
 **Research project:** Ten phases, **57 original Windows-local deliverables reported**, with Phase 10 assessed **PUBLICATION READY WITH QUALIFICATIONS**.
@@ -46,3 +49,16 @@ If the original Windows-local Phase 10 files are supplied as attachments or uplo
 The local Phase 9 audit reportedly returned **PASS WITH QUALIFICATIONS** and Phase 10 **PUBLICATION READY WITH QUALIFICATIONS**. This GitHub publication preserves those caveats. It does **not** demonstrate a working PS5 14.22 jailbreak or a complete named security-fix inventory.
 
 If any source, claim, or correction is disputed, open a review issue and provide the original primary evidence and exact relevant revision.
+## Additional files published at project closeout (19 November 2026)
+
+| Path | Scope |
+|---|---|
+| `docs/PHASES-11-14-RETAIL-CLAIMS.md` | Benign retail baselines, 20/13-claim reviews, two Canvas behaviour witnesses |
+| `docs/PHASES-15-16-LINUX-ASAN.md` | Vulnerable/patched upstream Linux WebKit experiments, digest references and caveats |
+| `docs/PHASE-17-SONY-SOURCE-AUDIT.md` | Sony 14.00 code and build preference audit; archive and file hashes |
+| `docs/PHASE-18-RETAIL-CAPABILITY-TESTS.md` | Seven retail User's Guide diagnostics and local transport history |
+| `docs/PHASE-19-STOPPED.md` | Unexecuted four-case matrix and locally recorded test-file hash |
+| `docs/PHASES-11-19-EVIDENCE-REGISTER.csv` | New, summary-level evidence register for later phases |
+| `docs/PROJECT-CLOSEOUT-2026-11-19.md` | Master phase 1–19 index, conclusions and research stop date |
+
+All files are reconstructed from the available submitted results and notes rather than claiming full raw laboratory provenance.

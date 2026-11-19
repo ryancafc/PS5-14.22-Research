@@ -1,5 +1,7 @@
 # Executive summary — PS5 firmware 14.22 security research
 
+> **Historical Phase 1–10 summary (15 November 2026).** Later findings and the project stopping point are documented in the [19 November closeout](PROJECT-CLOSEOUT-2026-11-19.md). Earlier no-console-testing scope statements do not describe the later retail checks.
+
 **Research completed:** 15 November 2026  
 **Ten phases:** reported complete  
 **Conclusion:** **PUBLICATION READY WITH QUALIFICATIONS**  

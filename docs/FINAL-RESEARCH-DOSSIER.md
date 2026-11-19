@@ -1,5 +1,8 @@
 # PS5 firmware 14.22 — final research dossier
 
+> **Historical scope:** This dossier finalised the **Phase 1–10 publication** on 15 November 2026. For subsequent retail/browser, Sony source and Linux ASan work in Phases 11–19 and the decision to stop the project, see [19 November project closeout](PROJECT-CLOSEOUT-2026-11-19.md). 'No console access' below applies to the original Phase 1–10 work, not later reported tests.
+
+
 **Publication synthesis, 15 November 2026**  
 **Project:** Independent, AI-assisted PlayStation 5 firmware research  
 **Review outcome:** **PUBLICATION READY WITH QUALIFICATIONS** (reported Phase 10 result)  

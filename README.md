@@ -23,6 +23,24 @@ The project focuses on:
 
 **This is an experimental research project, not a released jailbreak.**
 
+## Project closeout — 19 November 2026 (Phases 1–19)
+
+**Status: Research stopped by the maintainer. No PS5 firmware 14.22 jailbreak or native UAF on retail PS5 has been demonstrated.**
+
+The **15 November publication below is the historical Phase 1–10 milestone**, not the final project state. Further work through **Phases 11–18** covered benign console browser checks, evidence review, Sony WebKit source, an instrumented Linux upstream heap-use-after-free comparison, and successful retail User's Guide diagnostics. **Phase 19 was prepared but not run.**
+
+- **[Project closeout and full phase index](docs/PROJECT-CLOSEOUT-2026-11-19.md)** — phases 1–19, status, provenance, limits.
+- **[Phases 11–14: retail baselines, claims and Canvas witness](docs/PHASES-11-14-RETAIL-CLAIMS.md)** — 10/10 and 42/42 benign checks; 20/13-claim reviews; two reported reentrancy witnesses.
+- **[Phases 15–16: controlled Linux AddressSanitizer research](docs/PHASES-15-16-LINUX-ASAN.md)** — upstream vulnerable-build UAF report and patched-build comparison; **not** a PS5 UAF.
+- **[Phase 17: Sony published WebKit 14.00 audit](docs/PHASE-17-SONY-SOURCE-AUDIT.md)** — missing post-conversion guard pattern and source-feature defaults; no 14.22 binary mapping.
+- **[Phase 18: retail PS5 capability observations](docs/PHASE-18-RETAIL-CAPABILITY-TESTS.md)** — seven observed tests received through a local HTTPS User's Guide page.
+- **[Phase 19: planned test, stopped](docs/PHASE-19-STOPPED.md)** — test HTML created and hashed; no recorded MiniBrowser results.
+- **[Evidence register for Phases 11–19](docs/PHASES-11-19-EVIDENCE-REGISTER.csv)** — each claim's verification class and limitation.
+
+All new entries are **documentation syntheses of user-supplied reports**, not uploads of the original source archives, ASan logs, raw test programs or console binaries. The project is archived as research, not distributed exploitation software.
+
+---
+
 ## Research publication — 15 November 2026
 
 **All 10 planned phases are reported complete — 57 Windows-local research deliverables.** The reported Phase 9 review concluded **PASS WITH QUALIFICATIONS**; Phase 10 concluded **PUBLICATION READY WITH QUALIFICATIONS**.
