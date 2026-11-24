@@ -1,0 +1,12 @@
+{
+  "sdk-minimal": {
+    "return_7_seen": true,
+    "original_message_seen": null,
+    "scope": "Selected decompiled output manually compared to original C; unresolved calls not claimed fully resolved."
+  },
+  "sdk-imports": {
+    "return_7_seen": null,
+    "original_message_seen": true,
+    "scope": "Selected decompiled output manually compared to original C; unresolved calls not claimed fully resolved."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-24",
+  "repositories": [
+    {
+      "url": "https://github.com/shadps5-emu/GhidraProspero",
+      "commit": "e529ef4dd3edbb78400f30492db7c82802a1a117",
+      "finding": "Detector accepts ABI2/3; no genuine ABI3 sample supplied."
+    },
+    {
+      "url": "https://github.com/Rufidj/ps5link-sdk",
+      "commit": "ea771e535378740b6a058b8e5419eb8a0e0e0ec8",
+      "finding": "Native public linker writes ABI2 SCE output. Two original programs built without editing acquired headers."
+    },
+    {
+      "url": "https://github.com/leolobato/ps5-native-app-boilerplate",
+      "commit": "38c68b4645ab6a1470c7598df1a3fc10d3e0cae0",
+      "finding": "No release binaries from checked releases endpoint; native tooling/source examples, not an obtained ABI3 sample."
+    },
+    {
+      "url": "https://github.com/ps5-payload-dev/sdk",
+      "commit": "4122b714c7e7a9449d403812b9d640bf7a55af3f",
+      "finding": "Source sample tree reviewed; no suitable prebuilt ABI3 application identified."
+    },
+    {
+      "url": "https://github.com/ItsJokerZz/ps5_sprx_abi_writeup",
+      "finding": "Public README describes a header spoofer/vendor-module observations. Not used to manufacture genuine ABI3 evidence; no tool or system module acquired."
+    }
+  ],
+  "search_queries": [
+    "PS5 homebrew ET_SCE_DYNEXEC ABI 3",
+    "PS5 native eboot.elf releases hello world",
+    "PS5 homebrew ABI 3 sprx -dumper -spoofer",
+    "PS5 ABIVERSION 3 homebrew sample"
+  ],
+  "result": "Genuine ABI3 compatibility BLOCKED; search is bounded, not an assertion that no lawful sample exists."
+}

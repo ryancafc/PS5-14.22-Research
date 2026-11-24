@@ -1,0 +1,75 @@
+
+Welcome to Gradle 9.2.1!
+
+Here are the highlights of this release:
+ - Windows ARM support
+ - Improved publishing APIs
+ - Better guidance for dependency verification failures
+
+For more details see https://docs.gradle.org/9.2.1/release-notes.html
+
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build
+> Task :copyDependencies
+
+> Task :compileJava
+AUDIT_WORKSPACE/work/phase22/loader-source/src/main/java/prospero/loader/emc/GhidraProsperoIplLoader.java:158: warning: [removal] Option(String,Class<?>) in Option has been deprecated and marked for removal
+		list.add(new Option(CIPHER_KEY, String.class));
+		         ^
+AUDIT_WORKSPACE/work/phase22/loader-source/src/main/java/prospero/loader/emc/GhidraProsperoIplLoader.java:159: warning: [removal] Option(String,Class<?>) in Option has been deprecated and marked for removal
+		list.add(new Option(HASHER_KEY, String.class));
+		         ^
+AUDIT_WORKSPACE/work/phase22/loader-source/src/main/java/prospero/loader/emc/GhidraProsperoIplLoader.java:180: warning: [removal] getDomainObject() in Loaded has been deprecated and marked for removal
+		Program program = loadedPrograms.get(0).getDomainObject();
+		                                       ^
+  where T is a type-variable:
+    T extends DomainObject declared in class Loaded
+AUDIT_WORKSPACE/work/phase22/loader-source/src/main/java/prospero/elf/ProsperoElfProgramBuilder.java:177: warning: [removal] EOL_COMMENT in CodeUnit has been deprecated and marked for removal
+			d.setComment(CodeUnit.EOL_COMMENT, "Hash Table - nbucket");
+			                     ^
+AUDIT_WORKSPACE/work/phase22/loader-source/src/main/java/prospero/elf/ProsperoElfProgramBuilder.java:177: warning: [removal] setComment(int,String) in CodeUnit has been deprecated and marked for removal
+			d.setComment(CodeUnit.EOL_COMMENT, "Hash Table - nbucket");
+			 ^
+AUDIT_WORKSPACE/work/phase22/loader-source/src/main/java/prospero/elf/ProsperoElfProgramBuilder.java:182: warning: [removal] EOL_COMMENT in CodeUnit has been deprecated and marked for removal
+			d.setComment(CodeUnit.EOL_COMMENT, "Hash Table - nchain");
+			                     ^
+AUDIT_WORKSPACE/work/phase22/loader-source/src/main/java/prospero/elf/ProsperoElfProgramBuilder.java:182: warning: [removal] setComment(int,String) in CodeUnit has been deprecated and marked for removal
+			d.setComment(CodeUnit.EOL_COMMENT, "Hash Table - nchain");
+			 ^
+AUDIT_WORKSPACE/work/phase22/loader-source/src/main/java/prospero/elf/ProsperoElfProgramBuilder.java:187: warning: [removal] EOL_COMMENT in CodeUnit has been deprecated and marked for removal
+			d.setComment(CodeUnit.EOL_COMMENT, "Hash Table - buckets");
+			                     ^
+AUDIT_WORKSPACE/work/phase22/loader-source/src/main/java/prospero/elf/ProsperoElfProgramBuilder.java:187: warning: [removal] setComment(int,String) in CodeUnit has been deprecated and marked for removal
+			d.setComment(CodeUnit.EOL_COMMENT, "Hash Table - buckets");
+			 ^
+AUDIT_WORKSPACE/work/phase22/loader-source/src/main/java/prospero/elf/ProsperoElfProgramBuilder.java:191: warning: [removal] EOL_COMMENT in CodeUnit has been deprecated and marked for removal
+			d.setComment(CodeUnit.EOL_COMMENT, "Hash Table - chains");
+			                     ^
+AUDIT_WORKSPACE/work/phase22/loader-source/src/main/java/prospero/elf/ProsperoElfProgramBuilder.java:191: warning: [removal] setComment(int,String) in CodeUnit has been deprecated and marked for removal
+			d.setComment(CodeUnit.EOL_COMMENT, "Hash Table - chains");
+			 ^
+Note: AUDIT_WORKSPACE/work/phase22/loader-source/src/main/java/prospero/bin/AbstractFileSystem.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+11 warnings
+
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :indexHelp NO-SOURCE
+> Task :buildModuleHelp SKIPPED
+> Task :jar
+> Task :zipSource
+
+> Task :buildExtension
+
+Created ghidra_12.2_PUBLIC_20261124_loader-source.zip in AUDIT_WORKSPACE/work/phase22/loader-source/dist
+
+[Incubating] Problems report is available at: file://AUDIT_WORKSPACE/work/phase22/loader-source/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 16s
+5 actionable tasks: 5 executed

@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bounded browser standards diagnostics</title>
+<style>body{font:16px system-ui;max-width:900px;margin:32px auto;padding:0 16px;background:#f5f7fa;color:#172331}button{padding:10px 18px;margin:8px}table{border-collapse:collapse;width:100%;background:white}td,th{padding:9px;text-align:left;border-bottom:1px solid #ddd}.PASS{color:#176332}.FAIL{color:#a31919}.SKIP,.UNSUPPORTED{color:#775000}pre{white-space:pre-wrap}iframe{display:none}</style>
+<h1>Browser standards diagnostics</h1>
+<p>Original, bounded desktop checks. Results describe this browser and context. They do not measure vulnerabilities, exploitability or PS5 compatibility.</p>
+<p>At most two tiny iframes, one 128 KiB WebAssembly memory and small TypedArrays. No stress modes. Each asynchronous check times out after 3 seconds. Browser process memory is not capped by these application allocation limits.</p>
+<button id="run">Run checks</button><button id="export" disabled>Export JSON</button><p id="state">Ready</p><table><thead><tr><th>Check</th><th>Status</th><th>Observation</th></tr></thead><tbody id="rows"></tbody></table><pre id="context"></pre>
+<script src="suite.js"></script></html>

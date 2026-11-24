@@ -1,0 +1,68 @@
+diff --git a/src/main/java/prospero/elf/ProsperoElfHeader.java b/src/main/java/prospero/elf/ProsperoElfHeader.java
+index 827c41a..d38db41 100644
+--- a/src/main/java/prospero/elf/ProsperoElfHeader.java
++++ b/src/main/java/prospero/elf/ProsperoElfHeader.java
+@@ -95,7 +95,19 @@ public class ProsperoElfHeader extends ElfHeader {
+ 		} else {
+ 			phdr = getDynlibData();
+ 		}
+-		return offset + phdr.getOffset();
++		if (phdr != null) {
++			return offset + phdr.getOffset();
++		}
++		// Some native homebrew stores dynamic tables in ordinary PT_LOAD segments
++		// and uses virtual addresses rather than offsets into PT_SCE_DYNLIBDATA.
++		// Keep the existing SCE-relative path when that segment is present.
++		for (ElfProgramHeader load : getProgramHeaders(ElfProgramHeaderConstants.PT_LOAD)) {
++			long delta = offset - load.getVirtualAddress();
++			if (delta >= 0 && delta < load.getFileSize()) {
++				return load.getOffset() + delta;
++			}
++		}
++		return -1;
+ 	}
+ 
+ 	public ElfProgramHeader[] getRawProgramHeaders() throws IOException {
+@@ -215,7 +227,8 @@ public class ProsperoElfHeader extends ElfHeader {
+ 			// a static executable (the PS5 hypervisor) has no dynamic table
+ 			return;
+ 		}
+-		if (!dynamicTable.containsDynamicValue(DT_SCE_RELA)) {
++		if (!dynamicTable.containsDynamicValue(DT_SCE_RELA) ||
++			(getDynlibData() == null && dynamicTable.containsDynamicValue(ElfDynamicType.DT_RELA))) {
+ 			invoke("parseRelocationTables");
+ 			return;
+ 		}
+@@ -255,12 +268,6 @@ public class ProsperoElfHeader extends ElfHeader {
+ 
+ 			long addrOffset = getDynamicAddrOffset(value);
+ 
+-			ElfProgramHeader phdr = getDynlibData();
+-
+-			if ((phdr == null || phdr.getOffset() < 0) && !isKernel()) {
+-				return;
+-			}
+-
+ 			if (dynamicSymbolTable == null) {
+ 				Msg.warn(this, "Failed to process " + relocTableAddrType.name +
+ 					", missing dynamic symbol table");
+@@ -344,7 +351,6 @@ public class ProsperoElfHeader extends ElfHeader {
+ 			return;
+ 		}
+ 		List<ElfStringTable> tables = new ArrayList<>(List.of(getStringTables()));
+-		ElfProgramHeader phdr = getDynlibData();
+ 		ElfDynamicTable dynamicTable = getDynamicTable();
+ 		if (dynamicTable == null) {
+ 			return;
+@@ -365,11 +371,6 @@ public class ProsperoElfHeader extends ElfHeader {
+ 				return;
+ 			}
+ 
+-			if (phdr == null && !isKernel()) {
+-				Msg.warn(this, "Failed to locate DT_STRTAB in memory at 0x" +
+-					Long.toHexString(addrOffset));
+-				return;
+-			}
+ 			long fileOffset = getDynamicFileOffset(value);
+ 			if (fileOffset < 0) {
+ 				return;

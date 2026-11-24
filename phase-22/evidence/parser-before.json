@@ -1,0 +1,304 @@
+[
+  {
+    "file": "bad-magic.elf",
+    "messages": [],
+    "accepted": false,
+    "exceptionClass": "ghidra.app.util.bin.format.elf.ElfException",
+    "exception": "Not a valid ELF executable.",
+    "checkedFailure": true,
+    "causes": [
+      "ghidra.app.util.bin.format.elf.ElfException: Not a valid ELF executable."
+    ],
+    "eligibleSpecs": 0,
+    "elapsedMs": 1.688869
+  },
+  {
+    "file": "duplicate-sce-segment.elf",
+    "messages": [],
+    "accepted": true,
+    "dynamicTablePresent": true,
+    "stringTablePresent": false,
+    "symbolTablePresent": false,
+    "relocationTableCount": 0,
+    "eligibleSpecs": 1,
+    "elapsedMs": 6.390827
+  },
+  {
+    "file": "duplicate-singleton-strtab.elf",
+    "messages": [],
+    "accepted": true,
+    "dynamicTablePresent": true,
+    "stringTablePresent": true,
+    "symbolTablePresent": true,
+    "relocationTableCount": 1,
+    "eligibleSpecs": 1,
+    "elapsedMs": 1.367104
+  },
+  {
+    "file": "dynamic-missing-null.elf",
+    "messages": [],
+    "accepted": true,
+    "dynamicTablePresent": true,
+    "stringTablePresent": true,
+    "symbolTablePresent": true,
+    "relocationTableCount": 1,
+    "eligibleSpecs": 1,
+    "elapsedMs": 0.879741
+  },
+  {
+    "file": "dynamic-outside.elf",
+    "messages": [
+      "ELF does not contain a dynamic string table (DT_STRTAB)"
+    ],
+    "accepted": true,
+    "dynamicTablePresent": true,
+    "stringTablePresent": false,
+    "symbolTablePresent": false,
+    "relocationTableCount": 0,
+    "eligibleSpecs": 1,
+    "elapsedMs": 0.774976
+  },
+  {
+    "file": "dynamic-unaligned-size.elf",
+    "messages": [],
+    "accepted": true,
+    "dynamicTablePresent": true,
+    "stringTablePresent": true,
+    "symbolTablePresent": true,
+    "relocationTableCount": 1,
+    "eligibleSpecs": 1,
+    "elapsedMs": 0.886585
+  },
+  {
+    "file": "ordinary-etdyn.elf",
+    "messages": [],
+    "accepted": true,
+    "dynamicTablePresent": true,
+    "stringTablePresent": true,
+    "symbolTablePresent": true,
+    "relocationTableCount": 1,
+    "eligibleSpecs": 0,
+    "elapsedMs": 0.785593
+  },
+  {
+    "file": "phoff-outside.elf",
+    "messages": [],
+    "accepted": true,
+    "dynamicTablePresent": false,
+    "stringTablePresent": false,
+    "symbolTablePresent": false,
+    "relocationTableCount": 0,
+    "eligibleSpecs": 1,
+    "elapsedMs": 0.602744
+  },
+  {
+    "file": "relocation-symbol-outside.elf",
+    "messages": [],
+    "accepted": true,
+    "dynamicTablePresent": true,
+    "stringTablePresent": true,
+    "symbolTablePresent": true,
+    "relocationTableCount": 1,
+    "eligibleSpecs": 1,
+    "elapsedMs": 0.735375
+  },
+  {
+    "file": "sce-missing-strtab.elf",
+    "messages": [],
+    "accepted": false,
+    "exceptionClass": "ghidra.util.exception.AssertException",
+    "exception": "Unexpected Error: Dynamic table entry not found: 0x61000035",
+    "checkedFailure": false,
+    "causes": [
+      "ghidra.util.exception.AssertException: Unexpected Error: Dynamic table entry not found: 0x61000035",
+      "ghidra.util.exception.NotFoundException: Dynamic table entry not found: 0x61000035"
+    ],
+    "eligibleSpecs": 1,
+    "elapsedMs": 0.785173
+  },
+  {
+    "file": "sce-missing-symtabsz.elf",
+    "messages": [],
+    "accepted": false,
+    "exceptionClass": "ghidra.util.exception.AssertException",
+    "exception": "Unexpected Error: Dynamic table entry not found: 0x6100003f",
+    "checkedFailure": false,
+    "causes": [
+      "ghidra.util.exception.AssertException: Unexpected Error: Dynamic table entry not found: 0x6100003f",
+      "ghidra.util.exception.NotFoundException: Dynamic table entry not found: 0x6100003f"
+    ],
+    "eligibleSpecs": 1,
+    "elapsedMs": 2.810196
+  },
+  {
+    "file": "segment-outside.elf",
+    "messages": [],
+    "accepted": true,
+    "dynamicTablePresent": true,
+    "stringTablePresent": true,
+    "symbolTablePresent": true,
+    "relocationTableCount": 1,
+    "eligibleSpecs": 1,
+    "elapsedMs": 0.814716
+  },
+  {
+    "file": "string-pointer-outside.elf",
+    "messages": [
+      "Failed to locate DT_STRTAB in memory at 0x410000"
+    ],
+    "accepted": true,
+    "dynamicTablePresent": true,
+    "stringTablePresent": false,
+    "symbolTablePresent": false,
+    "relocationTableCount": 1,
+    "eligibleSpecs": 1,
+    "elapsedMs": 0.575784
+  },
+  {
+    "file": "string-size-outside.elf",
+    "messages": [],
+    "accepted": true,
+    "dynamicTablePresent": true,
+    "stringTablePresent": true,
+    "symbolTablePresent": true,
+    "relocationTableCount": 1,
+    "eligibleSpecs": 1,
+    "elapsedMs": 0.616712
+  },
+  {
+    "file": "symbol-name-outside.elf",
+    "messages": [
+      "Failed to read Elf String at offset 0xffff within String Table at offset 0x500"
+    ],
+    "accepted": true,
+    "dynamicTablePresent": true,
+    "stringTablePresent": true,
+    "symbolTablePresent": true,
+    "relocationTableCount": 1,
+    "eligibleSpecs": 1,
+    "elapsedMs": 0.783986
+  },
+  {
+    "file": "truncated-header.elf",
+    "messages": [],
+    "accepted": true,
+    "dynamicTablePresent": false,
+    "stringTablePresent": false,
+    "symbolTablePresent": false,
+    "relocationTableCount": 0,
+    "eligibleSpecs": 1,
+    "elapsedMs": 0.449927
+  },
+  {
+    "file": "truncated-ident.elf",
+    "messages": [],
+    "accepted": false,
+    "exceptionClass": "ghidra.app.util.bin.format.elf.ElfException",
+    "exception": "Not enough bytes to be a valid ELF executable.",
+    "checkedFailure": true,
+    "causes": [
+      "ghidra.app.util.bin.format.elf.ElfException: Not enough bytes to be a valid ELF executable."
+    ],
+    "eligibleSpecs": 0,
+    "elapsedMs": 0.179985
+  },
+  {
+    "file": "unsupported-abi0.elf",
+    "messages": [],
+    "accepted": true,
+    "dynamicTablePresent": true,
+    "stringTablePresent": true,
+    "symbolTablePresent": true,
+    "relocationTableCount": 1,
+    "eligibleSpecs": 0,
+    "elapsedMs": 0.580743
+  },
+  {
+    "file": "unsupported-abi4.elf",
+    "messages": [],
+    "accepted": true,
+    "dynamicTablePresent": true,
+    "stringTablePresent": true,
+    "symbolTablePresent": true,
+    "relocationTableCount": 1,
+    "eligibleSpecs": 0,
+    "elapsedMs": 0.548196
+  },
+  {
+    "file": "unsupported-relocation.elf",
+    "messages": [],
+    "accepted": true,
+    "dynamicTablePresent": true,
+    "stringTablePresent": true,
+    "symbolTablePresent": true,
+    "relocationTableCount": 1,
+    "eligibleSpecs": 1,
+    "elapsedMs": 0.52864
+  },
+  {
+    "file": "unsupported-type.elf",
+    "messages": [],
+    "accepted": true,
+    "dynamicTablePresent": true,
+    "stringTablePresent": true,
+    "symbolTablePresent": true,
+    "relocationTableCount": 1,
+    "eligibleSpecs": 0,
+    "elapsedMs": 0.539606
+  },
+  {
+    "file": "valid-abi3-synthetic.elf",
+    "messages": [],
+    "accepted": true,
+    "dynamicTablePresent": true,
+    "stringTablePresent": true,
+    "symbolTablePresent": true,
+    "relocationTableCount": 1,
+    "eligibleSpecs": 1,
+    "elapsedMs": 0.57774
+  },
+  {
+    "file": "valid-dynamic-tail-padding.elf",
+    "messages": [],
+    "accepted": true,
+    "dynamicTablePresent": true,
+    "stringTablePresent": true,
+    "symbolTablePresent": true,
+    "relocationTableCount": 1,
+    "eligibleSpecs": 1,
+    "elapsedMs": 0.473953
+  },
+  {
+    "file": "valid-rel-format.elf",
+    "messages": [],
+    "accepted": true,
+    "dynamicTablePresent": true,
+    "stringTablePresent": true,
+    "symbolTablePresent": true,
+    "relocationTableCount": 1,
+    "eligibleSpecs": 1,
+    "elapsedMs": 0.459146
+  },
+  {
+    "file": "valid-sce-relative.elf",
+    "messages": [],
+    "accepted": true,
+    "dynamicTablePresent": true,
+    "stringTablePresent": true,
+    "symbolTablePresent": true,
+    "relocationTableCount": 1,
+    "eligibleSpecs": 1,
+    "elapsedMs": 3.620373
+  },
+  {
+    "file": "valid-standard.elf",
+    "messages": [],
+    "accepted": true,
+    "dynamicTablePresent": true,
+    "stringTablePresent": true,
+    "symbolTablePresent": true,
+    "relocationTableCount": 1,
+    "eligibleSpecs": 1,
+    "elapsedMs": 0.556578
+  }
+]

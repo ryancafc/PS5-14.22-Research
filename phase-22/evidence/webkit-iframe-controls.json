@@ -1,0 +1,356 @@
+[
+  {
+    "engine": "WebKitGTK",
+    "version": "2.52.6-1",
+    "mode": "plain",
+    "control": "normal",
+    "sandbox_disabled": false,
+    "fresh_profile": true,
+    "received_result": true,
+    "result": {
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15",
+      "isSecureContext": true,
+      "crossOriginIsolated": false,
+      "tests": [
+        {
+          "id": "same-origin-onload",
+          "status": "PASS",
+          "observed": {
+            "trace": [
+              {
+                "event": "load"
+              },
+              {
+                "event": "message",
+                "kind": "ready",
+                "sourceMatches": true,
+                "origin": "http://127.0.0.1:43915",
+                "child": null
+              },
+              {
+                "event": "message",
+                "kind": "received",
+                "sourceMatches": true,
+                "origin": "http://127.0.0.1:43915",
+                "child": {
+                  "kind": "received",
+                  "token": "2004452042-1843314227",
+                  "sourceMatchesParent": true,
+                  "data": "2004452042-1843314227"
+                }
+              },
+              {
+                "event": "message",
+                "kind": "echo",
+                "sourceMatches": true,
+                "origin": "http://127.0.0.1:43915",
+                "child": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "same-origin-ready",
+          "status": "PASS",
+          "observed": {
+            "trace": [
+              {
+                "event": "load"
+              },
+              {
+                "event": "message",
+                "kind": "ready",
+                "sourceMatches": true,
+                "origin": "http://127.0.0.1:43915",
+                "child": null
+              },
+              {
+                "event": "message",
+                "kind": "received",
+                "sourceMatches": true,
+                "origin": "http://127.0.0.1:43915",
+                "child": {
+                  "kind": "received",
+                  "token": "1512991365-2105345271",
+                  "sourceMatchesParent": true,
+                  "data": "1512991365-2105345271"
+                }
+              },
+              {
+                "event": "message",
+                "kind": "echo",
+                "sourceMatches": true,
+                "origin": "http://127.0.0.1:43915",
+                "child": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "same-origin-visible-onload",
+          "status": "PASS",
+          "observed": {
+            "trace": [
+              {
+                "event": "load"
+              },
+              {
+                "event": "message",
+                "kind": "ready",
+                "sourceMatches": true,
+                "origin": "http://127.0.0.1:43915",
+                "child": null
+              },
+              {
+                "event": "message",
+                "kind": "received",
+                "sourceMatches": true,
+                "origin": "http://127.0.0.1:43915",
+                "child": {
+                  "kind": "received",
+                  "token": "3444866304-778094530",
+                  "sourceMatchesParent": true,
+                  "data": "3444866304-778094530"
+                }
+              },
+              {
+                "event": "message",
+                "kind": "echo",
+                "sourceMatches": true,
+                "origin": "http://127.0.0.1:43915",
+                "child": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "opaque-onload",
+          "status": "PASS",
+          "observed": {
+            "trace": [
+              {
+                "event": "load"
+              },
+              {
+                "event": "message",
+                "kind": "ready",
+                "sourceMatches": true,
+                "origin": "null",
+                "child": null
+              },
+              {
+                "event": "message",
+                "kind": "received",
+                "sourceMatches": true,
+                "origin": "null",
+                "child": {
+                  "kind": "received",
+                  "token": "1627074073-1027709734",
+                  "sourceMatchesParent": true,
+                  "data": "1627074073-1027709734"
+                }
+              },
+              {
+                "event": "message",
+                "kind": "echo",
+                "sourceMatches": true,
+                "origin": "null",
+                "child": null
+              }
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "PASS": 4,
+        "FAIL": 0,
+        "SKIP": 0,
+        "UNSUPPORTED": 0
+      },
+      "limits": {
+        "maxLiveIframes": 1,
+        "timeoutMs": 3000
+      },
+      "limitations": [
+        "Independent harness control, not retail PS5 or a security test."
+      ]
+    }
+  },
+  {
+    "engine": "WebKitGTK",
+    "version": "2.52.6-1",
+    "mode": "isolated",
+    "control": "normal",
+    "sandbox_disabled": false,
+    "fresh_profile": true,
+    "received_result": true,
+    "result": {
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15",
+      "isSecureContext": true,
+      "crossOriginIsolated": true,
+      "tests": [
+        {
+          "id": "same-origin-onload",
+          "status": "PASS",
+          "observed": {
+            "trace": [
+              {
+                "event": "load"
+              },
+              {
+                "event": "message",
+                "kind": "ready",
+                "sourceMatches": true,
+                "origin": "http://127.0.0.1:43915",
+                "child": null
+              },
+              {
+                "event": "message",
+                "kind": "received",
+                "sourceMatches": true,
+                "origin": "http://127.0.0.1:43915",
+                "child": {
+                  "kind": "received",
+                  "token": "3495563354-2204898719",
+                  "sourceMatchesParent": true,
+                  "data": "3495563354-2204898719"
+                }
+              },
+              {
+                "event": "message",
+                "kind": "echo",
+                "sourceMatches": true,
+                "origin": "http://127.0.0.1:43915",
+                "child": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "same-origin-ready",
+          "status": "PASS",
+          "observed": {
+            "trace": [
+              {
+                "event": "load"
+              },
+              {
+                "event": "message",
+                "kind": "ready",
+                "sourceMatches": true,
+                "origin": "http://127.0.0.1:43915",
+                "child": null
+              },
+              {
+                "event": "message",
+                "kind": "received",
+                "sourceMatches": true,
+                "origin": "http://127.0.0.1:43915",
+                "child": {
+                  "kind": "received",
+                  "token": "2374413021-1831453691",
+                  "sourceMatchesParent": true,
+                  "data": "2374413021-1831453691"
+                }
+              },
+              {
+                "event": "message",
+                "kind": "echo",
+                "sourceMatches": true,
+                "origin": "http://127.0.0.1:43915",
+                "child": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "same-origin-visible-onload",
+          "status": "PASS",
+          "observed": {
+            "trace": [
+              {
+                "event": "load"
+              },
+              {
+                "event": "message",
+                "kind": "ready",
+                "sourceMatches": true,
+                "origin": "http://127.0.0.1:43915",
+                "child": null
+              },
+              {
+                "event": "message",
+                "kind": "received",
+                "sourceMatches": true,
+                "origin": "http://127.0.0.1:43915",
+                "child": {
+                  "kind": "received",
+                  "token": "2382483569-2501680056",
+                  "sourceMatchesParent": true,
+                  "data": "2382483569-2501680056"
+                }
+              },
+              {
+                "event": "message",
+                "kind": "echo",
+                "sourceMatches": true,
+                "origin": "http://127.0.0.1:43915",
+                "child": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "opaque-onload",
+          "status": "PASS",
+          "observed": {
+            "trace": [
+              {
+                "event": "load"
+              },
+              {
+                "event": "message",
+                "kind": "ready",
+                "sourceMatches": true,
+                "origin": "null",
+                "child": null
+              },
+              {
+                "event": "message",
+                "kind": "received",
+                "sourceMatches": true,
+                "origin": "null",
+                "child": {
+                  "kind": "received",
+                  "token": "1799629916-624292435",
+                  "sourceMatchesParent": true,
+                  "data": "1799629916-624292435"
+                }
+              },
+              {
+                "event": "message",
+                "kind": "echo",
+                "sourceMatches": true,
+                "origin": "null",
+                "child": null
+              }
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "PASS": 4,
+        "FAIL": 0,
+        "SKIP": 0,
+        "UNSUPPORTED": 0
+      },
+      "limits": {
+        "maxLiveIframes": 1,
+        "timeoutMs": 3000
+      },
+      "limitations": [
+        "Independent harness control, not retail PS5 or a security test."
+      ]
+    }
+  }
+]

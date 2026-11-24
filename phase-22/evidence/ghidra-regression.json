@@ -1,0 +1,2052 @@
+[
+  {
+    "name": "sdk-imports.elf",
+    "format": "Executable and Linking Format (ELF)",
+    "language": "x86:LE:64:default",
+    "prosperoMarker": true,
+    "prosperoLoaderClass": "prospero.loader.GhidraProsperoElfLoader",
+    "eligibilityProbes": [
+      {
+        "file": "sdk-minimal.elf",
+        "specs": 1
+      },
+      {
+        "file": "sdk-imports.elf",
+        "specs": 1
+      }
+    ],
+    "externalSymbolRecords": 5,
+    "libraries": [
+      "<EXTERNAL>",
+      "libc.prx",
+      "libkernel.prx",
+      "libScePosix.prx"
+    ],
+    "functionRecords": 19,
+    "memoryBlocks": [
+      {
+        "name": ".text",
+        "start": "01000000",
+        "size": 208,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": true
+      },
+      {
+        "name": ".rodata",
+        "start": "01004000",
+        "size": 27,
+        "initialized": true,
+        "read": true,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".sce_process_param",
+        "start": "0100c008",
+        "size": 96,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".dynstr",
+        "start": "01010000",
+        "size": 244,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".dynsym",
+        "start": "010100f8",
+        "size": 144,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "segment_9.4",
+        "start": "01010188",
+        "size": 312,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".hash",
+        "start": "010102c0",
+        "size": 56,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "segment_9.6",
+        "start": "010102f8",
+        "size": 40,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".dynamic",
+        "start": "01010320",
+        "size": 576,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "EXTERNAL",
+        "start": "01011000",
+        "size": 40,
+        "initialized": false,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".shstrtab",
+        "start": ".shstrtab::00000000",
+        "size": 81,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "_elfHeader",
+        "start": "_elfHeader::00000000",
+        "size": 64,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "_elfProgramHeaders",
+        "start": "_elfProgramHeaders::00000000",
+        "size": 784,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "_elfSectionHeaders",
+        "start": "_elfSectionHeaders::00000000",
+        "size": 640,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "segment_11",
+        "start": "segment_11::00000000",
+        "size": 91,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "segment_8",
+        "start": "segment_8::00000000",
+        "size": 4,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".data",
+        "start": ".data::0100c000",
+        "size": 728,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      }
+    ],
+    "parserCodeSource": "file:~/.config/ghidra/ghidra_12.2_PUBLIC/Extensions/GhidraProspero/lib/GhidraProspero.jar",
+    "relocationRecords": 13,
+    "relocationStatuses": {
+      "APPLIED": 3,
+      "FAILURE": 10
+    },
+    "relocationTypes": {
+      "7": 5,
+      "8": 8
+    },
+    "decompilationSample": [
+      {
+        "address": "01000000",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000048",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000049",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000050",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000080",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000090",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "010000a0",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "010000b0",
+        "completed": true,
+        "error": ""
+      }
+    ],
+    "stage": "before",
+    "kind": "SDK-generated",
+    "sha256": "97df4ad56083e1de2422476a6ddaba1c320734110cd86de24bfad84c5d6ffb8c",
+    "selected_loader": "Prospero ELF",
+    "warnings": [],
+    "synthetic": false
+  },
+  {
+    "name": "sdk-minimal.elf",
+    "format": "Executable and Linking Format (ELF)",
+    "language": "x86:LE:64:default",
+    "prosperoMarker": true,
+    "prosperoLoaderClass": "prospero.loader.GhidraProsperoElfLoader",
+    "eligibilityProbes": [
+      {
+        "file": "sdk-minimal.elf",
+        "specs": 1
+      },
+      {
+        "file": "sdk-imports.elf",
+        "specs": 1
+      }
+    ],
+    "externalSymbolRecords": 3,
+    "libraries": [
+      "<EXTERNAL>",
+      "libc.prx"
+    ],
+    "functionRecords": 13,
+    "memoryBlocks": [
+      {
+        "name": ".text",
+        "start": "01000000",
+        "size": 160,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": true
+      },
+      {
+        "name": ".rodata",
+        "start": "01004000",
+        "size": 8,
+        "initialized": true,
+        "read": true,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".sce_process_param",
+        "start": "0100c008",
+        "size": 96,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".dynstr",
+        "start": "01010000",
+        "size": 176,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".dynsym",
+        "start": "010100b0",
+        "size": 96,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "segment_9.3",
+        "start": "01010110",
+        "size": 264,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".hash",
+        "start": "01010218",
+        "size": 40,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "segment_9.5",
+        "start": "01010240",
+        "size": 40,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".dynamic",
+        "start": "01010268",
+        "size": 512,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "EXTERNAL",
+        "start": "01011000",
+        "size": 24,
+        "initialized": false,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".shstrtab",
+        "start": ".shstrtab::00000000",
+        "size": 81,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "_elfHeader",
+        "start": "_elfHeader::00000000",
+        "size": 64,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "_elfProgramHeaders",
+        "start": "_elfProgramHeaders::00000000",
+        "size": 784,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "_elfSectionHeaders",
+        "start": "_elfSectionHeaders::00000000",
+        "size": 640,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "segment_11",
+        "start": "segment_11::00000000",
+        "size": 56,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "segment_8",
+        "start": "segment_8::00000000",
+        "size": 4,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".data",
+        "start": ".data::0100c000",
+        "size": 728,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      }
+    ],
+    "parserCodeSource": "file:~/.config/ghidra/ghidra_12.2_PUBLIC/Extensions/GhidraProspero/lib/GhidraProspero.jar",
+    "relocationRecords": 11,
+    "relocationStatuses": {
+      "APPLIED": 3,
+      "FAILURE": 8
+    },
+    "relocationTypes": {
+      "7": 3,
+      "8": 8
+    },
+    "decompilationSample": [
+      {
+        "address": "01000000",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000048",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000049",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000050",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000070",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000080",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000090",
+        "completed": true,
+        "error": ""
+      }
+    ],
+    "stage": "before",
+    "kind": "SDK-generated",
+    "sha256": "234071c6731e9df08fd21a596d1545c411ba788a27a51819389f829be1472593",
+    "selected_loader": "Prospero ELF",
+    "warnings": [],
+    "synthetic": false
+  },
+  {
+    "name": "elfldr-ps5.elf",
+    "format": "Executable and Linking Format (ELF)",
+    "language": "x86:LE:64:default",
+    "prosperoMarker": false,
+    "prosperoLoaderClass": "prospero.loader.GhidraProsperoElfLoader",
+    "eligibilityProbes": [
+      {
+        "file": "sdk-minimal.elf",
+        "specs": 1
+      },
+      {
+        "file": "sdk-imports.elf",
+        "specs": 1
+      },
+      {
+        "file": "valid-abi3-synthetic.elf",
+        "specs": 1
+      }
+    ],
+    "externalSymbolRecords": 24,
+    "libraries": [
+      "<EXTERNAL>",
+      "libkernel_web.sprx",
+      "libSceLibcInternal.sprx",
+      "libSceNet.sprx"
+    ],
+    "functionRecords": 170,
+    "memoryBlocks": [
+      {
+        "name": ".text",
+        "start": "00100000",
+        "size": 55032,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": true
+      },
+      {
+        "name": ".eh_frame_hdr",
+        "start": "00110000",
+        "size": 2236,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".eh_frame",
+        "start": "001108c0",
+        "size": 6404,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".data.rel.ro",
+        "start": "001121d0",
+        "size": 2192,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".got",
+        "start": "00112a60",
+        "size": 216,
+        "initialized": true,
+        "read": true,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".rodata",
+        "start": "00112b40",
+        "size": 269136,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": "segment_1.9",
+        "start": "00154690",
+        "size": 14704,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".dynamic",
+        "start": "00158000",
+        "size": 336,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".dynsym",
+        "start": "00158150",
+        "size": 624,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".gnu.hash",
+        "start": "001583c0",
+        "size": 32,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".dynstr",
+        "start": "001583e0",
+        "size": 260,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".rela.dyn",
+        "start": "001584e8",
+        "size": 3936,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".note.gnu.build-id",
+        "start": "00159448",
+        "size": 32,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".data",
+        "start": "0015c000",
+        "size": 28,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".bss",
+        "start": "0015c020",
+        "size": 2368,
+        "initialized": false,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": "EXTERNAL",
+        "start": "0015d000",
+        "size": 192,
+        "initialized": false,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".shstrtab",
+        "start": ".shstrtab::00000000",
+        "size": 166,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "_elfHeader",
+        "start": "_elfHeader::00000000",
+        "size": 64,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "_elfProgramHeaders",
+        "start": "_elfProgramHeaders::00000000",
+        "size": 224,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "_elfSectionHeaders",
+        "start": "_elfSectionHeaders::00000000",
+        "size": 1152,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      }
+    ],
+    "parserCodeSource": "file:AUDIT_WORKSPACE/work/phase22/experimental-config/ghidra/ghidra_12.2_PUBLIC/Extensions/GhidraProspero/lib/GhidraProspero.jar",
+    "relocationRecords": 164,
+    "relocationStatuses": {
+      "APPLIED": 164
+    },
+    "relocationTypes": {
+      "6": 24,
+      "8": 140
+    },
+    "decompilationSample": [
+      {
+        "address": "00100060",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "001003b0",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "001003d0",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "00100470",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "00100650",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "00100710",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "001007e0",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "001008b0",
+        "completed": true,
+        "error": ""
+      }
+    ],
+    "stage": "after",
+    "kind": "upstream homebrew",
+    "sha256": "66968bae6159d8fb06125fcd43fb99cf64d6bfdf730c70f37a6f5d056ff63458",
+    "selected_loader": "Executable and Linking Format (ELF)",
+    "warnings": [],
+    "synthetic": false
+  },
+  {
+    "name": "freebsd-control.elf",
+    "format": "Executable and Linking Format (ELF)",
+    "language": "x86:LE:64:default",
+    "prosperoMarker": false,
+    "prosperoLoaderClass": "prospero.loader.GhidraProsperoElfLoader",
+    "eligibilityProbes": [
+      {
+        "file": "freebsd-control.o",
+        "specs": 0
+      },
+      {
+        "file": "freebsd-control.elf",
+        "specs": 0
+      }
+    ],
+    "externalSymbolRecords": 0,
+    "libraries": [],
+    "functionRecords": 2,
+    "memoryBlocks": [
+      {
+        "name": "segment_0",
+        "start": "00400000",
+        "size": 232,
+        "initialized": true,
+        "read": true,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".text",
+        "start": "00401000",
+        "size": 48,
+        "initialized": true,
+        "read": true,
+        "write": false,
+        "execute": true
+      },
+      {
+        "name": ".comment",
+        "start": ".comment::00000000",
+        "size": 33,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".shstrtab",
+        "start": ".shstrtab::00000000",
+        "size": 42,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".strtab",
+        "start": ".strtab::00000000",
+        "size": 50,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".symtab",
+        "start": ".symtab::00000000",
+        "size": 168,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "_elfSectionHeaders",
+        "start": "_elfSectionHeaders::00000000",
+        "size": 384,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      }
+    ],
+    "parserCodeSource": "file:AUDIT_WORKSPACE/work/phase22/experimental-config/ghidra/ghidra_12.2_PUBLIC/Extensions/GhidraProspero/lib/GhidraProspero.jar",
+    "relocationRecords": 0,
+    "relocationStatuses": {},
+    "relocationTypes": {},
+    "decompilationSample": [
+      {
+        "address": "00401000",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "00401020",
+        "completed": true,
+        "error": ""
+      }
+    ],
+    "stage": "after",
+    "kind": "compiler control",
+    "sha256": "ab5f0c08700cb8d4c83d9f5383c0a6fb59723453a6ddeb0acbf8916a9d1f97fb",
+    "selected_loader": "Executable and Linking Format (ELF)",
+    "warnings": [],
+    "synthetic": false
+  },
+  {
+    "name": "freebsd-control.o",
+    "format": "Executable and Linking Format (ELF)",
+    "language": "x86:LE:64:default",
+    "prosperoMarker": false,
+    "prosperoLoaderClass": "prospero.loader.GhidraProsperoElfLoader",
+    "eligibilityProbes": [
+      {
+        "file": "freebsd-control.o",
+        "specs": 0
+      },
+      {
+        "file": "freebsd-control.elf",
+        "specs": 0
+      }
+    ],
+    "externalSymbolRecords": 0,
+    "libraries": [],
+    "functionRecords": 2,
+    "memoryBlocks": [
+      {
+        "name": ".text",
+        "start": "00100000",
+        "size": 48,
+        "initialized": true,
+        "read": true,
+        "write": false,
+        "execute": true
+      },
+      {
+        "name": ".comment",
+        "start": ".comment::00000000",
+        "size": 34,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".llvm_addrsig",
+        "start": ".llvm_addrsig::00000000",
+        "size": 1,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".strtab",
+        "start": ".strtab::00000000",
+        "size": 94,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".symtab",
+        "start": ".symtab::00000000",
+        "size": 96,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "_elfHeader",
+        "start": "_elfHeader::00000000",
+        "size": 64,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "_elfSectionHeaders",
+        "start": "_elfSectionHeaders::00000000",
+        "size": 448,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      }
+    ],
+    "parserCodeSource": "file:AUDIT_WORKSPACE/work/phase22/experimental-config/ghidra/ghidra_12.2_PUBLIC/Extensions/GhidraProspero/lib/GhidraProspero.jar",
+    "relocationRecords": 0,
+    "relocationStatuses": {},
+    "relocationTypes": {},
+    "decompilationSample": [
+      {
+        "address": "00100000",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "00100020",
+        "completed": true,
+        "error": ""
+      }
+    ],
+    "stage": "after",
+    "kind": "compiler control",
+    "sha256": "dbd0fd0a8653ac727c986c1ae3bf09e3ae1a95e3f0bb26bee232440459024716",
+    "selected_loader": "Executable and Linking Format (ELF)",
+    "warnings": [],
+    "synthetic": false
+  },
+  {
+    "name": "sdk-imports.elf",
+    "format": "Executable and Linking Format (ELF)",
+    "language": "x86:LE:64:default",
+    "prosperoMarker": true,
+    "prosperoLoaderClass": "prospero.loader.GhidraProsperoElfLoader",
+    "eligibilityProbes": [
+      {
+        "file": "sdk-minimal.elf",
+        "specs": 1
+      },
+      {
+        "file": "sdk-imports.elf",
+        "specs": 1
+      },
+      {
+        "file": "valid-abi3-synthetic.elf",
+        "specs": 1
+      }
+    ],
+    "externalSymbolRecords": 5,
+    "libraries": [
+      "<EXTERNAL>",
+      "libc.prx",
+      "libkernel.prx",
+      "libScePosix.prx"
+    ],
+    "functionRecords": 19,
+    "memoryBlocks": [
+      {
+        "name": ".text",
+        "start": "01000000",
+        "size": 208,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": true
+      },
+      {
+        "name": ".rodata",
+        "start": "01004000",
+        "size": 27,
+        "initialized": true,
+        "read": true,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".sce_process_param",
+        "start": "0100c008",
+        "size": 96,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".dynstr",
+        "start": "01010000",
+        "size": 244,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".dynsym",
+        "start": "010100f8",
+        "size": 144,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "segment_9.4",
+        "start": "01010188",
+        "size": 312,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".hash",
+        "start": "010102c0",
+        "size": 56,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "segment_9.6",
+        "start": "010102f8",
+        "size": 40,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".dynamic",
+        "start": "01010320",
+        "size": 576,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "EXTERNAL",
+        "start": "01011000",
+        "size": 40,
+        "initialized": false,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".shstrtab",
+        "start": ".shstrtab::00000000",
+        "size": 81,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "_elfHeader",
+        "start": "_elfHeader::00000000",
+        "size": 64,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "_elfProgramHeaders",
+        "start": "_elfProgramHeaders::00000000",
+        "size": 784,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "_elfSectionHeaders",
+        "start": "_elfSectionHeaders::00000000",
+        "size": 640,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "segment_11",
+        "start": "segment_11::00000000",
+        "size": 91,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "segment_8",
+        "start": "segment_8::00000000",
+        "size": 4,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".data",
+        "start": ".data::0100c000",
+        "size": 728,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      }
+    ],
+    "parserCodeSource": "file:AUDIT_WORKSPACE/work/phase22/experimental-config/ghidra/ghidra_12.2_PUBLIC/Extensions/GhidraProspero/lib/GhidraProspero.jar",
+    "relocationRecords": 13,
+    "relocationStatuses": {
+      "APPLIED": 3,
+      "FAILURE": 10
+    },
+    "relocationTypes": {
+      "7": 5,
+      "8": 8
+    },
+    "decompilationSample": [
+      {
+        "address": "01000000",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000048",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000049",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000050",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000080",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000090",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "010000a0",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "010000b0",
+        "completed": true,
+        "error": ""
+      }
+    ],
+    "stage": "after",
+    "kind": "SDK-generated",
+    "sha256": "97df4ad56083e1de2422476a6ddaba1c320734110cd86de24bfad84c5d6ffb8c",
+    "selected_loader": "Prospero ELF",
+    "warnings": [],
+    "synthetic": false
+  },
+  {
+    "name": "sdk-minimal.elf",
+    "format": "Executable and Linking Format (ELF)",
+    "language": "x86:LE:64:default",
+    "prosperoMarker": true,
+    "prosperoLoaderClass": "prospero.loader.GhidraProsperoElfLoader",
+    "eligibilityProbes": [
+      {
+        "file": "sdk-minimal.elf",
+        "specs": 1
+      },
+      {
+        "file": "sdk-imports.elf",
+        "specs": 1
+      },
+      {
+        "file": "valid-abi3-synthetic.elf",
+        "specs": 1
+      }
+    ],
+    "externalSymbolRecords": 3,
+    "libraries": [
+      "<EXTERNAL>",
+      "libc.prx"
+    ],
+    "functionRecords": 13,
+    "memoryBlocks": [
+      {
+        "name": ".text",
+        "start": "01000000",
+        "size": 160,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": true
+      },
+      {
+        "name": ".rodata",
+        "start": "01004000",
+        "size": 8,
+        "initialized": true,
+        "read": true,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".sce_process_param",
+        "start": "0100c008",
+        "size": 96,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".dynstr",
+        "start": "01010000",
+        "size": 176,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".dynsym",
+        "start": "010100b0",
+        "size": 96,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "segment_9.3",
+        "start": "01010110",
+        "size": 264,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".hash",
+        "start": "01010218",
+        "size": 40,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "segment_9.5",
+        "start": "01010240",
+        "size": 40,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".dynamic",
+        "start": "01010268",
+        "size": 512,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "EXTERNAL",
+        "start": "01011000",
+        "size": 24,
+        "initialized": false,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".shstrtab",
+        "start": ".shstrtab::00000000",
+        "size": 81,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "_elfHeader",
+        "start": "_elfHeader::00000000",
+        "size": 64,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "_elfProgramHeaders",
+        "start": "_elfProgramHeaders::00000000",
+        "size": 784,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "_elfSectionHeaders",
+        "start": "_elfSectionHeaders::00000000",
+        "size": 640,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "segment_11",
+        "start": "segment_11::00000000",
+        "size": 56,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "segment_8",
+        "start": "segment_8::00000000",
+        "size": 4,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".data",
+        "start": ".data::0100c000",
+        "size": 728,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      }
+    ],
+    "parserCodeSource": "file:AUDIT_WORKSPACE/work/phase22/experimental-config/ghidra/ghidra_12.2_PUBLIC/Extensions/GhidraProspero/lib/GhidraProspero.jar",
+    "relocationRecords": 11,
+    "relocationStatuses": {
+      "APPLIED": 3,
+      "FAILURE": 8
+    },
+    "relocationTypes": {
+      "7": 3,
+      "8": 8
+    },
+    "decompilationSample": [
+      {
+        "address": "01000000",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000048",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000049",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000050",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000070",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000080",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000090",
+        "completed": true,
+        "error": ""
+      }
+    ],
+    "stage": "after",
+    "kind": "SDK-generated",
+    "sha256": "234071c6731e9df08fd21a596d1545c411ba788a27a51819389f829be1472593",
+    "selected_loader": "Prospero ELF",
+    "warnings": [],
+    "synthetic": false
+  },
+  {
+    "name": "sharpemu-demo-0.elf",
+    "format": "Executable and Linking Format (ELF)",
+    "language": "x86:LE:64:default",
+    "prosperoMarker": false,
+    "prosperoLoaderClass": "prospero.loader.GhidraProsperoElfLoader",
+    "eligibilityProbes": [
+      {
+        "file": "sdk-minimal.elf",
+        "specs": 1
+      },
+      {
+        "file": "sdk-imports.elf",
+        "specs": 1
+      },
+      {
+        "file": "valid-abi3-synthetic.elf",
+        "specs": 1
+      }
+    ],
+    "externalSymbolRecords": 19,
+    "libraries": [
+      "<EXTERNAL>",
+      "libkernel.sprx",
+      "libSceVideoOut.sprx",
+      "libSceSystemService.sprx",
+      "libSceUserService.sprx",
+      "libScePad.sprx"
+    ],
+    "functionRecords": 52,
+    "memoryBlocks": [
+      {
+        "name": ".text",
+        "start": "00100000",
+        "size": 26722,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": true
+      },
+      {
+        "name": ".got",
+        "start": "00106868",
+        "size": 160,
+        "initialized": true,
+        "read": true,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".rodata",
+        "start": "00106920",
+        "size": 1664,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".dynsym",
+        "start": "00106fa0",
+        "size": 480,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".gnu.hash",
+        "start": "00107180",
+        "size": 28,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".dynstr",
+        "start": "0010719c",
+        "size": 327,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".rela.dyn",
+        "start": "001072e8",
+        "size": 480,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": "segment_1.9",
+        "start": "001074c8",
+        "size": 2872,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".dynamic",
+        "start": "00108000",
+        "size": 368,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".data",
+        "start": "0010c000",
+        "size": 8,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".bss",
+        "start": "0010c020",
+        "size": 547528,
+        "initialized": false,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": "EXTERNAL",
+        "start": "00192000",
+        "size": 152,
+        "initialized": false,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": ".comment",
+        "start": ".comment::00000000",
+        "size": 66,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".shstrtab",
+        "start": ".shstrtab::00000000",
+        "size": 111,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".strtab",
+        "start": ".strtab::00000000",
+        "size": 754,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".symtab",
+        "start": ".symtab::00000000",
+        "size": 1800,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "_elfHeader",
+        "start": "_elfHeader::00000000",
+        "size": 64,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "_elfProgramHeaders",
+        "start": "_elfProgramHeaders::00000000",
+        "size": 224,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "_elfSectionHeaders",
+        "start": "_elfSectionHeaders::00000000",
+        "size": 960,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      }
+    ],
+    "parserCodeSource": "file:AUDIT_WORKSPACE/work/phase22/experimental-config/ghidra/ghidra_12.2_PUBLIC/Extensions/GhidraProspero/lib/GhidraProspero.jar",
+    "relocationRecords": 20,
+    "relocationStatuses": {
+      "APPLIED": 20
+    },
+    "relocationTypes": {
+      "6": 19,
+      "8": 1
+    },
+    "decompilationSample": [
+      {
+        "address": "00100000",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "001000d0",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "001001d0",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "00100210",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "001007a0",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "001007b0",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "001017d0",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "00101920",
+        "completed": true,
+        "error": ""
+      }
+    ],
+    "stage": "after",
+    "kind": "upstream homebrew",
+    "sha256": "05c414993d1cd9e7182bbf5647be1ffad72c6ed6b6f5399d01af27281fef48b8",
+    "selected_loader": "Executable and Linking Format (ELF)",
+    "warnings": [],
+    "synthetic": false
+  },
+  {
+    "name": "sharpprospero-sample-5dfdb4b-eboot.elf",
+    "format": "Executable and Linking Format (ELF)",
+    "language": "x86:LE:64:default",
+    "prosperoMarker": true,
+    "prosperoLoaderClass": "prospero.loader.GhidraProsperoElfLoader",
+    "eligibilityProbes": [
+      {
+        "file": "sdk-minimal.elf",
+        "specs": 1
+      },
+      {
+        "file": "sdk-imports.elf",
+        "specs": 1
+      },
+      {
+        "file": "valid-abi3-synthetic.elf",
+        "specs": 1
+      }
+    ],
+    "externalSymbolRecords": 165,
+    "libraries": [
+      "<EXTERNAL>",
+      "libc.prx",
+      "libkernel.prx",
+      "libScePad.prx",
+      "libSceSystemService.prx",
+      "libSceUserService.prx",
+      "libSceVideoOut.prx"
+    ],
+    "functionRecords": 2655,
+    "memoryBlocks": [
+      {
+        "name": ".text",
+        "start": "01000000",
+        "size": 727296,
+        "initialized": true,
+        "read": true,
+        "write": false,
+        "execute": true
+      },
+      {
+        "name": ".rodata",
+        "start": "010b4000",
+        "size": 26680,
+        "initialized": true,
+        "read": true,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".eh_frame",
+        "start": "010ba838",
+        "size": 189180,
+        "initialized": true,
+        "read": true,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".eh_frame_hdr",
+        "start": "010e8b34",
+        "size": 11892,
+        "initialized": true,
+        "read": true,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": ".data",
+        "start": "010ec000",
+        "size": 119760,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": "EXTERNAL",
+        "start": "0110a000",
+        "size": 1320,
+        "initialized": false,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": "_elfHeader",
+        "start": "_elfHeader::00000000",
+        "size": 64,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      },
+      {
+        "name": "_elfProgramHeaders",
+        "start": "_elfProgramHeaders::00000000",
+        "size": 448,
+        "initialized": true,
+        "read": false,
+        "write": false,
+        "execute": false
+      }
+    ],
+    "parserCodeSource": "file:AUDIT_WORKSPACE/work/phase22/experimental-config/ghidra/ghidra_12.2_PUBLIC/Extensions/GhidraProspero/lib/GhidraProspero.jar",
+    "relocationRecords": 567,
+    "relocationStatuses": {
+      "APPLIED": 567
+    },
+    "relocationTypes": {
+      "7": 165,
+      "8": 402
+    },
+    "decompilationSample": [
+      {
+        "address": "01000000",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000010",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000020",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000030",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000040",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000050",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "01000066",
+        "completed": true,
+        "error": ""
+      },
+      {
+        "address": "0100007c",
+        "completed": true,
+        "error": ""
+      }
+    ],
+    "stage": "after",
+    "kind": "upstream homebrew",
+    "sha256": "aa011c6e1e8db0940e1bac2523e6076c8624275d494f4c9d422542702e2f0236",
+    "selected_loader": "Prospero ELF",
+    "warnings": [
+      "Failed to find entry point for subroutine containing 0109b8a0 (MultEntSubModel)  ",
+      "More than 100 address segments have been created! (AddressMapDB)  ",
+      "Failed to find entry point for subroutine containing 0109afe0 (MultEntSubModel)  ",
+      "Decompiling 01097e90, pcode error at 5de5894855000000: Could not follow disassembly flow into non-existing memory at 5de5894855000000 (DecompileCallback)  ",
+      "Decompiling 01097c40, pcode error at 5de5894855000000: Could not follow disassembly flow into non-existing memory at 5de5894855000000 (DecompileCallback)  ",
+      "Decompiling 01097d00, pcode error at 5de5894855000000: Could not follow disassembly flow into non-existing memory at 5de5894855000000 (DecompileCallback)  ",
+      "Decompiling 01097d80, pcode error at 5de5894855000000: Could not follow disassembly flow into non-existing memory at 5de5894855000000 (DecompileCallback)  ",
+      "Decompiling 01097c70, pcode error at 5de5894855000000: Could not follow disassembly flow into non-existing memory at 5de5894855000000 (DecompileCallback)  ",
+      "Decompiling 01097cb0, pcode error at 5de5894855000000: Could not follow disassembly flow into non-existing memory at 5de5894855000000 (DecompileCallback)  ",
+      "Decompiling 010980a0, pcode error at 5de5894855000000: Could not follow disassembly flow into non-existing memory at 5de5894855000000 (DecompileCallback)  ",
+      "Decompiling 010ac1c0, pcode error at 010ae640: Unable to resolve constructor at 010ae640 (DecompileCallback)  "
+    ],
+    "synthetic": false
+  },
+  {
+    "name": "unsupported-relocation.elf",
+    "format": "Executable and Linking Format (ELF)",
+    "language": "x86:LE:64:default",
+    "prosperoMarker": true,
+    "prosperoLoaderClass": "prospero.loader.GhidraProsperoElfLoader",
+    "eligibilityProbes": [
+      {
+        "file": "sdk-minimal.elf",
+        "specs": 1
+      },
+      {
+        "file": "sdk-imports.elf",
+        "specs": 1
+      },
+      {
+        "file": "valid-abi3-synthetic.elf",
+        "specs": 1
+      }
+    ],
+    "externalSymbolRecords": 1,
+    "libraries": [
+      "<EXTERNAL>",
+      "libtest.prx"
+    ],
+    "functionRecords": 2,
+    "memoryBlocks": [
+      {
+        "name": "_elfHeader",
+        "start": "00400000",
+        "size": 2048,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": "EXTERNAL",
+        "start": "00401000",
+        "size": 8,
+        "initialized": false,
+        "read": true,
+        "write": true,
+        "execute": false
+      }
+    ],
+    "parserCodeSource": "file:AUDIT_WORKSPACE/work/phase22/experimental-config/ghidra/ghidra_12.2_PUBLIC/Extensions/GhidraProspero/lib/GhidraProspero.jar",
+    "relocationRecords": 1,
+    "relocationStatuses": {
+      "UNSUPPORTED": 1
+    },
+    "relocationTypes": {
+      "57005": 1
+    },
+    "decompilationSample": [],
+    "stage": "after",
+    "kind": "synthetic fixture",
+    "sha256": "dba4c1abd656847c320649ac34612c2a3eb2da2bd7748f3d6b8b196d81ad3a7c",
+    "selected_loader": "Prospero ELF",
+    "warnings": [],
+    "synthetic": true
+  },
+  {
+    "name": "valid-abi3-synthetic.elf",
+    "format": "Executable and Linking Format (ELF)",
+    "language": "x86:LE:64:default",
+    "prosperoMarker": true,
+    "prosperoLoaderClass": "prospero.loader.GhidraProsperoElfLoader",
+    "eligibilityProbes": [
+      {
+        "file": "sdk-minimal.elf",
+        "specs": 1
+      },
+      {
+        "file": "sdk-imports.elf",
+        "specs": 1
+      },
+      {
+        "file": "valid-abi3-synthetic.elf",
+        "specs": 1
+      }
+    ],
+    "externalSymbolRecords": 1,
+    "libraries": [
+      "<EXTERNAL>",
+      "libtest.prx"
+    ],
+    "functionRecords": 2,
+    "memoryBlocks": [
+      {
+        "name": "_elfHeader",
+        "start": "00400000",
+        "size": 2048,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": "EXTERNAL",
+        "start": "00401000",
+        "size": 8,
+        "initialized": false,
+        "read": true,
+        "write": true,
+        "execute": false
+      }
+    ],
+    "parserCodeSource": "file:AUDIT_WORKSPACE/work/phase22/experimental-config/ghidra/ghidra_12.2_PUBLIC/Extensions/GhidraProspero/lib/GhidraProspero.jar",
+    "relocationRecords": 1,
+    "relocationStatuses": {
+      "APPLIED": 1
+    },
+    "relocationTypes": {
+      "6": 1
+    },
+    "decompilationSample": [],
+    "stage": "after",
+    "kind": "synthetic fixture",
+    "sha256": "dd34a48412b67d32d2c8087e801bcc21ff28fec511e616cb3e097a8adf35e4b6",
+    "selected_loader": "Prospero ELF",
+    "warnings": [],
+    "synthetic": true
+  },
+  {
+    "name": "valid-sce-relative.elf",
+    "format": "Executable and Linking Format (ELF)",
+    "language": "x86:LE:64:default",
+    "prosperoMarker": true,
+    "prosperoLoaderClass": "prospero.loader.GhidraProsperoElfLoader",
+    "eligibilityProbes": [
+      {
+        "file": "sdk-minimal.elf",
+        "specs": 1
+      },
+      {
+        "file": "sdk-imports.elf",
+        "specs": 1
+      },
+      {
+        "file": "valid-abi3-synthetic.elf",
+        "specs": 1
+      }
+    ],
+    "externalSymbolRecords": 1,
+    "libraries": [
+      "<EXTERNAL>",
+      "libtest.prx"
+    ],
+    "functionRecords": 2,
+    "memoryBlocks": [
+      {
+        "name": "_elfHeader",
+        "start": "00400000",
+        "size": 2048,
+        "initialized": true,
+        "read": true,
+        "write": true,
+        "execute": false
+      },
+      {
+        "name": "EXTERNAL",
+        "start": "00401000",
+        "size": 8,
+        "initialized": false,
+        "read": true,
+        "write": true,
+        "execute": false
+      }
+    ],
+    "parserCodeSource": "file:AUDIT_WORKSPACE/work/phase22/experimental-config/ghidra/ghidra_12.2_PUBLIC/Extensions/GhidraProspero/lib/GhidraProspero.jar",
+    "relocationRecords": 1,
+    "relocationStatuses": {
+      "APPLIED": 1
+    },
+    "relocationTypes": {
+      "6": 1
+    },
+    "decompilationSample": [],
+    "stage": "after",
+    "kind": "synthetic fixture",
+    "sha256": "01da16fbcd7defe72be2b67db61bcde6655b2a8048dd1a261df57fd2e26e0487",
+    "selected_loader": "Prospero ELF",
+    "warnings": [],
+    "synthetic": true
+  }
+]

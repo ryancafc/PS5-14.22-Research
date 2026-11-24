@@ -1,0 +1,26 @@
+{
+  "version": "14.10",
+  "kind": "standard",
+  "expected_size": 1261408256,
+  "expected_sha256": "c17384946df6e5c85b2d72cbeee2057b165bf90279d9e2a86d527d0778cdaaf6",
+  "metadata_commit": "7eaa071d558e8f700ea74712fd86bc05f76657c5",
+  "metadata_commit_unchanged_since_phase21": true,
+  "request_method": "HEAD",
+  "url": "https://pc.ps5.update.playstation.net/update/ps5/official/tJMRE80IbXnE9YuG0jzTXgKEjIMoabr6/image/2026_0928/sys_c17384946df6e5c85b2d72cbeee2057b165bf90279d9e2a86d527d0778cdaaf6/PS5UPDATE.PUP?dest=us",
+  "new_GET_downloads": 0,
+  "historical_prior_empty_GET": "Phase21/evidence/1410-range-response.json",
+  "status": 200,
+  "headers": {
+    "Accept-Ranges": "bytes",
+    "Content-Length": "0",
+    "Content-Type": "text/plain",
+    "ETag": "\"d41d8cd98f00b204e9800998ecf8427e:1794991245.620145\"",
+    "Last-Modified": "Wed, 18 Nov 2026 08:40:44 GMT",
+    "Server": "AkamaiNetStorage",
+    "Date": "Tue, 24 Nov 2026 18:03:59 GMT",
+    "Connection": "close"
+  },
+  "final_url": "https://pc.ps5.update.playstation.net/update/ps5/official/tJMRE80IbXnE9YuG0jzTXgKEjIMoabr6/image/2026_0928/sys_c17384946df6e5c85b2d72cbeee2057b165bf90279d9e2a86d527d0778cdaaf6/PS5UPDATE.PUP?dest=us",
+  "matching_nonempty_object": false,
+  "verdict": "BLOCKED: no matching nonempty official object; stop redundant routes"
+}

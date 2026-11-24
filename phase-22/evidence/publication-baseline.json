@@ -1,0 +1,11 @@
+{
+  "main_commit": "9622db46f50a8ab4cc540f39b315dd9cb0e2752e",
+  "phase20_pr": 3,
+  "phase20_merged": false,
+  "phase21_pr": 4,
+  "phase21_merged": false,
+  "base_branch": "phase21-technical-validation-20261124",
+  "base_commit": "db552e5000f76581b34e48be5d80daeb2aca3f47",
+  "phase22_branch": "phase22-parser-validation-20261124",
+  "plan": "New stacked draft PR; preserve prior branches, history, notes and projects."
+}

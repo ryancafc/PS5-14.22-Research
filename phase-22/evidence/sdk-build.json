@@ -1,0 +1,115 @@
+{
+  "source_repository": "https://github.com/Rufidj/ps5link-sdk",
+  "source_commit": "ea771e535378740b6a058b8e5419eb8a0e0e0ec8",
+  "licence": "GPL-3.0 (upstream LICENSE); original sample C is MIT",
+  "compiler_substitution": "Installed clang --target=x86_64-unknown-freebsd replaces unavailable prospero-clang wrapper for these freestanding objects; unmodified native linker writes all SCE output metadata.",
+  "commands": [
+    {
+      "command": [
+        "make",
+        "linker/link_real"
+      ],
+      "cwd": "AUDIT_WORKSPACE/work/phase22/ps5link-sdk",
+      "exit_code": 0,
+      "output": "cc -O2 -Wall -o linker/link_real linker/link_real.c linker/elf_object.c linker/linker.c linker/dynwriter.c linker/catalog.c linker/catalog_extra.c linker/catalog_lookup.c linker/nid.c linker/sha1.c\n"
+    },
+    {
+      "command": [
+        "clang",
+        "--target=x86_64-unknown-freebsd",
+        "-ffreestanding",
+        "-fPIC",
+        "-fno-stack-protector",
+        "-fno-asynchronous-unwind-tables",
+        "-O1",
+        "-c",
+        "AUDIT_WORKSPACE/work/phase22/ps5link-sdk/linker/crt1.S",
+        "-o",
+        "AUDIT_WORKSPACE/work/phase22/sdk-samples/crt1.o"
+      ],
+      "cwd": null,
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "clang",
+        "--target=x86_64-unknown-freebsd",
+        "-ffreestanding",
+        "-fPIC",
+        "-fno-stack-protector",
+        "-fno-asynchronous-unwind-tables",
+        "-O1",
+        "-c",
+        "AUDIT_WORKSPACE/work/phase22/deliverables/sdk-minimal.c",
+        "-o",
+        "AUDIT_WORKSPACE/work/phase22/sdk-samples/sdk-minimal.o"
+      ],
+      "cwd": null,
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "AUDIT_WORKSPACE/work/phase22/ps5link-sdk/linker/link_real",
+        "AUDIT_WORKSPACE/work/phase22/sdk-samples/sdk-minimal.elf",
+        "AUDIT_WORKSPACE/work/phase22/sdk-samples/crt1.o",
+        "AUDIT_WORKSPACE/work/phase22/sdk-samples/sdk-minimal.o"
+      ],
+      "cwd": null,
+      "exit_code": 0,
+      "output": "dynwriter: wrote AUDIT_WORKSPACE/work/phase22/sdk-samples/sdk-minimal.elf (50136 bytes), 3 import(s) (3 bound to a real PLT/GOT call), 0 relocation(s) still unpatched\n"
+    },
+    {
+      "command": [
+        "clang",
+        "--target=x86_64-unknown-freebsd",
+        "-ffreestanding",
+        "-fPIC",
+        "-fno-stack-protector",
+        "-fno-asynchronous-unwind-tables",
+        "-O1",
+        "-c",
+        "AUDIT_WORKSPACE/work/phase22/deliverables/sdk-imports.c",
+        "-o",
+        "AUDIT_WORKSPACE/work/phase22/sdk-samples/sdk-imports.o"
+      ],
+      "cwd": null,
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "AUDIT_WORKSPACE/work/phase22/ps5link-sdk/linker/link_real",
+        "AUDIT_WORKSPACE/work/phase22/sdk-samples/sdk-imports.elf",
+        "AUDIT_WORKSPACE/work/phase22/sdk-samples/crt1.o",
+        "AUDIT_WORKSPACE/work/phase22/sdk-samples/sdk-imports.o"
+      ],
+      "cwd": null,
+      "exit_code": 0,
+      "output": "dynwriter: wrote AUDIT_WORKSPACE/work/phase22/sdk-samples/sdk-imports.elf (50192 bytes), 5 import(s) (5 bound to a real PLT/GOT call), 0 relocation(s) still unpatched\n"
+    }
+  ],
+  "samples": [
+    {
+      "name": "sdk-minimal.elf",
+      "path": "AUDIT_WORKSPACE/work/phase22/sdk-samples/sdk-minimal.elf",
+      "sha256": "234071c6731e9df08fd21a596d1545c411ba788a27a51819389f829be1472593",
+      "size": 82648,
+      "abi": 2,
+      "osabi": 9,
+      "type": 65040,
+      "classification": "Locally SDK-generated from original C and unmodified pinned public linker; not a hand-built parser fixture or console validation."
+    },
+    {
+      "name": "sdk-imports.elf",
+      "path": "AUDIT_WORKSPACE/work/phase22/sdk-samples/sdk-imports.elf",
+      "sha256": "97df4ad56083e1de2422476a6ddaba1c320734110cd86de24bfad84c5d6ffb8c",
+      "size": 82648,
+      "abi": 2,
+      "osabi": 9,
+      "type": 65040,
+      "classification": "Locally SDK-generated from original C and unmodified pinned public linker; not a hand-built parser fixture or console validation."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "cases": 26,
+  "passed": 14,
+  "failed": 12,
+  "scope": "Strict metadata-rejection expectations, not genuine compatibility or a security assessment."
+}

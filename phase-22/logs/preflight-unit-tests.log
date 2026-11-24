@@ -1,0 +1,35 @@
+test_cli_missing_file (__main__.PreflightTests.test_cli_missing_file) ... ok
+test_file_preserved (__main__.PreflightTests.test_file_preserved) ... ok
+test_fixture_bad_magic (__main__.PreflightTests.test_fixture_bad_magic) ... ok
+test_fixture_duplicate_sce_segment (__main__.PreflightTests.test_fixture_duplicate_sce_segment) ... ok
+test_fixture_duplicate_singleton_strtab (__main__.PreflightTests.test_fixture_duplicate_singleton_strtab) ... ok
+test_fixture_dynamic_missing_null (__main__.PreflightTests.test_fixture_dynamic_missing_null) ... ok
+test_fixture_dynamic_outside (__main__.PreflightTests.test_fixture_dynamic_outside) ... ok
+test_fixture_dynamic_unaligned_size (__main__.PreflightTests.test_fixture_dynamic_unaligned_size) ... ok
+test_fixture_ordinary_etdyn (__main__.PreflightTests.test_fixture_ordinary_etdyn) ... ok
+test_fixture_phoff_outside (__main__.PreflightTests.test_fixture_phoff_outside) ... ok
+test_fixture_relocation_symbol_outside (__main__.PreflightTests.test_fixture_relocation_symbol_outside) ... ok
+test_fixture_sce_missing_strtab (__main__.PreflightTests.test_fixture_sce_missing_strtab) ... ok
+test_fixture_sce_missing_symtabsz (__main__.PreflightTests.test_fixture_sce_missing_symtabsz) ... ok
+test_fixture_segment_outside (__main__.PreflightTests.test_fixture_segment_outside) ... ok
+test_fixture_string_pointer_outside (__main__.PreflightTests.test_fixture_string_pointer_outside) ... ok
+test_fixture_string_size_outside (__main__.PreflightTests.test_fixture_string_size_outside) ... ok
+test_fixture_symbol_name_outside (__main__.PreflightTests.test_fixture_symbol_name_outside) ... ok
+test_fixture_truncated_header (__main__.PreflightTests.test_fixture_truncated_header) ... ok
+test_fixture_truncated_ident (__main__.PreflightTests.test_fixture_truncated_ident) ... ok
+test_fixture_unsupported_abi0 (__main__.PreflightTests.test_fixture_unsupported_abi0) ... ok
+test_fixture_unsupported_abi4 (__main__.PreflightTests.test_fixture_unsupported_abi4) ... ok
+test_fixture_unsupported_relocation (__main__.PreflightTests.test_fixture_unsupported_relocation) ... ok
+test_fixture_unsupported_type (__main__.PreflightTests.test_fixture_unsupported_type) ... ok
+test_fixture_valid_abi3_synthetic (__main__.PreflightTests.test_fixture_valid_abi3_synthetic) ... ok
+test_fixture_valid_dynamic_tail_padding (__main__.PreflightTests.test_fixture_valid_dynamic_tail_padding) ... ok
+test_fixture_valid_rel_format (__main__.PreflightTests.test_fixture_valid_rel_format) ... ok
+test_fixture_valid_sce_relative (__main__.PreflightTests.test_fixture_valid_sce_relative) ... ok
+test_fixture_valid_standard (__main__.PreflightTests.test_fixture_valid_standard) ... ok
+test_known_rel_and_rela_metadata (__main__.PreflightTests.test_known_rel_and_rela_metadata) ... ok
+test_oversize_file_refused (__main__.PreflightTests.test_oversize_file_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.053s
+
+OK

@@ -1,0 +1,4448 @@
+[
+  {
+    "id": "sharp-baseline",
+    "file": "sharpprospero-sample-5dfdb4b-eboot.elf",
+    "path": "~/PS5-Research/14.22/test-binaries/sharpprospero-sample-5dfdb4b-eboot.elf",
+    "kind": "upstream homebrew",
+    "source": "https://github.com/SvenGDK/SharpProspero",
+    "revision": "5dfdb4b0b166e83dc9ae275001afb695f12c7174",
+    "licence": "GPL-3.0",
+    "sha256": "aa011c6e1e8db0940e1bac2523e6076c8624275d494f4c9d422542702e2f0236",
+    "size": 1102800,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "phnum": 8,
+      "shnum": 0
+    },
+    "preflight": {
+      "size": 1102800,
+      "sha256": "aa011c6e1e8db0940e1bac2523e6076c8624275d494f4c9d422542702e2f0236",
+      "architecture": "x86-64",
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "entry": 205120,
+      "program_headers": [
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 16384,
+          "vaddr": 0,
+          "filesz": 727296,
+          "memsz": 727296,
+          "align": 16384
+        },
+        {
+          "type": 1,
+          "flags": 4,
+          "offset": 753664,
+          "vaddr": 737280,
+          "filesz": 227752,
+          "memsz": 227752,
+          "align": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 983040,
+          "vaddr": 966656,
+          "filesz": 119760,
+          "memsz": 119760,
+          "align": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 1102032,
+          "vaddr": 1085648,
+          "filesz": 768,
+          "memsz": 768,
+          "align": 8
+        },
+        {
+          "type": 1627389953,
+          "flags": 4,
+          "offset": 969392,
+          "vaddr": 953008,
+          "filesz": 96,
+          "memsz": 96,
+          "align": 8
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 969488,
+          "vaddr": 953104,
+          "filesz": 36,
+          "memsz": 36,
+          "align": 4
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 969524,
+          "vaddr": 953140,
+          "filesz": 11892,
+          "memsz": 11892,
+          "align": 4
+        },
+        {
+          "type": 7,
+          "flags": 4,
+          "offset": 1100088,
+          "vaddr": 1083704,
+          "filesz": 24,
+          "memsz": 592,
+          "align": 8
+        }
+      ],
+      "section_headers": [],
+      "dynamic_entries": [
+        {
+          "tag": 1627390019,
+          "value": 1103806595073
+        },
+        {
+          "tag": 1627389969,
+          "value": 0
+        },
+        {
+          "tag": 1,
+          "value": 17
+        },
+        {
+          "tag": 1627390021,
+          "value": 282578783305754
+        },
+        {
+          "tag": 1627390025,
+          "value": 4294967322
+        },
+        {
+          "tag": 1627389977,
+          "value": 9
+        },
+        {
+          "tag": 1,
+          "value": 31
+        },
+        {
+          "tag": 1627390021,
+          "value": 564053760016429
+        },
+        {
+          "tag": 1627390025,
+          "value": 281479271677997
+        },
+        {
+          "tag": 1627389977,
+          "value": 281474976710665
+        },
+        {
+          "tag": 1,
+          "value": 55
+        },
+        {
+          "tag": 1627390021,
+          "value": 845528736727109
+        },
+        {
+          "tag": 1627390025,
+          "value": 562954248388677
+        },
+        {
+          "tag": 1627389977,
+          "value": 562949953421321
+        },
+        {
+          "tag": 1,
+          "value": 79
+        },
+        {
+          "tag": 1627390021,
+          "value": 1127003713437799
+        },
+        {
+          "tag": 1627390025,
+          "value": 844429225099367
+        },
+        {
+          "tag": 1627389977,
+          "value": 844424930131977
+        },
+        {
+          "tag": 1,
+          "value": 123
+        },
+        {
+          "tag": 1627390021,
+          "value": 1408478690148497
+        },
+        {
+          "tag": 1627390025,
+          "value": 1125904201810065
+        },
+        {
+          "tag": 1627389977,
+          "value": 1125899906842633
+        },
+        {
+          "tag": 1,
+          "value": 163
+        },
+        {
+          "tag": 1627390021,
+          "value": 1689953666859190
+        },
+        {
+          "tag": 1627390025,
+          "value": 1407379178520758
+        },
+        {
+          "tag": 1627389977,
+          "value": 1407374883553289
+        },
+        {
+          "tag": 4,
+          "value": 938720
+        },
+        {
+          "tag": 1627390013,
+          "value": 676
+        },
+        {
+          "tag": 6,
+          "value": 931892
+        },
+        {
+          "tag": 1627390009,
+          "value": 931892
+        },
+        {
+          "tag": 1627390015,
+          "value": 3984
+        },
+        {
+          "tag": 11,
+          "value": 24
+        },
+        {
+          "tag": 1627390011,
+          "value": 24
+        },
+        {
+          "tag": 5,
+          "value": 935880
+        },
+        {
+          "tag": 1627390005,
+          "value": 935880
+        },
+        {
+          "tag": 10,
+          "value": 2837
+        },
+        {
+          "tag": 1627390007,
+          "value": 2837
+        },
+        {
+          "tag": 3,
+          "value": 1084296
+        },
+        {
+          "tag": 20,
+          "value": 7
+        },
+        {
+          "tag": 2,
+          "value": 3960
+        },
+        {
+          "tag": 23,
+          "value": 939400
+        },
+        {
+          "tag": 7,
+          "value": 943360
+        },
+        {
+          "tag": 1627389999,
+          "value": 943360
+        },
+        {
+          "tag": 8,
+          "value": 9648
+        },
+        {
+          "tag": 1627390001,
+          "value": 9648
+        },
+        {
+          "tag": 9,
+          "value": 24
+        },
+        {
+          "tag": 1879048185,
+          "value": 402
+        },
+        {
+          "tag": 0,
+          "value": 0
+        }
+      ],
+      "dynamic_layout": "ordinary PT_LOAD VA",
+      "libraries": [
+        "libc.prx",
+        "libkernel.prx",
+        "libScePad.prx",
+        "libSceSystemService.prx",
+        "libSceUserService.prx",
+        "libSceVideoOut.prx"
+      ],
+      "dynamic_symbol_count": 166,
+      "relocation_count": 567,
+      "relocation_formats": {
+        "RELA": 567
+      },
+      "relocation_types": {
+        "8": 402,
+        "7": 165
+      },
+      "expected_prospero_eligible": true,
+      "warnings": [],
+      "status": "PASS",
+      "scope": "Bounded metadata preflight only; does not apply relocations, validate runtime behavior or decode protected firmware.",
+      "input_stat_preserved": true
+    },
+    "preflight_error": ""
+  },
+  {
+    "id": "elfldr",
+    "file": "elfldr-ps5.elf",
+    "path": "~/PS5-Research/14.22/test-binaries/elfldr-ps5.elf",
+    "kind": "upstream homebrew",
+    "source": "https://github.com/ps5-payload-dev/elfldr",
+    "revision": "v0.28",
+    "licence": "GPL-3.0",
+    "sha256": "66968bae6159d8fb06125fcd43fb99cf64d6bfdf730c70f37a6f5d056ff63458",
+    "size": 394568,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 0,
+      "elf_type": 3,
+      "phnum": 4,
+      "shnum": 18
+    },
+    "preflight": {
+      "size": 394568,
+      "sha256": "66968bae6159d8fb06125fcd43fb99cf64d6bfdf730c70f37a6f5d056ff63458",
+      "architecture": "x86-64",
+      "osabi": 9,
+      "abi": 0,
+      "elf_type": 3,
+      "entry": 0,
+      "program_headers": [
+        {
+          "type": 1,
+          "flags": 7,
+          "offset": 16384,
+          "vaddr": 0,
+          "filesz": 55032,
+          "memsz": 55032,
+          "align": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 81920,
+          "vaddr": 65536,
+          "filesz": 300136,
+          "memsz": 300136,
+          "align": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 393216,
+          "vaddr": 376832,
+          "filesz": 28,
+          "memsz": 2400,
+          "align": 16384
+        },
+        {
+          "type": 2,
+          "flags": 4,
+          "offset": 376832,
+          "vaddr": 360448,
+          "filesz": 5224,
+          "memsz": 5224,
+          "align": 16384
+        }
+      ],
+      "section_headers": [
+        {
+          "index": 0,
+          "name_index": 0,
+          "type": 0,
+          "flags": 0,
+          "address": 0,
+          "offset": 0,
+          "size": 0,
+          "link": 0,
+          "info": 0,
+          "align": 0,
+          "entry_size": 0
+        },
+        {
+          "index": 1,
+          "name_index": 25,
+          "type": 1,
+          "flags": 6,
+          "address": 0,
+          "offset": 16384,
+          "size": 55032,
+          "link": 0,
+          "info": 0,
+          "align": 16384,
+          "entry_size": 0
+        },
+        {
+          "index": 2,
+          "name_index": 49,
+          "type": 1,
+          "flags": 2,
+          "address": 65536,
+          "offset": 81920,
+          "size": 2236,
+          "link": 0,
+          "info": 0,
+          "align": 16384,
+          "entry_size": 0
+        },
+        {
+          "index": 3,
+          "name_index": 104,
+          "type": 1,
+          "flags": 2,
+          "address": 67776,
+          "offset": 84160,
+          "size": 6404,
+          "link": 0,
+          "info": 0,
+          "align": 8,
+          "entry_size": 0
+        },
+        {
+          "index": 4,
+          "name_index": 63,
+          "type": 1,
+          "flags": 3,
+          "address": 74192,
+          "offset": 90576,
+          "size": 2192,
+          "link": 0,
+          "info": 0,
+          "align": 16,
+          "entry_size": 0
+        },
+        {
+          "index": 5,
+          "name_index": 31,
+          "type": 1,
+          "flags": 3,
+          "address": 76384,
+          "offset": 92768,
+          "size": 216,
+          "link": 0,
+          "info": 0,
+          "align": 8,
+          "entry_size": 0
+        },
+        {
+          "index": 6,
+          "name_index": 152,
+          "type": 1,
+          "flags": 50,
+          "address": 76608,
+          "offset": 92992,
+          "size": 269136,
+          "link": 0,
+          "info": 0,
+          "align": 16,
+          "entry_size": 0
+        },
+        {
+          "index": 7,
+          "name_index": 1,
+          "type": 1,
+          "flags": 2,
+          "address": 345744,
+          "offset": 362128,
+          "size": 0,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        },
+        {
+          "index": 8,
+          "name_index": 13,
+          "type": 1,
+          "flags": 2,
+          "address": 345744,
+          "offset": 362128,
+          "size": 0,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        },
+        {
+          "index": 9,
+          "name_index": 133,
+          "type": 6,
+          "flags": 2,
+          "address": 360448,
+          "offset": 376832,
+          "size": 336,
+          "link": 12,
+          "info": 0,
+          "align": 16384,
+          "entry_size": 16
+        },
+        {
+          "index": 10,
+          "name_index": 86,
+          "type": 11,
+          "flags": 2,
+          "address": 360784,
+          "offset": 377168,
+          "size": 624,
+          "link": 12,
+          "info": 1,
+          "align": 8,
+          "entry_size": 24
+        },
+        {
+          "index": 11,
+          "name_index": 94,
+          "type": 1879048182,
+          "flags": 2,
+          "address": 361408,
+          "offset": 377792,
+          "size": 32,
+          "link": 10,
+          "info": 0,
+          "align": 8,
+          "entry_size": 0
+        },
+        {
+          "index": 12,
+          "name_index": 41,
+          "type": 3,
+          "flags": 2,
+          "address": 361440,
+          "offset": 377824,
+          "size": 260,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        },
+        {
+          "index": 13,
+          "name_index": 76,
+          "type": 4,
+          "flags": 2,
+          "address": 361704,
+          "offset": 378088,
+          "size": 3936,
+          "link": 10,
+          "info": 0,
+          "align": 8,
+          "entry_size": 24
+        },
+        {
+          "index": 14,
+          "name_index": 114,
+          "type": 7,
+          "flags": 2,
+          "address": 365640,
+          "offset": 382024,
+          "size": 32,
+          "link": 0,
+          "info": 0,
+          "align": 4,
+          "entry_size": 0
+        },
+        {
+          "index": 15,
+          "name_index": 160,
+          "type": 1,
+          "flags": 3,
+          "address": 376832,
+          "offset": 393216,
+          "size": 28,
+          "link": 0,
+          "info": 0,
+          "align": 16384,
+          "entry_size": 0
+        },
+        {
+          "index": 16,
+          "name_index": 36,
+          "type": 8,
+          "flags": 3,
+          "address": 376864,
+          "offset": 393244,
+          "size": 2368,
+          "link": 0,
+          "info": 0,
+          "align": 16,
+          "entry_size": 0
+        },
+        {
+          "index": 17,
+          "name_index": 142,
+          "type": 3,
+          "flags": 0,
+          "address": 0,
+          "offset": 393244,
+          "size": 166,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        }
+      ],
+      "dynamic_entries": [
+        {
+          "tag": 1,
+          "value": 202
+        },
+        {
+          "tag": 1,
+          "value": 221
+        },
+        {
+          "tag": 1,
+          "value": 245
+        },
+        {
+          "tag": 30,
+          "value": 8
+        },
+        {
+          "tag": 1879048187,
+          "value": 134217729
+        },
+        {
+          "tag": 7,
+          "value": 361704
+        },
+        {
+          "tag": 8,
+          "value": 3936
+        },
+        {
+          "tag": 9,
+          "value": 24
+        },
+        {
+          "tag": 1879048185,
+          "value": 140
+        },
+        {
+          "tag": 6,
+          "value": 360784
+        },
+        {
+          "tag": 11,
+          "value": 24
+        },
+        {
+          "tag": 5,
+          "value": 361440
+        },
+        {
+          "tag": 10,
+          "value": 260
+        },
+        {
+          "tag": 1879047925,
+          "value": 361408
+        },
+        {
+          "tag": 32,
+          "value": 0
+        },
+        {
+          "tag": 33,
+          "value": 0
+        },
+        {
+          "tag": 25,
+          "value": 345744
+        },
+        {
+          "tag": 27,
+          "value": 0
+        },
+        {
+          "tag": 26,
+          "value": 345744
+        },
+        {
+          "tag": 28,
+          "value": 0
+        },
+        {
+          "tag": 0,
+          "value": 0
+        }
+      ],
+      "dynamic_layout": "ordinary PT_LOAD VA",
+      "libraries": [
+        "libkernel_web.sprx",
+        "libSceLibcInternal.sprx",
+        "libSceNet.sprx"
+      ],
+      "dynamic_symbol_count": 26,
+      "relocation_count": 164,
+      "relocation_formats": {
+        "RELA": 164
+      },
+      "relocation_types": {
+        "8": 140,
+        "6": 24
+      },
+      "expected_prospero_eligible": false,
+      "warnings": [],
+      "status": "PASS",
+      "scope": "Bounded metadata preflight only; does not apply relocations, validate runtime behavior or decode protected firmware.",
+      "input_stat_preserved": true
+    },
+    "preflight_error": ""
+  },
+  {
+    "id": "sharpemu",
+    "file": "sharpemu-demo-0.elf",
+    "path": "AUDIT_WORKSPACE/work/phase21/samples/sharpemu-demo-0.elf",
+    "kind": "upstream homebrew",
+    "source": "https://github.com/sharpemu/sharpemu-demo",
+    "revision": "49e6b3b25678f14ec57a70b907ee215fddb608d8",
+    "licence": "GPL-2.0-or-later",
+    "sha256": "05c414993d1cd9e7182bbf5647be1ffad72c6ed6b6f5399d01af27281fef48b8",
+    "size": 69248,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 3,
+      "phnum": 4,
+      "shnum": 15
+    },
+    "preflight": {
+      "size": 69248,
+      "sha256": "05c414993d1cd9e7182bbf5647be1ffad72c6ed6b6f5399d01af27281fef48b8",
+      "architecture": "x86-64",
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 3,
+      "entry": 1952,
+      "program_headers": [
+        {
+          "type": 1,
+          "flags": 7,
+          "offset": 16384,
+          "vaddr": 0,
+          "filesz": 26722,
+          "memsz": 26722,
+          "align": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 43112,
+          "vaddr": 26728,
+          "filesz": 6408,
+          "memsz": 6408,
+          "align": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 65536,
+          "vaddr": 49152,
+          "filesz": 8,
+          "memsz": 547560,
+          "align": 16384
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 49152,
+          "vaddr": 32768,
+          "filesz": 368,
+          "memsz": 368,
+          "align": 16384
+        }
+      ],
+      "section_headers": [
+        {
+          "index": 0,
+          "name_index": 0,
+          "type": 0,
+          "flags": 0,
+          "address": 0,
+          "offset": 0,
+          "size": 0,
+          "link": 0,
+          "info": 0,
+          "align": 0,
+          "entry_size": 0
+        },
+        {
+          "index": 1,
+          "name_index": 1,
+          "type": 1,
+          "flags": 6,
+          "address": 0,
+          "offset": 16384,
+          "size": 26722,
+          "link": 0,
+          "info": 0,
+          "align": 16384,
+          "entry_size": 0
+        },
+        {
+          "index": 2,
+          "name_index": 7,
+          "type": 1,
+          "flags": 3,
+          "address": 26728,
+          "offset": 43112,
+          "size": 160,
+          "link": 0,
+          "info": 0,
+          "align": 8,
+          "entry_size": 0
+        },
+        {
+          "index": 3,
+          "name_index": 12,
+          "type": 1,
+          "flags": 50,
+          "address": 26912,
+          "offset": 43296,
+          "size": 1664,
+          "link": 0,
+          "info": 0,
+          "align": 32,
+          "entry_size": 0
+        },
+        {
+          "index": 4,
+          "name_index": 20,
+          "type": 11,
+          "flags": 2,
+          "address": 28576,
+          "offset": 44960,
+          "size": 480,
+          "link": 6,
+          "info": 1,
+          "align": 8,
+          "entry_size": 24
+        },
+        {
+          "index": 5,
+          "name_index": 28,
+          "type": 1879048182,
+          "flags": 2,
+          "address": 29056,
+          "offset": 45440,
+          "size": 28,
+          "link": 4,
+          "info": 0,
+          "align": 8,
+          "entry_size": 0
+        },
+        {
+          "index": 6,
+          "name_index": 38,
+          "type": 3,
+          "flags": 2,
+          "address": 29084,
+          "offset": 45468,
+          "size": 327,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        },
+        {
+          "index": 7,
+          "name_index": 46,
+          "type": 4,
+          "flags": 2,
+          "address": 29416,
+          "offset": 45800,
+          "size": 480,
+          "link": 4,
+          "info": 0,
+          "align": 8,
+          "entry_size": 24
+        },
+        {
+          "index": 8,
+          "name_index": 56,
+          "type": 6,
+          "flags": 3,
+          "address": 32768,
+          "offset": 49152,
+          "size": 368,
+          "link": 6,
+          "info": 0,
+          "align": 16384,
+          "entry_size": 16
+        },
+        {
+          "index": 9,
+          "name_index": 65,
+          "type": 1,
+          "flags": 3,
+          "address": 49152,
+          "offset": 65536,
+          "size": 8,
+          "link": 0,
+          "info": 0,
+          "align": 16384,
+          "entry_size": 0
+        },
+        {
+          "index": 10,
+          "name_index": 71,
+          "type": 8,
+          "flags": 3,
+          "address": 49184,
+          "offset": 65544,
+          "size": 547528,
+          "link": 0,
+          "info": 0,
+          "align": 32,
+          "entry_size": 0
+        },
+        {
+          "index": 11,
+          "name_index": 76,
+          "type": 1,
+          "flags": 48,
+          "address": 0,
+          "offset": 65544,
+          "size": 66,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 1
+        },
+        {
+          "index": 12,
+          "name_index": 85,
+          "type": 2,
+          "flags": 0,
+          "address": 0,
+          "offset": 65616,
+          "size": 1800,
+          "link": 14,
+          "info": 47,
+          "align": 8,
+          "entry_size": 24
+        },
+        {
+          "index": 13,
+          "name_index": 93,
+          "type": 3,
+          "flags": 0,
+          "address": 0,
+          "offset": 67416,
+          "size": 111,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        },
+        {
+          "index": 14,
+          "name_index": 103,
+          "type": 3,
+          "flags": 0,
+          "address": 0,
+          "offset": 67527,
+          "size": 754,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        }
+      ],
+      "dynamic_entries": [
+        {
+          "tag": 1,
+          "value": 229
+        },
+        {
+          "tag": 1,
+          "value": 244
+        },
+        {
+          "tag": 1,
+          "value": 264
+        },
+        {
+          "tag": 1,
+          "value": 289
+        },
+        {
+          "tag": 1,
+          "value": 312
+        },
+        {
+          "tag": 1879048187,
+          "value": 134217728
+        },
+        {
+          "tag": 21,
+          "value": 0
+        },
+        {
+          "tag": 7,
+          "value": 29416
+        },
+        {
+          "tag": 8,
+          "value": 480
+        },
+        {
+          "tag": 9,
+          "value": 24
+        },
+        {
+          "tag": 1879048185,
+          "value": 1
+        },
+        {
+          "tag": 6,
+          "value": 28576
+        },
+        {
+          "tag": 11,
+          "value": 24
+        },
+        {
+          "tag": 5,
+          "value": 29084
+        },
+        {
+          "tag": 10,
+          "value": 327
+        },
+        {
+          "tag": 1879047925,
+          "value": 29056
+        },
+        {
+          "tag": 32,
+          "value": 0
+        },
+        {
+          "tag": 33,
+          "value": 0
+        },
+        {
+          "tag": 25,
+          "value": 0
+        },
+        {
+          "tag": 27,
+          "value": 0
+        },
+        {
+          "tag": 26,
+          "value": 0
+        },
+        {
+          "tag": 28,
+          "value": 0
+        },
+        {
+          "tag": 0,
+          "value": 0
+        }
+      ],
+      "dynamic_layout": "ordinary PT_LOAD VA",
+      "libraries": [
+        "libkernel.sprx",
+        "libSceVideoOut.sprx",
+        "libSceSystemService.sprx",
+        "libSceUserService.sprx",
+        "libScePad.sprx"
+      ],
+      "dynamic_symbol_count": 20,
+      "relocation_count": 20,
+      "relocation_formats": {
+        "RELA": 20
+      },
+      "relocation_types": {
+        "8": 1,
+        "6": 19
+      },
+      "expected_prospero_eligible": false,
+      "warnings": [],
+      "status": "PASS",
+      "scope": "Bounded metadata preflight only; does not apply relocations, validate runtime behavior or decode protected firmware.",
+      "input_stat_preserved": true
+    },
+    "preflight_error": ""
+  },
+  {
+    "id": "freebsd-object",
+    "file": "freebsd-control.o",
+    "path": "AUDIT_WORKSPACE/work/phase21/freebsd-control.o",
+    "kind": "compiler control",
+    "source": "Phase21/freebsd-control.c",
+    "revision": "Phase21 recorded clang build",
+    "licence": "MIT",
+    "sha256": "dbd0fd0a8653ac727c986c1ae3bf09e3ae1a95e3f0bb26bee232440459024716",
+    "size": 792,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 0,
+      "elf_type": 1,
+      "phnum": 0,
+      "shnum": 7
+    },
+    "preflight": {
+      "size": 792,
+      "sha256": "dbd0fd0a8653ac727c986c1ae3bf09e3ae1a95e3f0bb26bee232440459024716",
+      "architecture": "x86-64",
+      "osabi": 9,
+      "abi": 0,
+      "elf_type": 1,
+      "entry": 0,
+      "program_headers": [],
+      "section_headers": [
+        {
+          "index": 0,
+          "name_index": 0,
+          "type": 0,
+          "flags": 0,
+          "address": 0,
+          "offset": 0,
+          "size": 0,
+          "link": 0,
+          "info": 0,
+          "align": 0,
+          "entry_size": 0
+        },
+        {
+          "index": 1,
+          "name_index": 78,
+          "type": 3,
+          "flags": 0,
+          "address": 0,
+          "offset": 249,
+          "size": 94,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        },
+        {
+          "index": 2,
+          "name_index": 1,
+          "type": 1,
+          "flags": 6,
+          "address": 0,
+          "offset": 64,
+          "size": 48,
+          "link": 0,
+          "info": 0,
+          "align": 16,
+          "entry_size": 0
+        },
+        {
+          "index": 3,
+          "name_index": 14,
+          "type": 1,
+          "flags": 48,
+          "address": 0,
+          "offset": 112,
+          "size": 34,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 1
+        },
+        {
+          "index": 4,
+          "name_index": 23,
+          "type": 1,
+          "flags": 0,
+          "address": 0,
+          "offset": 146,
+          "size": 0,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        },
+        {
+          "index": 5,
+          "name_index": 39,
+          "type": 1879002115,
+          "flags": 2147483648,
+          "address": 0,
+          "offset": 248,
+          "size": 1,
+          "link": 6,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        },
+        {
+          "index": 6,
+          "name_index": 86,
+          "type": 2,
+          "flags": 0,
+          "address": 0,
+          "offset": 152,
+          "size": 96,
+          "link": 1,
+          "info": 3,
+          "align": 8,
+          "entry_size": 24
+        }
+      ],
+      "dynamic_entries": [],
+      "dynamic_layout": "none",
+      "libraries": [],
+      "dynamic_symbol_count": 0,
+      "relocation_count": 0,
+      "relocation_formats": {},
+      "relocation_types": {},
+      "expected_prospero_eligible": false,
+      "warnings": [],
+      "status": "PASS",
+      "scope": "Bounded metadata preflight only; does not apply relocations, validate runtime behavior or decode protected firmware.",
+      "input_stat_preserved": true
+    },
+    "preflight_error": ""
+  },
+  {
+    "id": "sysv-control",
+    "file": "freebsd-control.elf",
+    "path": "AUDIT_WORKSPACE/work/phase21/freebsd-control.elf",
+    "kind": "compiler control",
+    "source": "Phase21/freebsd-control.c",
+    "revision": "Phase21 recorded GNU ld build",
+    "licence": "MIT",
+    "sha256": "ab5f0c08700cb8d4c83d9f5383c0a6fb59723453a6ddeb0acbf8916a9d1f97fb",
+    "size": 4832,
+    "raw_header_unvalidated": {
+      "osabi": 0,
+      "abi": 0,
+      "elf_type": 2,
+      "phnum": 3,
+      "shnum": 6
+    },
+    "preflight": {
+      "size": 4832,
+      "sha256": "ab5f0c08700cb8d4c83d9f5383c0a6fb59723453a6ddeb0acbf8916a9d1f97fb",
+      "architecture": "x86-64",
+      "osabi": 0,
+      "abi": 0,
+      "elf_type": 2,
+      "entry": 4198400,
+      "program_headers": [
+        {
+          "type": 1,
+          "flags": 4,
+          "offset": 0,
+          "vaddr": 4194304,
+          "filesz": 232,
+          "memsz": 232,
+          "align": 4096
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 4096,
+          "vaddr": 4198400,
+          "filesz": 48,
+          "memsz": 48,
+          "align": 4096
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "vaddr": 0,
+          "filesz": 0,
+          "memsz": 0,
+          "align": 16
+        }
+      ],
+      "section_headers": [
+        {
+          "index": 0,
+          "name_index": 0,
+          "type": 0,
+          "flags": 0,
+          "address": 0,
+          "offset": 0,
+          "size": 0,
+          "link": 0,
+          "info": 0,
+          "align": 0,
+          "entry_size": 0
+        },
+        {
+          "index": 1,
+          "name_index": 27,
+          "type": 1,
+          "flags": 6,
+          "address": 4198400,
+          "offset": 4096,
+          "size": 48,
+          "link": 0,
+          "info": 0,
+          "align": 16,
+          "entry_size": 0
+        },
+        {
+          "index": 2,
+          "name_index": 33,
+          "type": 1,
+          "flags": 48,
+          "address": 0,
+          "offset": 4144,
+          "size": 33,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 1
+        },
+        {
+          "index": 3,
+          "name_index": 1,
+          "type": 2,
+          "flags": 0,
+          "address": 0,
+          "offset": 4184,
+          "size": 168,
+          "link": 4,
+          "info": 3,
+          "align": 8,
+          "entry_size": 24
+        },
+        {
+          "index": 4,
+          "name_index": 9,
+          "type": 3,
+          "flags": 0,
+          "address": 0,
+          "offset": 4352,
+          "size": 50,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        },
+        {
+          "index": 5,
+          "name_index": 17,
+          "type": 3,
+          "flags": 0,
+          "address": 0,
+          "offset": 4402,
+          "size": 42,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        }
+      ],
+      "dynamic_entries": [],
+      "dynamic_layout": "none",
+      "libraries": [],
+      "dynamic_symbol_count": 0,
+      "relocation_count": 0,
+      "relocation_formats": {},
+      "relocation_types": {},
+      "expected_prospero_eligible": false,
+      "warnings": [],
+      "status": "PASS",
+      "scope": "Bounded metadata preflight only; does not apply relocations, validate runtime behavior or decode protected firmware.",
+      "input_stat_preserved": true
+    },
+    "preflight_error": ""
+  },
+  {
+    "id": "linux-control",
+    "file": "hello-linux.elf",
+    "path": "~/PS5-Research/14.22/test-binaries/hello-linux.elf",
+    "kind": "compiler control",
+    "source": "Existing original hello.c",
+    "revision": "Previous local static-analysis control",
+    "licence": "Original project control",
+    "sha256": "aaf64eb3635bb13399417f099e2766e9623cc5365835d4669c9f6efe15df4af1",
+    "size": 17312,
+    "raw_header_unvalidated": {
+      "osabi": 0,
+      "abi": 0,
+      "elf_type": 3,
+      "phnum": 14,
+      "shnum": 37
+    },
+    "preflight": {
+      "size": 17312,
+      "sha256": "aaf64eb3635bb13399417f099e2766e9623cc5365835d4669c9f6efe15df4af1",
+      "architecture": "x86-64",
+      "osabi": 0,
+      "abi": 0,
+      "elf_type": 3,
+      "entry": 4176,
+      "program_headers": [
+        {
+          "type": 6,
+          "flags": 4,
+          "offset": 64,
+          "vaddr": 64,
+          "filesz": 784,
+          "memsz": 784,
+          "align": 8
+        },
+        {
+          "type": 3,
+          "flags": 4,
+          "offset": 884,
+          "vaddr": 884,
+          "filesz": 28,
+          "memsz": 28,
+          "align": 1
+        },
+        {
+          "type": 1,
+          "flags": 4,
+          "offset": 0,
+          "vaddr": 0,
+          "filesz": 1544,
+          "memsz": 1544,
+          "align": 4096
+        },
+        {
+          "type": 1,
+          "flags": 5,
+          "offset": 4096,
+          "vaddr": 4096,
+          "filesz": 409,
+          "memsz": 409,
+          "align": 4096
+        },
+        {
+          "type": 1,
+          "flags": 4,
+          "offset": 8192,
+          "vaddr": 8192,
+          "filesz": 344,
+          "memsz": 344,
+          "align": 4096
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 11728,
+          "vaddr": 15824,
+          "filesz": 584,
+          "memsz": 592,
+          "align": 4096
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 11744,
+          "vaddr": 15840,
+          "filesz": 480,
+          "memsz": 480,
+          "align": 8
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 848,
+          "vaddr": 848,
+          "filesz": 36,
+          "memsz": 36,
+          "align": 4
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 8472,
+          "vaddr": 8472,
+          "filesz": 32,
+          "memsz": 32,
+          "align": 8
+        },
+        {
+          "type": 4,
+          "flags": 4,
+          "offset": 8504,
+          "vaddr": 8504,
+          "filesz": 32,
+          "memsz": 32,
+          "align": 4
+        },
+        {
+          "type": 1685382483,
+          "flags": 4,
+          "offset": 8472,
+          "vaddr": 8472,
+          "filesz": 32,
+          "memsz": 32,
+          "align": 8
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 8208,
+          "vaddr": 8208,
+          "filesz": 52,
+          "memsz": 52,
+          "align": 4
+        },
+        {
+          "type": 1685382481,
+          "flags": 6,
+          "offset": 0,
+          "vaddr": 0,
+          "filesz": 0,
+          "memsz": 0,
+          "align": 16
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 11728,
+          "vaddr": 15824,
+          "filesz": 560,
+          "memsz": 560,
+          "align": 1
+        }
+      ],
+      "section_headers": [
+        {
+          "index": 0,
+          "name_index": 0,
+          "type": 0,
+          "flags": 0,
+          "address": 0,
+          "offset": 0,
+          "size": 0,
+          "link": 0,
+          "info": 0,
+          "align": 0,
+          "entry_size": 0
+        },
+        {
+          "index": 1,
+          "name_index": 27,
+          "type": 7,
+          "flags": 2,
+          "address": 848,
+          "offset": 848,
+          "size": 36,
+          "link": 0,
+          "info": 0,
+          "align": 4,
+          "entry_size": 0
+        },
+        {
+          "index": 2,
+          "name_index": 46,
+          "type": 1,
+          "flags": 2,
+          "address": 884,
+          "offset": 884,
+          "size": 28,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        },
+        {
+          "index": 3,
+          "name_index": 54,
+          "type": 1879048182,
+          "flags": 2,
+          "address": 912,
+          "offset": 912,
+          "size": 36,
+          "link": 4,
+          "info": 0,
+          "align": 8,
+          "entry_size": 0
+        },
+        {
+          "index": 4,
+          "name_index": 64,
+          "type": 11,
+          "flags": 2,
+          "address": 952,
+          "offset": 952,
+          "size": 168,
+          "link": 5,
+          "info": 1,
+          "align": 8,
+          "entry_size": 24
+        },
+        {
+          "index": 5,
+          "name_index": 72,
+          "type": 3,
+          "flags": 2,
+          "address": 1120,
+          "offset": 1120,
+          "size": 143,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        },
+        {
+          "index": 6,
+          "name_index": 80,
+          "type": 1879048191,
+          "flags": 2,
+          "address": 1264,
+          "offset": 1264,
+          "size": 14,
+          "link": 4,
+          "info": 0,
+          "align": 2,
+          "entry_size": 2
+        },
+        {
+          "index": 7,
+          "name_index": 93,
+          "type": 1879048190,
+          "flags": 2,
+          "address": 1280,
+          "offset": 1280,
+          "size": 48,
+          "link": 5,
+          "info": 1,
+          "align": 8,
+          "entry_size": 0
+        },
+        {
+          "index": 8,
+          "name_index": 108,
+          "type": 4,
+          "flags": 2,
+          "address": 1328,
+          "offset": 1328,
+          "size": 192,
+          "link": 4,
+          "info": 0,
+          "align": 8,
+          "entry_size": 24
+        },
+        {
+          "index": 9,
+          "name_index": 118,
+          "type": 4,
+          "flags": 66,
+          "address": 1520,
+          "offset": 1520,
+          "size": 24,
+          "link": 4,
+          "info": 24,
+          "align": 8,
+          "entry_size": 24
+        },
+        {
+          "index": 10,
+          "name_index": 128,
+          "type": 1,
+          "flags": 6,
+          "address": 4096,
+          "offset": 4096,
+          "size": 23,
+          "link": 0,
+          "info": 0,
+          "align": 4,
+          "entry_size": 0
+        },
+        {
+          "index": 11,
+          "name_index": 123,
+          "type": 1,
+          "flags": 6,
+          "address": 4128,
+          "offset": 4128,
+          "size": 32,
+          "link": 0,
+          "info": 0,
+          "align": 16,
+          "entry_size": 16
+        },
+        {
+          "index": 12,
+          "name_index": 134,
+          "type": 1,
+          "flags": 6,
+          "address": 4160,
+          "offset": 4160,
+          "size": 8,
+          "link": 0,
+          "info": 0,
+          "align": 8,
+          "entry_size": 8
+        },
+        {
+          "index": 13,
+          "name_index": 143,
+          "type": 1,
+          "flags": 6,
+          "address": 4176,
+          "offset": 4176,
+          "size": 317,
+          "link": 0,
+          "info": 0,
+          "align": 16,
+          "entry_size": 0
+        },
+        {
+          "index": 14,
+          "name_index": 149,
+          "type": 1,
+          "flags": 6,
+          "address": 4496,
+          "offset": 4496,
+          "size": 9,
+          "link": 0,
+          "info": 0,
+          "align": 4,
+          "entry_size": 0
+        },
+        {
+          "index": 15,
+          "name_index": 155,
+          "type": 1,
+          "flags": 2,
+          "address": 8192,
+          "offset": 8192,
+          "size": 16,
+          "link": 0,
+          "info": 0,
+          "align": 4,
+          "entry_size": 0
+        },
+        {
+          "index": 16,
+          "name_index": 163,
+          "type": 1,
+          "flags": 2,
+          "address": 8208,
+          "offset": 8208,
+          "size": 52,
+          "link": 0,
+          "info": 0,
+          "align": 4,
+          "entry_size": 0
+        },
+        {
+          "index": 17,
+          "name_index": 177,
+          "type": 1,
+          "flags": 2,
+          "address": 8264,
+          "offset": 8264,
+          "size": 204,
+          "link": 0,
+          "info": 0,
+          "align": 8,
+          "entry_size": 0
+        },
+        {
+          "index": 18,
+          "name_index": 187,
+          "type": 7,
+          "flags": 2,
+          "address": 8472,
+          "offset": 8472,
+          "size": 32,
+          "link": 0,
+          "info": 0,
+          "align": 8,
+          "entry_size": 0
+        },
+        {
+          "index": 19,
+          "name_index": 206,
+          "type": 7,
+          "flags": 2,
+          "address": 8504,
+          "offset": 8504,
+          "size": 32,
+          "link": 0,
+          "info": 0,
+          "align": 4,
+          "entry_size": 0
+        },
+        {
+          "index": 20,
+          "name_index": 220,
+          "type": 14,
+          "flags": 3,
+          "address": 15824,
+          "offset": 11728,
+          "size": 8,
+          "link": 0,
+          "info": 0,
+          "align": 8,
+          "entry_size": 8
+        },
+        {
+          "index": 21,
+          "name_index": 232,
+          "type": 15,
+          "flags": 3,
+          "address": 15832,
+          "offset": 11736,
+          "size": 8,
+          "link": 0,
+          "info": 0,
+          "align": 8,
+          "entry_size": 8
+        },
+        {
+          "index": 22,
+          "name_index": 244,
+          "type": 6,
+          "flags": 3,
+          "address": 15840,
+          "offset": 11744,
+          "size": 480,
+          "link": 5,
+          "info": 0,
+          "align": 8,
+          "entry_size": 16
+        },
+        {
+          "index": 23,
+          "name_index": 138,
+          "type": 1,
+          "flags": 3,
+          "address": 16320,
+          "offset": 12224,
+          "size": 40,
+          "link": 0,
+          "info": 0,
+          "align": 8,
+          "entry_size": 8
+        },
+        {
+          "index": 24,
+          "name_index": 253,
+          "type": 1,
+          "flags": 3,
+          "address": 16360,
+          "offset": 12264,
+          "size": 32,
+          "link": 0,
+          "info": 0,
+          "align": 8,
+          "entry_size": 8
+        },
+        {
+          "index": 25,
+          "name_index": 262,
+          "type": 1,
+          "flags": 3,
+          "address": 16392,
+          "offset": 12296,
+          "size": 16,
+          "link": 0,
+          "info": 0,
+          "align": 8,
+          "entry_size": 0
+        },
+        {
+          "index": 26,
+          "name_index": 268,
+          "type": 8,
+          "flags": 3,
+          "address": 16408,
+          "offset": 12312,
+          "size": 8,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        },
+        {
+          "index": 27,
+          "name_index": 273,
+          "type": 1,
+          "flags": 48,
+          "address": 0,
+          "offset": 12312,
+          "size": 30,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 1
+        },
+        {
+          "index": 28,
+          "name_index": 282,
+          "type": 1,
+          "flags": 0,
+          "address": 0,
+          "offset": 12342,
+          "size": 48,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        },
+        {
+          "index": 29,
+          "name_index": 297,
+          "type": 1,
+          "flags": 0,
+          "address": 0,
+          "offset": 12390,
+          "size": 253,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        },
+        {
+          "index": 30,
+          "name_index": 309,
+          "type": 1,
+          "flags": 0,
+          "address": 0,
+          "offset": 12643,
+          "size": 191,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        },
+        {
+          "index": 31,
+          "name_index": 323,
+          "type": 1,
+          "flags": 0,
+          "address": 0,
+          "offset": 12834,
+          "size": 108,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        },
+        {
+          "index": 32,
+          "name_index": 335,
+          "type": 1,
+          "flags": 48,
+          "address": 0,
+          "offset": 12942,
+          "size": 179,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 1
+        },
+        {
+          "index": 33,
+          "name_index": 346,
+          "type": 1,
+          "flags": 48,
+          "address": 0,
+          "offset": 13121,
+          "size": 73,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 1
+        },
+        {
+          "index": 34,
+          "name_index": 1,
+          "type": 2,
+          "flags": 0,
+          "address": 0,
+          "offset": 13200,
+          "size": 888,
+          "link": 35,
+          "info": 18,
+          "align": 8,
+          "entry_size": 24
+        },
+        {
+          "index": 35,
+          "name_index": 9,
+          "type": 3,
+          "flags": 0,
+          "address": 0,
+          "offset": 14088,
+          "size": 487,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        },
+        {
+          "index": 36,
+          "name_index": 17,
+          "type": 3,
+          "flags": 0,
+          "address": 0,
+          "offset": 14575,
+          "size": 362,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        }
+      ],
+      "dynamic_entries": [
+        {
+          "tag": 1,
+          "value": 41
+        },
+        {
+          "tag": 12,
+          "value": 4096
+        },
+        {
+          "tag": 13,
+          "value": 4496
+        },
+        {
+          "tag": 25,
+          "value": 15824
+        },
+        {
+          "tag": 27,
+          "value": 8
+        },
+        {
+          "tag": 26,
+          "value": 15832
+        },
+        {
+          "tag": 28,
+          "value": 8
+        },
+        {
+          "tag": 1879047925,
+          "value": 912
+        },
+        {
+          "tag": 5,
+          "value": 1120
+        },
+        {
+          "tag": 6,
+          "value": 952
+        },
+        {
+          "tag": 10,
+          "value": 143
+        },
+        {
+          "tag": 11,
+          "value": 24
+        },
+        {
+          "tag": 21,
+          "value": 0
+        },
+        {
+          "tag": 3,
+          "value": 16360
+        },
+        {
+          "tag": 2,
+          "value": 24
+        },
+        {
+          "tag": 20,
+          "value": 7
+        },
+        {
+          "tag": 23,
+          "value": 1520
+        },
+        {
+          "tag": 7,
+          "value": 1328
+        },
+        {
+          "tag": 8,
+          "value": 192
+        },
+        {
+          "tag": 9,
+          "value": 24
+        },
+        {
+          "tag": 1879048187,
+          "value": 134217728
+        },
+        {
+          "tag": 1879048190,
+          "value": 1280
+        },
+        {
+          "tag": 1879048191,
+          "value": 1
+        },
+        {
+          "tag": 1879048176,
+          "value": 1264
+        },
+        {
+          "tag": 1879048185,
+          "value": 3
+        },
+        {
+          "tag": 0,
+          "value": 0
+        }
+      ],
+      "dynamic_layout": "ordinary PT_LOAD VA",
+      "libraries": [
+        "libc.so.6"
+      ],
+      "dynamic_symbol_count": 7,
+      "relocation_count": 9,
+      "relocation_formats": {
+        "RELA": 9
+      },
+      "relocation_types": {
+        "8": 3,
+        "6": 5,
+        "7": 1
+      },
+      "expected_prospero_eligible": false,
+      "warnings": [],
+      "status": "PASS",
+      "scope": "Bounded metadata preflight only; does not apply relocations, validate runtime behavior or decode protected firmware.",
+      "input_stat_preserved": true
+    },
+    "preflight_error": ""
+  },
+  {
+    "id": "sdk-minimal",
+    "file": "sdk-minimal.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/sdk-samples/sdk-minimal.elf",
+    "kind": "SDK-generated",
+    "source": "https://github.com/Rufidj/ps5link-sdk",
+    "revision": "ea771e535378740b6a058b8e5419eb8a0e0e0ec8",
+    "licence": "GPL-3.0 linker/CRT; original C MIT",
+    "sha256": "234071c6731e9df08fd21a596d1545c411ba788a27a51819389f829be1472593",
+    "size": 82648,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "phnum": 14,
+      "shnum": 10
+    },
+    "preflight": {
+      "size": 82648,
+      "sha256": "234071c6731e9df08fd21a596d1545c411ba788a27a51819389f829be1472593",
+      "architecture": "x86-64",
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "entry": 0,
+      "program_headers": [
+        {
+          "type": 1,
+          "flags": 1,
+          "offset": 16384,
+          "vaddr": 0,
+          "filesz": 160,
+          "memsz": 160,
+          "align": 16384
+        },
+        {
+          "type": 1,
+          "flags": 4,
+          "offset": 32768,
+          "vaddr": 16384,
+          "filesz": 8,
+          "memsz": 8,
+          "align": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 49152,
+          "vaddr": 32768,
+          "filesz": 48,
+          "memsz": 48,
+          "align": 16384
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 49152,
+          "vaddr": 32768,
+          "filesz": 48,
+          "memsz": 16384,
+          "align": 1
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 81920,
+          "vaddr": 49152,
+          "filesz": 728,
+          "memsz": 728,
+          "align": 16384
+        },
+        {
+          "type": 1627389953,
+          "flags": 4,
+          "offset": 81928,
+          "vaddr": 49160,
+          "filesz": 96,
+          "memsz": 96,
+          "align": 8
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 66152,
+          "vaddr": 66152,
+          "filesz": 512,
+          "memsz": 512,
+          "align": 8
+        },
+        {
+          "type": 7,
+          "flags": 4,
+          "offset": 0,
+          "vaddr": 32768,
+          "filesz": 0,
+          "memsz": 0,
+          "align": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 49400,
+          "vaddr": 0,
+          "filesz": 4,
+          "memsz": 4,
+          "align": 4
+        },
+        {
+          "type": 1,
+          "flags": 0,
+          "offset": 65536,
+          "vaddr": 65536,
+          "filesz": 1128,
+          "memsz": 1128,
+          "align": 16384
+        },
+        {
+          "type": 1879047936,
+          "flags": 0,
+          "offset": 49200,
+          "vaddr": 0,
+          "filesz": 120,
+          "memsz": 0,
+          "align": 16
+        },
+        {
+          "type": 1879047937,
+          "flags": 0,
+          "offset": 49320,
+          "vaddr": 0,
+          "filesz": 56,
+          "memsz": 56,
+          "align": 1
+        },
+        {
+          "type": 4,
+          "flags": 0,
+          "offset": 66112,
+          "vaddr": 66112,
+          "filesz": 36,
+          "memsz": 36,
+          "align": 4
+        },
+        {
+          "type": 4,
+          "flags": 0,
+          "offset": 49376,
+          "vaddr": 0,
+          "filesz": 24,
+          "memsz": 0,
+          "align": 4
+        }
+      ],
+      "section_headers": [
+        {
+          "index": 0,
+          "name_index": 0,
+          "type": 0,
+          "flags": 0,
+          "address": 0,
+          "offset": 0,
+          "size": 0,
+          "link": 0,
+          "info": 0,
+          "align": 0,
+          "entry_size": 0
+        },
+        {
+          "index": 1,
+          "name_index": 1,
+          "type": 1,
+          "flags": 6,
+          "address": 0,
+          "offset": 16384,
+          "size": 160,
+          "link": 0,
+          "info": 0,
+          "align": 16,
+          "entry_size": 0
+        },
+        {
+          "index": 2,
+          "name_index": 7,
+          "type": 1,
+          "flags": 2,
+          "address": 16384,
+          "offset": 32768,
+          "size": 8,
+          "link": 0,
+          "info": 0,
+          "align": 8,
+          "entry_size": 0
+        },
+        {
+          "index": 3,
+          "name_index": 15,
+          "type": 11,
+          "flags": 2,
+          "address": 65712,
+          "offset": 65712,
+          "size": 96,
+          "link": 4,
+          "info": 1,
+          "align": 8,
+          "entry_size": 24
+        },
+        {
+          "index": 4,
+          "name_index": 23,
+          "type": 3,
+          "flags": 2,
+          "address": 65536,
+          "offset": 65536,
+          "size": 176,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        },
+        {
+          "index": 5,
+          "name_index": 31,
+          "type": 5,
+          "flags": 2,
+          "address": 66072,
+          "offset": 66072,
+          "size": 40,
+          "link": 3,
+          "info": 0,
+          "align": 8,
+          "entry_size": 4
+        },
+        {
+          "index": 6,
+          "name_index": 37,
+          "type": 6,
+          "flags": 3,
+          "address": 66152,
+          "offset": 66152,
+          "size": 512,
+          "link": 4,
+          "info": 0,
+          "align": 8,
+          "entry_size": 16
+        },
+        {
+          "index": 7,
+          "name_index": 46,
+          "type": 1,
+          "flags": 3,
+          "address": 49152,
+          "offset": 81920,
+          "size": 728,
+          "link": 0,
+          "info": 0,
+          "align": 8,
+          "entry_size": 0
+        },
+        {
+          "index": 8,
+          "name_index": 52,
+          "type": 1,
+          "flags": 3,
+          "address": 49160,
+          "offset": 81928,
+          "size": 96,
+          "link": 0,
+          "info": 0,
+          "align": 8,
+          "entry_size": 0
+        },
+        {
+          "index": 9,
+          "name_index": 71,
+          "type": 3,
+          "flags": 0,
+          "address": 0,
+          "offset": 49408,
+          "size": 81,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        }
+      ],
+      "dynamic_entries": [
+        {
+          "tag": 1,
+          "value": 49
+        },
+        {
+          "tag": 1627390021,
+          "value": 282578783305786
+        },
+        {
+          "tag": 1627390025,
+          "value": 4294967359
+        },
+        {
+          "tag": 1627389977,
+          "value": 9
+        },
+        {
+          "tag": 1627390019,
+          "value": 1103806595140
+        },
+        {
+          "tag": 1627389969,
+          "value": 0
+        },
+        {
+          "tag": 1627390017,
+          "value": 68
+        },
+        {
+          "tag": 21,
+          "value": 0
+        },
+        {
+          "tag": 7,
+          "value": 65880
+        },
+        {
+          "tag": 8,
+          "value": 192
+        },
+        {
+          "tag": 9,
+          "value": 24
+        },
+        {
+          "tag": 1879048185,
+          "value": 8
+        },
+        {
+          "tag": 23,
+          "value": 65808
+        },
+        {
+          "tag": 2,
+          "value": 72
+        },
+        {
+          "tag": 3,
+          "value": 32768
+        },
+        {
+          "tag": 20,
+          "value": 7
+        },
+        {
+          "tag": 6,
+          "value": 65712
+        },
+        {
+          "tag": 11,
+          "value": 24
+        },
+        {
+          "tag": 5,
+          "value": 65536
+        },
+        {
+          "tag": 10,
+          "value": 176
+        },
+        {
+          "tag": 4,
+          "value": 66072
+        },
+        {
+          "tag": 32,
+          "value": 0
+        },
+        {
+          "tag": 33,
+          "value": 0
+        },
+        {
+          "tag": 25,
+          "value": 0
+        },
+        {
+          "tag": 27,
+          "value": 0
+        },
+        {
+          "tag": 26,
+          "value": 0
+        },
+        {
+          "tag": 28,
+          "value": 0
+        },
+        {
+          "tag": 12,
+          "value": 72
+        },
+        {
+          "tag": 13,
+          "value": 73
+        },
+        {
+          "tag": 1627390015,
+          "value": 96
+        },
+        {
+          "tag": 1627390013,
+          "value": 40
+        },
+        {
+          "tag": 0,
+          "value": 0
+        }
+      ],
+      "dynamic_layout": "ordinary PT_LOAD VA",
+      "libraries": [
+        "libc.prx"
+      ],
+      "dynamic_symbol_count": 4,
+      "relocation_count": 11,
+      "relocation_formats": {
+        "RELA": 11
+      },
+      "relocation_types": {
+        "8": 8,
+        "7": 3
+      },
+      "expected_prospero_eligible": true,
+      "warnings": [],
+      "status": "PASS",
+      "scope": "Bounded metadata preflight only; does not apply relocations, validate runtime behavior or decode protected firmware.",
+      "input_stat_preserved": true
+    },
+    "preflight_error": ""
+  },
+  {
+    "id": "sdk-imports",
+    "file": "sdk-imports.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/sdk-samples/sdk-imports.elf",
+    "kind": "SDK-generated",
+    "source": "https://github.com/Rufidj/ps5link-sdk",
+    "revision": "ea771e535378740b6a058b8e5419eb8a0e0e0ec8",
+    "licence": "GPL-3.0 linker/CRT; original C MIT",
+    "sha256": "97df4ad56083e1de2422476a6ddaba1c320734110cd86de24bfad84c5d6ffb8c",
+    "size": 82648,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "phnum": 14,
+      "shnum": 10
+    },
+    "preflight": {
+      "size": 82648,
+      "sha256": "97df4ad56083e1de2422476a6ddaba1c320734110cd86de24bfad84c5d6ffb8c",
+      "architecture": "x86-64",
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "entry": 0,
+      "program_headers": [
+        {
+          "type": 1,
+          "flags": 1,
+          "offset": 16384,
+          "vaddr": 0,
+          "filesz": 208,
+          "memsz": 208,
+          "align": 16384
+        },
+        {
+          "type": 1,
+          "flags": 4,
+          "offset": 32768,
+          "vaddr": 16384,
+          "filesz": 27,
+          "memsz": 27,
+          "align": 16384
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 49152,
+          "vaddr": 32768,
+          "filesz": 64,
+          "memsz": 64,
+          "align": 16384
+        },
+        {
+          "type": 1685382482,
+          "flags": 4,
+          "offset": 49152,
+          "vaddr": 32768,
+          "filesz": 64,
+          "memsz": 16384,
+          "align": 1
+        },
+        {
+          "type": 1,
+          "flags": 6,
+          "offset": 81920,
+          "vaddr": 49152,
+          "filesz": 728,
+          "memsz": 732,
+          "align": 16384
+        },
+        {
+          "type": 1627389953,
+          "flags": 4,
+          "offset": 81928,
+          "vaddr": 49160,
+          "filesz": 96,
+          "memsz": 96,
+          "align": 8
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 66336,
+          "vaddr": 66336,
+          "filesz": 576,
+          "memsz": 576,
+          "align": 8
+        },
+        {
+          "type": 7,
+          "flags": 4,
+          "offset": 0,
+          "vaddr": 32768,
+          "filesz": 0,
+          "memsz": 0,
+          "align": 1
+        },
+        {
+          "type": 1685382480,
+          "flags": 4,
+          "offset": 49456,
+          "vaddr": 0,
+          "filesz": 4,
+          "memsz": 4,
+          "align": 4
+        },
+        {
+          "type": 1,
+          "flags": 0,
+          "offset": 65536,
+          "vaddr": 65536,
+          "filesz": 1376,
+          "memsz": 1376,
+          "align": 16384
+        },
+        {
+          "type": 1879047936,
+          "flags": 0,
+          "offset": 49216,
+          "vaddr": 0,
+          "filesz": 120,
+          "memsz": 0,
+          "align": 16
+        },
+        {
+          "type": 1879047937,
+          "flags": 0,
+          "offset": 49336,
+          "vaddr": 0,
+          "filesz": 91,
+          "memsz": 91,
+          "align": 1
+        },
+        {
+          "type": 4,
+          "flags": 0,
+          "offset": 66296,
+          "vaddr": 66296,
+          "filesz": 36,
+          "memsz": 36,
+          "align": 4
+        },
+        {
+          "type": 4,
+          "flags": 0,
+          "offset": 49432,
+          "vaddr": 0,
+          "filesz": 24,
+          "memsz": 0,
+          "align": 4
+        }
+      ],
+      "section_headers": [
+        {
+          "index": 0,
+          "name_index": 0,
+          "type": 0,
+          "flags": 0,
+          "address": 0,
+          "offset": 0,
+          "size": 0,
+          "link": 0,
+          "info": 0,
+          "align": 0,
+          "entry_size": 0
+        },
+        {
+          "index": 1,
+          "name_index": 1,
+          "type": 1,
+          "flags": 6,
+          "address": 0,
+          "offset": 16384,
+          "size": 208,
+          "link": 0,
+          "info": 0,
+          "align": 16,
+          "entry_size": 0
+        },
+        {
+          "index": 2,
+          "name_index": 7,
+          "type": 1,
+          "flags": 2,
+          "address": 16384,
+          "offset": 32768,
+          "size": 27,
+          "link": 0,
+          "info": 0,
+          "align": 8,
+          "entry_size": 0
+        },
+        {
+          "index": 3,
+          "name_index": 15,
+          "type": 11,
+          "flags": 2,
+          "address": 65784,
+          "offset": 65784,
+          "size": 144,
+          "link": 4,
+          "info": 1,
+          "align": 8,
+          "entry_size": 24
+        },
+        {
+          "index": 4,
+          "name_index": 23,
+          "type": 3,
+          "flags": 2,
+          "address": 65536,
+          "offset": 65536,
+          "size": 244,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        },
+        {
+          "index": 5,
+          "name_index": 31,
+          "type": 5,
+          "flags": 2,
+          "address": 66240,
+          "offset": 66240,
+          "size": 56,
+          "link": 3,
+          "info": 0,
+          "align": 8,
+          "entry_size": 4
+        },
+        {
+          "index": 6,
+          "name_index": 37,
+          "type": 6,
+          "flags": 3,
+          "address": 66336,
+          "offset": 66336,
+          "size": 576,
+          "link": 4,
+          "info": 0,
+          "align": 8,
+          "entry_size": 16
+        },
+        {
+          "index": 7,
+          "name_index": 46,
+          "type": 1,
+          "flags": 3,
+          "address": 49152,
+          "offset": 81920,
+          "size": 728,
+          "link": 0,
+          "info": 0,
+          "align": 8,
+          "entry_size": 0
+        },
+        {
+          "index": 8,
+          "name_index": 52,
+          "type": 1,
+          "flags": 3,
+          "address": 49160,
+          "offset": 81928,
+          "size": 96,
+          "link": 0,
+          "info": 0,
+          "align": 8,
+          "entry_size": 0
+        },
+        {
+          "index": 9,
+          "name_index": 71,
+          "type": 3,
+          "flags": 0,
+          "address": 0,
+          "offset": 49464,
+          "size": 81,
+          "link": 0,
+          "info": 0,
+          "align": 1,
+          "entry_size": 0
+        }
+      ],
+      "dynamic_entries": [
+        {
+          "tag": 1,
+          "value": 81
+        },
+        {
+          "tag": 1627390021,
+          "value": 282578783305818
+        },
+        {
+          "tag": 1627390025,
+          "value": 4294967391
+        },
+        {
+          "tag": 1627389977,
+          "value": 9
+        },
+        {
+          "tag": 1,
+          "value": 100
+        },
+        {
+          "tag": 1627390021,
+          "value": 564053760016498
+        },
+        {
+          "tag": 1627390025,
+          "value": 281479271678076
+        },
+        {
+          "tag": 1627389977,
+          "value": 281474976710665
+        },
+        {
+          "tag": 1627390019,
+          "value": 1103806595208
+        },
+        {
+          "tag": 1627389969,
+          "value": 0
+        },
+        {
+          "tag": 1627390017,
+          "value": 136
+        },
+        {
+          "tag": 21,
+          "value": 0
+        },
+        {
+          "tag": 7,
+          "value": 66048
+        },
+        {
+          "tag": 8,
+          "value": 192
+        },
+        {
+          "tag": 9,
+          "value": 24
+        },
+        {
+          "tag": 1879048185,
+          "value": 8
+        },
+        {
+          "tag": 23,
+          "value": 65928
+        },
+        {
+          "tag": 2,
+          "value": 120
+        },
+        {
+          "tag": 3,
+          "value": 32768
+        },
+        {
+          "tag": 20,
+          "value": 7
+        },
+        {
+          "tag": 6,
+          "value": 65784
+        },
+        {
+          "tag": 11,
+          "value": 24
+        },
+        {
+          "tag": 5,
+          "value": 65536
+        },
+        {
+          "tag": 10,
+          "value": 244
+        },
+        {
+          "tag": 4,
+          "value": 66240
+        },
+        {
+          "tag": 32,
+          "value": 0
+        },
+        {
+          "tag": 33,
+          "value": 0
+        },
+        {
+          "tag": 25,
+          "value": 0
+        },
+        {
+          "tag": 27,
+          "value": 0
+        },
+        {
+          "tag": 26,
+          "value": 0
+        },
+        {
+          "tag": 28,
+          "value": 0
+        },
+        {
+          "tag": 12,
+          "value": 72
+        },
+        {
+          "tag": 13,
+          "value": 73
+        },
+        {
+          "tag": 1627390015,
+          "value": 144
+        },
+        {
+          "tag": 1627390013,
+          "value": 56
+        },
+        {
+          "tag": 0,
+          "value": 0
+        }
+      ],
+      "dynamic_layout": "ordinary PT_LOAD VA",
+      "libraries": [
+        "libc.prx",
+        "libkernel.prx"
+      ],
+      "dynamic_symbol_count": 6,
+      "relocation_count": 13,
+      "relocation_formats": {
+        "RELA": 13
+      },
+      "relocation_types": {
+        "8": 8,
+        "7": 5
+      },
+      "expected_prospero_eligible": true,
+      "warnings": [],
+      "status": "PASS",
+      "scope": "Bounded metadata preflight only; does not apply relocations, validate runtime behavior or decode protected firmware.",
+      "input_stat_preserved": true
+    },
+    "preflight_error": ""
+  },
+  {
+    "id": "SYN-01",
+    "file": "valid-standard.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/valid-standard.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "921911941adc3609717288fef696cef530064e6ae5e72680f0cbeb83c8dc5dfb",
+    "size": 2048,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "phnum": 2,
+      "shnum": 0
+    },
+    "preflight": {
+      "size": 2048,
+      "sha256": "921911941adc3609717288fef696cef530064e6ae5e72680f0cbeb83c8dc5dfb",
+      "architecture": "x86-64",
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "entry": 4195072,
+      "program_headers": [
+        {
+          "type": 1,
+          "flags": 7,
+          "offset": 0,
+          "vaddr": 4194304,
+          "filesz": 2048,
+          "memsz": 2048,
+          "align": 4096
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 512,
+          "vaddr": 4194816,
+          "filesz": 160,
+          "memsz": 160,
+          "align": 8
+        }
+      ],
+      "section_headers": [],
+      "dynamic_entries": [
+        {
+          "tag": 4,
+          "value": 4195200
+        },
+        {
+          "tag": 5,
+          "value": 4195584
+        },
+        {
+          "tag": 10,
+          "value": 20
+        },
+        {
+          "tag": 6,
+          "value": 4195328
+        },
+        {
+          "tag": 11,
+          "value": 24
+        },
+        {
+          "tag": 1,
+          "value": 1
+        },
+        {
+          "tag": 7,
+          "value": 4195840
+        },
+        {
+          "tag": 8,
+          "value": 24
+        },
+        {
+          "tag": 9,
+          "value": 24
+        },
+        {
+          "tag": 0,
+          "value": 0
+        }
+      ],
+      "dynamic_layout": "ordinary PT_LOAD VA",
+      "libraries": [
+        "libtest.prx"
+      ],
+      "dynamic_symbol_count": 2,
+      "relocation_count": 1,
+      "relocation_formats": {
+        "RELA": 1
+      },
+      "relocation_types": {
+        "6": 1
+      },
+      "expected_prospero_eligible": true,
+      "warnings": [],
+      "status": "PASS",
+      "scope": "Bounded metadata preflight only; does not apply relocations, validate runtime behavior or decode protected firmware.",
+      "input_stat_preserved": true
+    },
+    "preflight_error": ""
+  },
+  {
+    "id": "SYN-02",
+    "file": "valid-sce-relative.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/valid-sce-relative.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "01da16fbcd7defe72be2b67db61bcde6655b2a8048dd1a261df57fd2e26e0487",
+    "size": 2048,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "phnum": 3,
+      "shnum": 0
+    },
+    "preflight": {
+      "size": 2048,
+      "sha256": "01da16fbcd7defe72be2b67db61bcde6655b2a8048dd1a261df57fd2e26e0487",
+      "architecture": "x86-64",
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "entry": 4195072,
+      "program_headers": [
+        {
+          "type": 1,
+          "flags": 7,
+          "offset": 0,
+          "vaddr": 4194304,
+          "filesz": 2048,
+          "memsz": 2048,
+          "align": 4096
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 512,
+          "vaddr": 4194816,
+          "filesz": 176,
+          "memsz": 176,
+          "align": 8
+        },
+        {
+          "type": 1627389952,
+          "flags": 0,
+          "offset": 768,
+          "vaddr": 0,
+          "filesz": 1280,
+          "memsz": 1280,
+          "align": 8
+        }
+      ],
+      "section_headers": [],
+      "dynamic_entries": [
+        {
+          "tag": 1627389989,
+          "value": 128
+        },
+        {
+          "tag": 1627390005,
+          "value": 512
+        },
+        {
+          "tag": 1627390007,
+          "value": 20
+        },
+        {
+          "tag": 1627390009,
+          "value": 256
+        },
+        {
+          "tag": 1627390011,
+          "value": 24
+        },
+        {
+          "tag": 1,
+          "value": 1
+        },
+        {
+          "tag": 1627390015,
+          "value": 48
+        },
+        {
+          "tag": 1627389999,
+          "value": 768
+        },
+        {
+          "tag": 1627390001,
+          "value": 24
+        },
+        {
+          "tag": 1627390003,
+          "value": 24
+        },
+        {
+          "tag": 0,
+          "value": 0
+        }
+      ],
+      "dynamic_layout": "SCE relative segment",
+      "libraries": [
+        "libtest.prx"
+      ],
+      "dynamic_symbol_count": 2,
+      "relocation_count": 1,
+      "relocation_formats": {
+        "RELA": 1
+      },
+      "relocation_types": {
+        "6": 1
+      },
+      "expected_prospero_eligible": true,
+      "warnings": [],
+      "status": "PASS",
+      "scope": "Bounded metadata preflight only; does not apply relocations, validate runtime behavior or decode protected firmware.",
+      "input_stat_preserved": true
+    },
+    "preflight_error": ""
+  },
+  {
+    "id": "SYN-03",
+    "file": "valid-abi3-synthetic.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/valid-abi3-synthetic.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "dd34a48412b67d32d2c8087e801bcc21ff28fec511e616cb3e097a8adf35e4b6",
+    "size": 2048,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 3,
+      "elf_type": 65040,
+      "phnum": 2,
+      "shnum": 0
+    },
+    "preflight": {
+      "size": 2048,
+      "sha256": "dd34a48412b67d32d2c8087e801bcc21ff28fec511e616cb3e097a8adf35e4b6",
+      "architecture": "x86-64",
+      "osabi": 9,
+      "abi": 3,
+      "elf_type": 65040,
+      "entry": 4195072,
+      "program_headers": [
+        {
+          "type": 1,
+          "flags": 7,
+          "offset": 0,
+          "vaddr": 4194304,
+          "filesz": 2048,
+          "memsz": 2048,
+          "align": 4096
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 512,
+          "vaddr": 4194816,
+          "filesz": 160,
+          "memsz": 160,
+          "align": 8
+        }
+      ],
+      "section_headers": [],
+      "dynamic_entries": [
+        {
+          "tag": 4,
+          "value": 4195200
+        },
+        {
+          "tag": 5,
+          "value": 4195584
+        },
+        {
+          "tag": 10,
+          "value": 20
+        },
+        {
+          "tag": 6,
+          "value": 4195328
+        },
+        {
+          "tag": 11,
+          "value": 24
+        },
+        {
+          "tag": 1,
+          "value": 1
+        },
+        {
+          "tag": 7,
+          "value": 4195840
+        },
+        {
+          "tag": 8,
+          "value": 24
+        },
+        {
+          "tag": 9,
+          "value": 24
+        },
+        {
+          "tag": 0,
+          "value": 0
+        }
+      ],
+      "dynamic_layout": "ordinary PT_LOAD VA",
+      "libraries": [
+        "libtest.prx"
+      ],
+      "dynamic_symbol_count": 2,
+      "relocation_count": 1,
+      "relocation_formats": {
+        "RELA": 1
+      },
+      "relocation_types": {
+        "6": 1
+      },
+      "expected_prospero_eligible": true,
+      "warnings": [],
+      "status": "PASS",
+      "scope": "Bounded metadata preflight only; does not apply relocations, validate runtime behavior or decode protected firmware.",
+      "input_stat_preserved": true
+    },
+    "preflight_error": ""
+  },
+  {
+    "id": "SYN-04",
+    "file": "ordinary-etdyn.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/ordinary-etdyn.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "5df8ac1345f9e57d67aec99a5e8846add5b50d43f9f3f28605a2d4b545bb83c6",
+    "size": 2048,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 3,
+      "phnum": 2,
+      "shnum": 0
+    },
+    "preflight": {
+      "size": 2048,
+      "sha256": "5df8ac1345f9e57d67aec99a5e8846add5b50d43f9f3f28605a2d4b545bb83c6",
+      "architecture": "x86-64",
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 3,
+      "entry": 4195072,
+      "program_headers": [
+        {
+          "type": 1,
+          "flags": 7,
+          "offset": 0,
+          "vaddr": 4194304,
+          "filesz": 2048,
+          "memsz": 2048,
+          "align": 4096
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 512,
+          "vaddr": 4194816,
+          "filesz": 160,
+          "memsz": 160,
+          "align": 8
+        }
+      ],
+      "section_headers": [],
+      "dynamic_entries": [
+        {
+          "tag": 4,
+          "value": 4195200
+        },
+        {
+          "tag": 5,
+          "value": 4195584
+        },
+        {
+          "tag": 10,
+          "value": 20
+        },
+        {
+          "tag": 6,
+          "value": 4195328
+        },
+        {
+          "tag": 11,
+          "value": 24
+        },
+        {
+          "tag": 1,
+          "value": 1
+        },
+        {
+          "tag": 7,
+          "value": 4195840
+        },
+        {
+          "tag": 8,
+          "value": 24
+        },
+        {
+          "tag": 9,
+          "value": 24
+        },
+        {
+          "tag": 0,
+          "value": 0
+        }
+      ],
+      "dynamic_layout": "ordinary PT_LOAD VA",
+      "libraries": [
+        "libtest.prx"
+      ],
+      "dynamic_symbol_count": 2,
+      "relocation_count": 1,
+      "relocation_formats": {
+        "RELA": 1
+      },
+      "relocation_types": {
+        "6": 1
+      },
+      "expected_prospero_eligible": false,
+      "warnings": [],
+      "status": "PASS",
+      "scope": "Bounded metadata preflight only; does not apply relocations, validate runtime behavior or decode protected firmware.",
+      "input_stat_preserved": true
+    },
+    "preflight_error": ""
+  },
+  {
+    "id": "SYN-05",
+    "file": "unsupported-abi0.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/unsupported-abi0.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "f1a3a8bbaa9031e6641268971caa7ac15835d29d7672defa88f42b5d5301c779",
+    "size": 2048,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 0,
+      "elf_type": 65040,
+      "phnum": 2,
+      "shnum": 0
+    },
+    "preflight": {
+      "size": 2048,
+      "sha256": "f1a3a8bbaa9031e6641268971caa7ac15835d29d7672defa88f42b5d5301c779",
+      "architecture": "x86-64",
+      "osabi": 9,
+      "abi": 0,
+      "elf_type": 65040,
+      "entry": 4195072,
+      "program_headers": [
+        {
+          "type": 1,
+          "flags": 7,
+          "offset": 0,
+          "vaddr": 4194304,
+          "filesz": 2048,
+          "memsz": 2048,
+          "align": 4096
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 512,
+          "vaddr": 4194816,
+          "filesz": 160,
+          "memsz": 160,
+          "align": 8
+        }
+      ],
+      "section_headers": [],
+      "dynamic_entries": [
+        {
+          "tag": 4,
+          "value": 4195200
+        },
+        {
+          "tag": 5,
+          "value": 4195584
+        },
+        {
+          "tag": 10,
+          "value": 20
+        },
+        {
+          "tag": 6,
+          "value": 4195328
+        },
+        {
+          "tag": 11,
+          "value": 24
+        },
+        {
+          "tag": 1,
+          "value": 1
+        },
+        {
+          "tag": 7,
+          "value": 4195840
+        },
+        {
+          "tag": 8,
+          "value": 24
+        },
+        {
+          "tag": 9,
+          "value": 24
+        },
+        {
+          "tag": 0,
+          "value": 0
+        }
+      ],
+      "dynamic_layout": "ordinary PT_LOAD VA",
+      "libraries": [
+        "libtest.prx"
+      ],
+      "dynamic_symbol_count": 2,
+      "relocation_count": 1,
+      "relocation_formats": {
+        "RELA": 1
+      },
+      "relocation_types": {
+        "6": 1
+      },
+      "expected_prospero_eligible": false,
+      "warnings": [],
+      "status": "PASS",
+      "scope": "Bounded metadata preflight only; does not apply relocations, validate runtime behavior or decode protected firmware.",
+      "input_stat_preserved": true
+    },
+    "preflight_error": ""
+  },
+  {
+    "id": "SYN-06",
+    "file": "unsupported-abi4.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/unsupported-abi4.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "4763715c4a08348d0279ea1a91e7f6f65b992813a7ac2cc1988ce794fd8af611",
+    "size": 2048,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 4,
+      "elf_type": 65040,
+      "phnum": 2,
+      "shnum": 0
+    },
+    "preflight": {
+      "size": 2048,
+      "sha256": "4763715c4a08348d0279ea1a91e7f6f65b992813a7ac2cc1988ce794fd8af611",
+      "architecture": "x86-64",
+      "osabi": 9,
+      "abi": 4,
+      "elf_type": 65040,
+      "entry": 4195072,
+      "program_headers": [
+        {
+          "type": 1,
+          "flags": 7,
+          "offset": 0,
+          "vaddr": 4194304,
+          "filesz": 2048,
+          "memsz": 2048,
+          "align": 4096
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 512,
+          "vaddr": 4194816,
+          "filesz": 160,
+          "memsz": 160,
+          "align": 8
+        }
+      ],
+      "section_headers": [],
+      "dynamic_entries": [
+        {
+          "tag": 4,
+          "value": 4195200
+        },
+        {
+          "tag": 5,
+          "value": 4195584
+        },
+        {
+          "tag": 10,
+          "value": 20
+        },
+        {
+          "tag": 6,
+          "value": 4195328
+        },
+        {
+          "tag": 11,
+          "value": 24
+        },
+        {
+          "tag": 1,
+          "value": 1
+        },
+        {
+          "tag": 7,
+          "value": 4195840
+        },
+        {
+          "tag": 8,
+          "value": 24
+        },
+        {
+          "tag": 9,
+          "value": 24
+        },
+        {
+          "tag": 0,
+          "value": 0
+        }
+      ],
+      "dynamic_layout": "ordinary PT_LOAD VA",
+      "libraries": [
+        "libtest.prx"
+      ],
+      "dynamic_symbol_count": 2,
+      "relocation_count": 1,
+      "relocation_formats": {
+        "RELA": 1
+      },
+      "relocation_types": {
+        "6": 1
+      },
+      "expected_prospero_eligible": false,
+      "warnings": [],
+      "status": "PASS",
+      "scope": "Bounded metadata preflight only; does not apply relocations, validate runtime behavior or decode protected firmware.",
+      "input_stat_preserved": true
+    },
+    "preflight_error": ""
+  },
+  {
+    "id": "SYN-07",
+    "file": "unsupported-type.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/unsupported-type.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "cb165b6d3751e3ee6f3c406d00c6fc850663e4fa297a9f9f12205c1fe243df79",
+    "size": 2048,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 4,
+      "phnum": 2,
+      "shnum": 0
+    },
+    "preflight": {
+      "size": 2048,
+      "sha256": "cb165b6d3751e3ee6f3c406d00c6fc850663e4fa297a9f9f12205c1fe243df79",
+      "architecture": "x86-64",
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 4,
+      "entry": 4195072,
+      "program_headers": [
+        {
+          "type": 1,
+          "flags": 7,
+          "offset": 0,
+          "vaddr": 4194304,
+          "filesz": 2048,
+          "memsz": 2048,
+          "align": 4096
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 512,
+          "vaddr": 4194816,
+          "filesz": 160,
+          "memsz": 160,
+          "align": 8
+        }
+      ],
+      "section_headers": [],
+      "dynamic_entries": [
+        {
+          "tag": 4,
+          "value": 4195200
+        },
+        {
+          "tag": 5,
+          "value": 4195584
+        },
+        {
+          "tag": 10,
+          "value": 20
+        },
+        {
+          "tag": 6,
+          "value": 4195328
+        },
+        {
+          "tag": 11,
+          "value": 24
+        },
+        {
+          "tag": 1,
+          "value": 1
+        },
+        {
+          "tag": 7,
+          "value": 4195840
+        },
+        {
+          "tag": 8,
+          "value": 24
+        },
+        {
+          "tag": 9,
+          "value": 24
+        },
+        {
+          "tag": 0,
+          "value": 0
+        }
+      ],
+      "dynamic_layout": "ordinary PT_LOAD VA",
+      "libraries": [
+        "libtest.prx"
+      ],
+      "dynamic_symbol_count": 2,
+      "relocation_count": 1,
+      "relocation_formats": {
+        "RELA": 1
+      },
+      "relocation_types": {
+        "6": 1
+      },
+      "expected_prospero_eligible": false,
+      "warnings": [],
+      "status": "PASS",
+      "scope": "Bounded metadata preflight only; does not apply relocations, validate runtime behavior or decode protected firmware.",
+      "input_stat_preserved": true
+    },
+    "preflight_error": ""
+  },
+  {
+    "id": "SYN-08",
+    "file": "valid-rel-format.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/valid-rel-format.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "534cd55470a2f875038534c131c9ab3bfca818e7b9cef4456551d0dce27ae3d6",
+    "size": 2048,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "phnum": 2,
+      "shnum": 0
+    },
+    "preflight": {
+      "size": 2048,
+      "sha256": "534cd55470a2f875038534c131c9ab3bfca818e7b9cef4456551d0dce27ae3d6",
+      "architecture": "x86-64",
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "entry": 4195072,
+      "program_headers": [
+        {
+          "type": 1,
+          "flags": 7,
+          "offset": 0,
+          "vaddr": 4194304,
+          "filesz": 2048,
+          "memsz": 2048,
+          "align": 4096
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 512,
+          "vaddr": 4194816,
+          "filesz": 160,
+          "memsz": 160,
+          "align": 8
+        }
+      ],
+      "section_headers": [],
+      "dynamic_entries": [
+        {
+          "tag": 4,
+          "value": 4195200
+        },
+        {
+          "tag": 5,
+          "value": 4195584
+        },
+        {
+          "tag": 10,
+          "value": 20
+        },
+        {
+          "tag": 6,
+          "value": 4195328
+        },
+        {
+          "tag": 11,
+          "value": 24
+        },
+        {
+          "tag": 1,
+          "value": 1
+        },
+        {
+          "tag": 17,
+          "value": 4195840
+        },
+        {
+          "tag": 18,
+          "value": 16
+        },
+        {
+          "tag": 19,
+          "value": 16
+        },
+        {
+          "tag": 0,
+          "value": 0
+        }
+      ],
+      "dynamic_layout": "ordinary PT_LOAD VA",
+      "libraries": [
+        "libtest.prx"
+      ],
+      "dynamic_symbol_count": 2,
+      "relocation_count": 1,
+      "relocation_formats": {
+        "REL": 1
+      },
+      "relocation_types": {
+        "6": 1
+      },
+      "expected_prospero_eligible": true,
+      "warnings": [],
+      "status": "PASS",
+      "scope": "Bounded metadata preflight only; does not apply relocations, validate runtime behavior or decode protected firmware.",
+      "input_stat_preserved": true
+    },
+    "preflight_error": ""
+  },
+  {
+    "id": "SYN-09",
+    "file": "valid-dynamic-tail-padding.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/valid-dynamic-tail-padding.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "f51a6f5acfaba61d635d0dfbde21178406d2fca1d80652caf7d54095351599ef",
+    "size": 2048,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "phnum": 2,
+      "shnum": 0
+    },
+    "preflight": {
+      "size": 2048,
+      "sha256": "f51a6f5acfaba61d635d0dfbde21178406d2fca1d80652caf7d54095351599ef",
+      "architecture": "x86-64",
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "entry": 4195072,
+      "program_headers": [
+        {
+          "type": 1,
+          "flags": 7,
+          "offset": 0,
+          "vaddr": 4194304,
+          "filesz": 2048,
+          "memsz": 2048,
+          "align": 4096
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 512,
+          "vaddr": 4194816,
+          "filesz": 163,
+          "memsz": 160,
+          "align": 8
+        }
+      ],
+      "section_headers": [],
+      "dynamic_entries": [
+        {
+          "tag": 4,
+          "value": 4195200
+        },
+        {
+          "tag": 5,
+          "value": 4195584
+        },
+        {
+          "tag": 10,
+          "value": 20
+        },
+        {
+          "tag": 6,
+          "value": 4195328
+        },
+        {
+          "tag": 11,
+          "value": 24
+        },
+        {
+          "tag": 1,
+          "value": 1
+        },
+        {
+          "tag": 7,
+          "value": 4195840
+        },
+        {
+          "tag": 8,
+          "value": 24
+        },
+        {
+          "tag": 9,
+          "value": 24
+        },
+        {
+          "tag": 0,
+          "value": 0
+        }
+      ],
+      "dynamic_layout": "ordinary PT_LOAD VA",
+      "libraries": [
+        "libtest.prx"
+      ],
+      "dynamic_symbol_count": 2,
+      "relocation_count": 1,
+      "relocation_formats": {
+        "RELA": 1
+      },
+      "relocation_types": {
+        "6": 1
+      },
+      "expected_prospero_eligible": true,
+      "warnings": [],
+      "status": "PASS",
+      "scope": "Bounded metadata preflight only; does not apply relocations, validate runtime behavior or decode protected firmware.",
+      "input_stat_preserved": true
+    },
+    "preflight_error": ""
+  },
+  {
+    "id": "SYN-10",
+    "file": "bad-magic.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/bad-magic.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "2ed1fc5699d8334348d271fcf1578d8354cafcafee2a81ef1fa01001d181855b",
+    "size": 2048,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "phnum": 2,
+      "shnum": 0
+    },
+    "preflight": null,
+    "preflight_error": "bad ELF magic"
+  },
+  {
+    "id": "SYN-11",
+    "file": "truncated-ident.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/truncated-ident.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "cbb24a434399ae70351cd1492fdd22eaea0760682b4458ec6eb7fe6be15df3bb",
+    "size": 5,
+    "raw_header_unvalidated": {},
+    "preflight": null,
+    "preflight_error": "ELF header outside file bounds"
+  },
+  {
+    "id": "SYN-12",
+    "file": "truncated-header.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/truncated-header.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "4bd6b1c6547034353314de8b8d7f34173184b64c3b0c30829e14994c5321df1b",
+    "size": 40,
+    "raw_header_unvalidated": {},
+    "preflight": null,
+    "preflight_error": "ELF header outside file bounds"
+  },
+  {
+    "id": "SYN-13",
+    "file": "phoff-outside.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/phoff-outside.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "a867cd250737d9a0434d04807ed8183ac31a845c875d579de8911ff1b7daca62",
+    "size": 2048,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "phnum": 2,
+      "shnum": 0
+    },
+    "preflight": null,
+    "preflight_error": "program header table outside file bounds"
+  },
+  {
+    "id": "SYN-14",
+    "file": "segment-outside.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/segment-outside.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "243712c3ec501dec33197fb21a8d574b0021a90628c7522157cd74bfc1606501",
+    "size": 2048,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "phnum": 2,
+      "shnum": 0
+    },
+    "preflight": null,
+    "preflight_error": "segment outside file bounds"
+  },
+  {
+    "id": "SYN-15",
+    "file": "dynamic-outside.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/dynamic-outside.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "d1b9a9e184e6e7ee05ebd2c56d968cfac0a7187bfb00231b9c79d7a33a08ec16",
+    "size": 2048,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "phnum": 2,
+      "shnum": 0
+    },
+    "preflight": null,
+    "preflight_error": "segment outside file bounds"
+  },
+  {
+    "id": "SYN-16",
+    "file": "dynamic-unaligned-size.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/dynamic-unaligned-size.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "4471bb0de972bbad4324ba9f337d702690774727eec9e890c44b1488dc860468",
+    "size": 2048,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "phnum": 2,
+      "shnum": 0
+    },
+    "preflight": null,
+    "preflight_error": "missing DT_NULL inside PT_DYNAMIC extent"
+  },
+  {
+    "id": "SYN-17",
+    "file": "dynamic-missing-null.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/dynamic-missing-null.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "cca01ce3fffb1bfadfb97d57b8b5a424c47d248eeee6d9e08cf1cd390e7b84db",
+    "size": 2048,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "phnum": 2,
+      "shnum": 0
+    },
+    "preflight": null,
+    "preflight_error": "missing DT_NULL inside PT_DYNAMIC extent"
+  },
+  {
+    "id": "SYN-18",
+    "file": "sce-missing-strtab.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/sce-missing-strtab.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "7063bd5c4d6f432c9b19dc164e5545c532a701f82ed66dc1da0259dd479756bb",
+    "size": 2048,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "phnum": 3,
+      "shnum": 0
+    },
+    "preflight": null,
+    "preflight_error": "incomplete dynamic string table metadata"
+  },
+  {
+    "id": "SYN-19",
+    "file": "sce-missing-symtabsz.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/sce-missing-symtabsz.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "dc9389d0471646cb4ac86fc7e7c830b9d6b0708f09dbb180a624fb208f196208",
+    "size": 2048,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "phnum": 3,
+      "shnum": 0
+    },
+    "preflight": null,
+    "preflight_error": "missing SCE_SYMTABSZ"
+  },
+  {
+    "id": "SYN-20",
+    "file": "string-pointer-outside.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/string-pointer-outside.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "bd4853cc45c0d7bd1059fccec5dd1436528e029d30579017123aca799883a93c",
+    "size": 2048,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "phnum": 2,
+      "shnum": 0
+    },
+    "preflight": null,
+    "preflight_error": "dynamic virtual range not uniquely file-backed"
+  },
+  {
+    "id": "SYN-21",
+    "file": "string-size-outside.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/string-size-outside.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "8b52774f06db5f5a4c6c1a28590f5e29024591194f6f64c3e7491a32eca7d0d0",
+    "size": 2048,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "phnum": 2,
+      "shnum": 0
+    },
+    "preflight": null,
+    "preflight_error": "dynamic virtual range not uniquely file-backed"
+  },
+  {
+    "id": "SYN-22",
+    "file": "symbol-name-outside.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/symbol-name-outside.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "f40a4291c91d3a9b33d84714e703166c5bae616f5ecf8072c74a23682ed9018b",
+    "size": 2048,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "phnum": 2,
+      "shnum": 0
+    },
+    "preflight": null,
+    "preflight_error": "string index outside table"
+  },
+  {
+    "id": "SYN-23",
+    "file": "relocation-symbol-outside.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/relocation-symbol-outside.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "bf7ad4301b40b75d73c7ca299121ecf7151a41ad52d26ec54a7b88b2419587d6",
+    "size": 2048,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "phnum": 2,
+      "shnum": 0
+    },
+    "preflight": null,
+    "preflight_error": "relocation symbol index outside table"
+  },
+  {
+    "id": "SYN-24",
+    "file": "unsupported-relocation.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/unsupported-relocation.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "dba4c1abd656847c320649ac34612c2a3eb2da2bd7748f3d6b8b196d81ad3a7c",
+    "size": 2048,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "phnum": 2,
+      "shnum": 0
+    },
+    "preflight": {
+      "size": 2048,
+      "sha256": "dba4c1abd656847c320649ac34612c2a3eb2da2bd7748f3d6b8b196d81ad3a7c",
+      "architecture": "x86-64",
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "entry": 4195072,
+      "program_headers": [
+        {
+          "type": 1,
+          "flags": 7,
+          "offset": 0,
+          "vaddr": 4194304,
+          "filesz": 2048,
+          "memsz": 2048,
+          "align": 4096
+        },
+        {
+          "type": 2,
+          "flags": 6,
+          "offset": 512,
+          "vaddr": 4194816,
+          "filesz": 160,
+          "memsz": 160,
+          "align": 8
+        }
+      ],
+      "section_headers": [],
+      "dynamic_entries": [
+        {
+          "tag": 4,
+          "value": 4195200
+        },
+        {
+          "tag": 5,
+          "value": 4195584
+        },
+        {
+          "tag": 10,
+          "value": 20
+        },
+        {
+          "tag": 6,
+          "value": 4195328
+        },
+        {
+          "tag": 11,
+          "value": 24
+        },
+        {
+          "tag": 1,
+          "value": 1
+        },
+        {
+          "tag": 7,
+          "value": 4195840
+        },
+        {
+          "tag": 8,
+          "value": 24
+        },
+        {
+          "tag": 9,
+          "value": 24
+        },
+        {
+          "tag": 0,
+          "value": 0
+        }
+      ],
+      "dynamic_layout": "ordinary PT_LOAD VA",
+      "libraries": [
+        "libtest.prx"
+      ],
+      "dynamic_symbol_count": 2,
+      "relocation_count": 1,
+      "relocation_formats": {
+        "RELA": 1
+      },
+      "relocation_types": {
+        "57005": 1
+      },
+      "expected_prospero_eligible": true,
+      "warnings": [
+        "unrecognized relocation type 57005"
+      ],
+      "status": "UNSUPPORTED",
+      "scope": "Bounded metadata preflight only; does not apply relocations, validate runtime behavior or decode protected firmware.",
+      "input_stat_preserved": true
+    },
+    "preflight_error": ""
+  },
+  {
+    "id": "SYN-25",
+    "file": "duplicate-singleton-strtab.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/duplicate-singleton-strtab.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "9aeb4c46ddadffb4deec685d4827491aac4b803c5fba42166ca09895fcee0a2a",
+    "size": 2048,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "phnum": 2,
+      "shnum": 0
+    },
+    "preflight": null,
+    "preflight_error": "duplicate singleton dynamic tag"
+  },
+  {
+    "id": "SYN-26",
+    "file": "duplicate-sce-segment.elf",
+    "path": "AUDIT_WORKSPACE/work/phase22/fixtures/duplicate-sce-segment.elf",
+    "kind": "synthetic fixture",
+    "source": "Phase22/fixtures.py",
+    "revision": "126b817fa73f99414294d2f52d09a400201ee1eacaa173f9549c9e1b3237fb23",
+    "licence": "MIT",
+    "sha256": "833083cadb0e464db269555b6ad69781844b1e7a5799d212944edf84ce14b81a",
+    "size": 2048,
+    "raw_header_unvalidated": {
+      "osabi": 9,
+      "abi": 2,
+      "elf_type": 65040,
+      "phnum": 4,
+      "shnum": 0
+    },
+    "preflight": null,
+    "preflight_error": "duplicate PT_SCE_DYNLIBDATA"
+  }
+]

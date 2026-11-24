@@ -1,0 +1,8 @@
+Chromium plain {'PASS': 21, 'FAIL': 0, 'SKIP': 0, 'UNSUPPORTED': 0}
+Chromium isolated {'PASS': 21, 'FAIL': 0, 'SKIP': 0, 'UNSUPPORTED': 0}
+Chromium plain-wrong-header-expectation {'PASS': 20, 'FAIL': 1, 'SKIP': 0, 'UNSUPPORTED': 0}
+Chromium plain-no-header-expectation {'PASS': 20, 'FAIL': 0, 'SKIP': 1, 'UNSUPPORTED': 0}
+Firefox plain {'PASS': 21, 'FAIL': 0, 'SKIP': 0, 'UNSUPPORTED': 0}
+Firefox isolated {'PASS': 21, 'FAIL': 0, 'SKIP': 0, 'UNSUPPORTED': 0}
+WebKitGTK plain {'PASS': 21, 'FAIL': 0, 'SKIP': 0, 'UNSUPPORTED': 0}
+WebKitGTK isolated {'PASS': 21, 'FAIL': 0, 'SKIP': 0, 'UNSUPPORTED': 0}

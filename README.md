@@ -41,6 +41,20 @@ All new entries are **documentation syntheses of user-supplied reports**, not up
 
 ---
 
+## Phase 22 executable validation — 24 November 2026
+
+**Overall PARTIAL; jailbreak probability remains UNKNOWN.** Two new locally SDK-generated ABI 2 SCE programs expand the corpus, but import only partially: **3/11** and **3/13** relocations apply, identically before and after the isolated diagnostic patch. Genuine ABI 3 compatibility remains blocked; synthetic ABI 3 is labelled separately.
+
+- The existing repaired extension rebuilds byte-identically. A focused **two-line experimental patch** changes two missing-SCE-tag assertions to checked input errors. The installed working extension remains unchanged.
+- Original bounded ELF preflight: **30/30 tests pass**. The actual raw-parser strict matrix improves **12/26 → 14/26**, with **12 unmet rejection expectations** still documented. The unknown-relocation fixture records UNSUPPORTED, never APPLIED.
+- Fresh experimental regressions retain **567/567**, **20/20** and **164/164** APPLIED results plus both compiler controls. Import/decompilation success is not substituted for relocation success.
+- Original WebKit checks first yield **40/42**. An explicit iframe-ready handshake then yields **126/126 normal checks across Chromium, Firefox and WebKitGTK** under two header modes; prior failures and separate controls remain recorded.
+- One historical 14.10 HEAD still reports an empty object. No body redownload, decryption, protected-code analysis or console test occurred.
+
+Read the [Phase 22 final report](phase-22/PHASE-22-FINAL-REPORT.md), [dynamic-table findings](phase-22/DYNAMIC-TABLE-ANALYSIS.md), [regression report](phase-22/REGRESSION-TEST-REPORT.md), [ABI report](phase-22/ABI-COMPATIBILITY-REPORT.md) and [WebKit validation](phase-22/WEBKIT-VALIDATION.md). This update preserves pending Phases 20/21 and is stacked on the reviewed Phase 21 head. It includes original benign tools, focused licensed patches and tiny clearly synthetic parser fixtures; real executable/firmware binaries, keys and exploitation implementations are excluded.
+
+---
+
 ## Phase 21 technical validation — 24 November 2026
 
 **Overall PARTIAL; jailbreak possibility remains UNKNOWN.** New standard 14.20 and recovery 14.22 downloads match published size/SHA-256/MD5 on official Sony HTTPS delivery. The existing standard 14.22 file remains unchanged. Historical 14.10's checked official object returns HTTP 200 with zero content; no substitute was used.

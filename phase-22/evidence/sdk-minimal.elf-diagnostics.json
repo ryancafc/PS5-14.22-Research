@@ -1,0 +1,108 @@
+{
+  "name": "sdk-minimal.elf",
+  "relocations": [
+    {
+      "address": "01008018",
+      "status": "FAILURE",
+      "type": 7,
+      "symbol": "bzQExy189ZI#A#B",
+      "values": [
+        1
+      ]
+    },
+    {
+      "address": "01008020",
+      "status": "FAILURE",
+      "type": 7,
+      "symbol": "8G2LB+A3rzg#A#B",
+      "values": [
+        2
+      ]
+    },
+    {
+      "address": "01008028",
+      "status": "FAILURE",
+      "type": 7,
+      "symbol": "uMei1W9uyNo#A#B",
+      "values": [
+        3
+      ]
+    },
+    {
+      "address": "0100c040",
+      "status": "APPLIED",
+      "type": 8,
+      "symbol": "",
+      "values": [
+        0
+      ],
+      "blockAtAddress": ".sce_process_param"
+    },
+    {
+      "address": "0100c048",
+      "status": "APPLIED",
+      "type": 8,
+      "symbol": "",
+      "values": [
+        0
+      ],
+      "blockAtAddress": ".sce_process_param"
+    },
+    {
+      "address": "0100c050",
+      "status": "APPLIED",
+      "type": 8,
+      "symbol": "",
+      "values": [
+        0
+      ],
+      "blockAtAddress": ".sce_process_param"
+    },
+    {
+      "address": "0100c078",
+      "status": "FAILURE",
+      "type": 8,
+      "symbol": "",
+      "values": [
+        0
+      ]
+    },
+    {
+      "address": "0100c088",
+      "status": "FAILURE",
+      "type": 8,
+      "symbol": "",
+      "values": [
+        0
+      ]
+    },
+    {
+      "address": "0100c098",
+      "status": "FAILURE",
+      "type": 8,
+      "symbol": "",
+      "values": [
+        0
+      ]
+    },
+    {
+      "address": "0100c0a0",
+      "status": "FAILURE",
+      "type": 8,
+      "symbol": "",
+      "values": [
+        0
+      ]
+    },
+    {
+      "address": "0100c0c8",
+      "status": "FAILURE",
+      "type": 8,
+      "symbol": "",
+      "values": [
+        0
+      ]
+    }
+  ],
+  "errorBookmarks": []
+}

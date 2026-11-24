@@ -1,0 +1,16 @@
+{
+  "original_webkit": {
+    "runs": 2,
+    "pass": 40,
+    "fail": 2
+  },
+  "phase22_normal": {
+    "engines": 3,
+    "runs": 6,
+    "pass": 126,
+    "fail": 0
+  },
+  "independent_iframe_controls_passed": 8,
+  "change": "Explicit unique-token ready acknowledgement before the iframe echo test; old results preserved",
+  "scope": "Desktop WebKitGTK/software virtual display; not retail PS5 browser evidence."
+}
