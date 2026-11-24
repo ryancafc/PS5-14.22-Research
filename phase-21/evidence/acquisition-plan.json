@@ -1,0 +1,51 @@
+{
+  "metadata_reference": "https://github.com/MewX/ps5-official-firmware-list/blob/7eaa071d558e8f700ea74712fd86bc05f76657c5/README.md",
+  "metadata_commit": "7eaa071d558e8f700ea74712fd86bc05f76657c5",
+  "checksum_provenance": "Community-maintained reference and archived Sony update XML; URL sys_/rec_ path digest is not a digital-signature verification.",
+  "inputs": [
+    {
+      "version": "14.10",
+      "kind": "standard",
+      "expected_size": 1261408256,
+      "sha256": "c17384946df6e5c85b2d72cbeee2057b165bf90279d9e2a86d527d0778cdaaf6",
+      "md5": "f7853a0fa97a9a7828ac548798012782",
+      "archive_xml": "https://github.com/MewX/ps5-official-firmware-list/blob/7eaa071d558e8f700ea74712fd86bc05f76657c5/updatelists/updatelist.2026_0928.14.10.00.xml",
+      "archive_xml_url": "http://dus01.ps5.update.playstation.net/update/ps5/official/tJMRE80IbXnE9YuG0jzTXgKEjIMoabr6/image/2026_0928/sys_c17384946df6e5c85b2d72cbeee2057b165bf90279d9e2a86d527d0778cdaaf6/PS5UPDATE.PUP?dest=us",
+      "https_url": "https://dus01.ps5.update.playstation.net/update/ps5/official/tJMRE80IbXnE9YuG0jzTXgKEjIMoabr6/image/2026_0928/sys_c17384946df6e5c85b2d72cbeee2057b165bf90279d9e2a86d527d0778cdaaf6/PS5UPDATE.PUP?dest=us",
+      "existing_path": null
+    },
+    {
+      "version": "14.20",
+      "kind": "standard",
+      "expected_size": 1266086912,
+      "sha256": "0f81be6fd890bc04925b3953e0862dfc2ead68edfdc33f31c3c60d0c267f68e4",
+      "md5": "e8c8b7d66731846395ddfa79acce7ac1",
+      "archive_xml": "https://github.com/MewX/ps5-official-firmware-list/blob/7eaa071d558e8f700ea74712fd86bc05f76657c5/updatelists/updatelist.2026_1014.14.20.00.xml",
+      "archive_xml_url": "http://dus01.ps5.update.playstation.net/update/ps5/official/tJMRE80IbXnE9YuG0jzTXgKEjIMoabr6/image/2026_1014/sys_0f81be6fd890bc04925b3953e0862dfc2ead68edfdc33f31c3c60d0c267f68e4/PS5UPDATE.PUP?dest=us",
+      "https_url": "https://dus01.ps5.update.playstation.net/update/ps5/official/tJMRE80IbXnE9YuG0jzTXgKEjIMoabr6/image/2026_1014/sys_0f81be6fd890bc04925b3953e0862dfc2ead68edfdc33f31c3c60d0c267f68e4/PS5UPDATE.PUP?dest=us",
+      "existing_path": null
+    },
+    {
+      "version": "14.22",
+      "kind": "standard",
+      "expected_size": 1266091008,
+      "sha256": "b0d5818d5ce26e2537d1e2febaebd9a3bef1bb1cf8e9898ddf099773706a810b",
+      "md5": "e31cd499c9629dcdb4be7e02cc86c6b7",
+      "archive_xml": "https://github.com/MewX/ps5-official-firmware-list/blob/7eaa071d558e8f700ea74712fd86bc05f76657c5/updatelists/updatelist.2026_1027.14.22.00.xml",
+      "archive_xml_url": "http://dus01.ps5.update.playstation.net/update/ps5/official/tJMRE80IbXnE9YuG0jzTXgKEjIMoabr6/image/2026_1027/sys_b0d5818d5ce26e2537d1e2febaebd9a3bef1bb1cf8e9898ddf099773706a810b/PS5UPDATE.PUP?dest=us",
+      "https_url": "https://dus01.ps5.update.playstation.net/update/ps5/official/tJMRE80IbXnE9YuG0jzTXgKEjIMoabr6/image/2026_1027/sys_b0d5818d5ce26e2537d1e2febaebd9a3bef1bb1cf8e9898ddf099773706a810b/PS5UPDATE.PUP?dest=us",
+      "existing_path": "~/PS5-Research/14.22/firmware/PS5UPDATE.PUP"
+    },
+    {
+      "version": "14.22",
+      "kind": "recovery",
+      "expected_size": 1423697408,
+      "sha256": "42ea0e5aad1361e098837d40157863c4c519f0bbc66eb03c04dbaaf339b063fb",
+      "md5": "ab9e3377583badd0f955c045b6302e77",
+      "archive_xml": null,
+      "https_url": "https://pc.ps5.update.playstation.net/update/ps5/official/tJMRE80IbXnE9YuG0jzTXgKEjIMoabr6/image/2026_1027/rec_42ea0e5aad1361e098837d40157863c4c519f0bbc66eb03c04dbaaf339b063fb/PS5UPDATE.PUP",
+      "existing_path": null,
+      "provenance": "Community SHA/size/build date plus rec_ URL layout; independently verify HTTP and file digest."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "main_commit": "9622db46f50a8ab4cc540f39b315dd9cb0e2752e",
+  "phase20_pull_request": "https://github.com/ryancafc/PS5-14.22-Research/pull/3",
+  "phase20_merged": false,
+  "phase20_head": "91e3fa2ee5f71b34b6453736837003316254b216",
+  "phase21_base": "91e3fa2ee5f71b34b6453736837003316254b216",
+  "phase21_branch": "phase21-technical-validation-20261124",
+  "publication_plan": "Stack a Phase 21 draft PR on the pending Phase 20 branch; preserve Phase 20 files unchanged."
+}

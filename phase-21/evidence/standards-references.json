@@ -1,0 +1,38 @@
+{
+  "checked_date": "2026-11-24",
+  "references": [
+    {
+      "checks": "Atomics normal integer operations, Float32 TypeError, bounds RangeError, non-shared wait TypeError and notify 0",
+      "url": "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics"
+    },
+    {
+      "checks": "TypedArray and DataView overlapping storage",
+      "url": "https://tc39.es/ecma262/multipage/structured-data.html#sec-typedarray-objects"
+    },
+    {
+      "checks": "ArrayBuffer transfer and sender detachment",
+      "url": "https://html.spec.whatwg.org/multipage/structured-data.html#structuredserializewithtransfer"
+    },
+    {
+      "checks": "Opaque iframe origin and contentDocument isolation",
+      "url": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-sandbox"
+    },
+    {
+      "checks": "Standard message event source/data/origin",
+      "url": "https://html.spec.whatwg.org/multipage/web-messaging.html#crossDocumentMessages"
+    },
+    {
+      "checks": "Loopback potentially trustworthy origins",
+      "url": "https://www.w3.org/TR/secure-contexts/#is-origin-trustworthy"
+    },
+    {
+      "checks": "COOP/COEP context isolation",
+      "url": "https://html.spec.whatwg.org/multipage/browsers.html#cross-origin-isolation"
+    },
+    {
+      "checks": "WebAssembly Memory.grow and old-buffer detachment",
+      "url": "https://webassembly.github.io/spec/js-api/index.html#dom-memory-grow"
+    }
+  ],
+  "interpretation": "API absence is UNSUPPORTED; missing test-header expectation is SKIP; a failed expected-value check is FAIL. Feature/context observations do not establish exploitability."
+}

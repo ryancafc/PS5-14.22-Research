@@ -1,0 +1,26 @@
+{
+  "method": "Bundled Artifact Tool range values, inspected and exact readback reconciled; RFC 4180 CSV export",
+  "checks": [
+    {
+      "name": "FIRMWARE-METADATA.csv",
+      "rows": 4,
+      "columns": 15,
+      "all_cells_roundtripped": true,
+      "inspection": "{\"kind\":\"table\",\"sheet\":\"Table0\",\"address\":\"A1:D4\",\"rows\":4,\"cols\":4,\"values\":[[\"input\",\"size\",\"sha256\",\"version\"],[\"~/PS5-Research/14.22/firmware-comparison/phase-21/14.20-standard.PUP\",\"1266086912\",\"0f81be6fd890bc04925b3953e0862dfc2ead68edfdc33f31c3c60d0c267f68e4\",\"3\"],[\"~/PS5-Research/14.22/firmware/PS5UPDATE.PUP\",\"1266091008\",\"b0d5818d5ce26e2537d1e2febaebd9a3bef1bb1cf8e9898ddf099773706a810b\",\"3\"],[\"~/PS5-Research/14.22/firmware-comparison/phase-21/14.22-recovery.PUP\",\"1423697408\",\"42ea0e5aad1361e098837d40157863c4c519f0bbc66eb03c04dbaaf339b063fb\",\"3\"]]}"
+    },
+    {
+      "name": "CROSS-BROWSER-RESULTS.csv",
+      "rows": 126,
+      "columns": 9,
+      "all_cells_roundtripped": true,
+      "inspection": "{\"kind\":\"table\",\"sheet\":\"Table1\",\"address\":\"A1:D4\",\"rows\":4,\"cols\":4,\"values\":[[\"Engine\",\"Version\",\"Mode\",\"Control\"],[\"Chromium\",\"Chromium 150.0.7871.181 built on Debian GNU/Linux forky/sid\",\"plain\",\"normal\"],[\"Chromium\",\"Chromium 150.0.7871.181 built on Debian GNU/Linux forky/sid\",\"plain\",\"normal\"],[\"Chromium\",\"Chromium 150.0.7871.181 built on Debian GNU/Linux forky/sid\",\"plain\",\"normal\"]]}"
+    },
+    {
+      "name": "EVIDENCE-REGISTER.csv",
+      "rows": 22,
+      "columns": 8,
+      "all_cells_roundtripped": true,
+      "inspection": "{\"kind\":\"table\",\"sheet\":\"Table2\",\"address\":\"A1:D4\",\"rows\":4,\"cols\":4,\"values\":[[\"ID\",\"Claim\",\"Method\",\"Observed\"],[\"P21-01\",\"14.20 standard identity\",\"Official HTTPS download, SHA256/MD5/size\",\"1266086912 bytes; expected hashes match\"],[\"P21-02\",\"Existing 14.22 standard preserved\",\"Fresh complete hashes and stat snapshots\",\"1266091008 bytes; expected hashes match\"],[\"P21-03\",\"14.22 recovery identity\",\"Official HTTPS download and full identity checks\",\"1423697408 bytes; expected hashes match\"]]}"
+    }
+  ]
+}

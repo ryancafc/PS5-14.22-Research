@@ -1,0 +1,32 @@
+test_empty_name (test_firmware_compare.ContainerTests.test_empty_name) ... ok
+test_exact_window_diff (test_firmware_compare.ContainerTests.test_exact_window_diff) ... ok
+test_header_overlap (test_firmware_compare.ContainerTests.test_header_overlap) ... ok
+test_huge_count (test_firmware_compare.ContainerTests.test_huge_count) ... ok
+test_json_csv_and_partial_failure (test_firmware_compare.ContainerTests.test_json_csv_and_partial_failure) ... ok
+test_magic (test_firmware_compare.ContainerTests.test_magic) ... ok
+test_missing_output_directory_has_clear_error (test_firmware_compare.ContainerTests.test_missing_output_directory_has_clear_error) ... ok
+test_multi_entry_gaps (test_firmware_compare.ContainerTests.test_multi_entry_gaps) ... ok
+test_non_ascii_name (test_firmware_compare.ContainerTests.test_non_ascii_name) ... ok
+test_nonzero_padding_is_measured (test_firmware_compare.ContainerTests.test_nonzero_padding_is_measured) ... ok
+test_output_aliases_refused (test_firmware_compare.ContainerTests.test_output_aliases_refused) ... ok
+test_outputs_must_be_distinct (test_firmware_compare.ContainerTests.test_outputs_must_be_distinct) ... ok
+test_outside_offset (test_firmware_compare.ContainerTests.test_outside_offset) ... ok
+test_overlap_rejected_before_streaming (test_firmware_compare.ContainerTests.test_overlap_rejected_before_streaming) ... ok
+test_overlapping_entries (test_firmware_compare.ContainerTests.test_overlapping_entries) ... ok
+test_oversized_entry (test_firmware_compare.ContainerTests.test_oversized_entry) ... ok
+test_short_header (test_firmware_compare.ContainerTests.test_short_header) ... ok
+test_truncated_file (test_firmware_compare.ContainerTests.test_truncated_file) ... ok
+test_truncated_table (test_firmware_compare.ContainerTests.test_truncated_table) ... ok
+test_unterminated_name (test_firmware_compare.ContainerTests.test_unterminated_name) ... ok
+test_valid_identity_boundaries_and_preservation (test_firmware_compare.ContainerTests.test_valid_identity_boundaries_and_preservation) ... ok
+test_version (test_firmware_compare.ContainerTests.test_version) ... ok
+test_window_bounds (test_firmware_compare.ContainerTests.test_window_bounds) ... ok
+test_window_limits (test_firmware_compare.ContainerTests.test_window_limits) ... ok
+test_wrong_blocks (test_firmware_compare.ContainerTests.test_wrong_blocks) ... ok
+test_zero_count (test_firmware_compare.ContainerTests.test_zero_count) ... ok
+test_zero_size (test_firmware_compare.ContainerTests.test_zero_size) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.034s
+
+OK

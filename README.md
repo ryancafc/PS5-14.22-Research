@@ -41,6 +41,20 @@ All new entries are **documentation syntheses of user-supplied reports**, not up
 
 ---
 
+## Phase 21 technical validation — 24 November 2026
+
+**Overall PARTIAL; jailbreak possibility remains UNKNOWN.** New standard 14.20 and recovery 14.22 downloads match published size/SHA-256/MD5 on official Sony HTTPS delivery. The existing standard 14.22 file remains unchanged. Historical 14.10's checked official object returns HTTP 200 with zero content; no substitute was used.
+
+- Independent 14.20→14.22 comparison reproduces **115 differing bytes in [0,0x440)**, +4,096 outer bytes, +4,128 inner-entry bytes and 32 fewer padding bytes. The inner 16-byte prefix is unchanged.
+- Recovery contains two entries; its first matches standard 14.22's inner entry by complete SHA-256. No protected executable content was decoded.
+- Original read-only firmware comparison utility: **27/27 synthetic tests pass**, with streaming hashes, validated bounds, scoped windows and JSON/CSV output.
+- Fresh Ghidra regression again applies **567/567** relocations for the compatible sample. New ABI 2 /ET_DYN homebrew correctly selects generic ELF and applies **20/20** relocations. FreeBSD-object/System V controls are also correctly rejected by Prospero. Additional eligible SCE/ABI 3 coverage remains incomplete.
+- Original bounded diagnostics pass **21 checks in Chromium and Firefox under two header modes: 84 normal results**. Deliberate wrong/missing header controls produce FAIL/SKIP and are counted separately. No console or stress tests ran.
+
+Read the [Phase 21 final report](phase-21/PHASE-21-FINAL-REPORT.md), [firmware comparison](phase-21/FIRMWARE-COMPARISON.md), [Ghidra regression](phase-21/GHIDRA-REGRESSION-REPORT.md), [browser report](phase-21/BROWSER-DIAGNOSTICS-REPORT.md) and [evidence register](phase-21/EVIDENCE-REGISTER.csv). Phases 1–20 remain preserved. This update is stacked on the still-pending Phase 20 publication; it does not imply a merge into main.
+
+---
+
 ## Phase 20 external audit — 24 November 2026
 
 **Audit completed with qualifications. Jailbreak possibility remains UNKNOWN.**

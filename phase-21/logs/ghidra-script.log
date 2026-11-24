@@ -1,0 +1,4 @@
+2026-11-24 17:30:04 INFO  RegressionExport.java> Phase21 metrics exported: sharpprospero-sample-5dfdb4b-eboot.elf
+2026-11-24 17:30:08 INFO  RegressionExport.java> Phase21 metrics exported: sharpemu-demo-0.elf
+2026-11-24 17:30:09 INFO  RegressionExport.java> Phase21 metrics exported: freebsd-control.o
+2026-11-24 17:30:09 INFO  RegressionExport.java> Phase21 metrics exported: freebsd-control.elf
