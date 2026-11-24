@@ -1,0 +1,44 @@
+{
+  "mock_transport": {
+    "path": "tools/lua-lab/bundle-1422/demo-fullchain.py",
+    "lines": [
+      9,
+      16,
+      32,
+      36,
+      37
+    ],
+    "finding": "TCP demo starts a mock-kernel runner; network transport is not hardware proof"
+  },
+  "skipped_as_pass": {
+    "path": "tools/lua-lab/bundle-1422/run.sh",
+    "lines": [
+      94,
+      95,
+      125,
+      127
+    ],
+    "finding": "Some missing dependency branches call step_end with PASS and a skipped message"
+  },
+  "metrics_drift": {
+    "paths": [
+      "README.md",
+      "REPORT-1422.md",
+      "tools/lua-lab/bundle-1422/demo-fullchain.py"
+    ],
+    "finding": "12/13 stages, 7/9 runner steps and 17/19 test summaries coexist without a single per-commit run manifest"
+  },
+  "missing_evidence": {
+    "path": "tools/pup/output",
+    "exists": false
+  },
+  "no_third_party_chain_execution": true,
+  "reviewed_but_not_run": [
+    "kernel-chain CLI",
+    "shell suites",
+    "Lua TCP integration",
+    "all 10 trigger ELF copies",
+    "emulator",
+    "key-search tools"
+  ]
+}

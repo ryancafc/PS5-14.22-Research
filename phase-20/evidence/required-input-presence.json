@@ -1,0 +1,38 @@
+[
+  {
+    "path": "fw/ps5-kernel-13.60-live.bin",
+    "exists": false
+  },
+  {
+    "path": "fw/sysent-13.60.json",
+    "exists": false
+  },
+  {
+    "path": "recon/_src/t14/sysent-names-13.60-native.csv",
+    "exists": false
+  },
+  {
+    "path": "tools/pup/output/parse-all.txt",
+    "exists": false
+  },
+  {
+    "path": "tools/pup/output/recovery-boundaries.txt",
+    "exists": false
+  },
+  {
+    "path": "tools/emu/output/run.out",
+    "exists": false
+  },
+  {
+    "path": "tools/fwsim/vendor/sdk",
+    "exists": false
+  },
+  {
+    "path": "games/cyberpunk/anyps5-run/eboot.elf",
+    "exists": false
+  },
+  {
+    "path": "tools/pup/self_probe.py",
+    "exists": true
+  }
+]

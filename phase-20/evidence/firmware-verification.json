@@ -1,0 +1,65 @@
+{
+  "identities": [
+    {
+      "file": "PS5UPDATE.PUP",
+      "size": 1266091008,
+      "sha256": "b0d5818d5ce26e2537d1e2febaebd9a3bef1bb1cf8e9898ddf099773706a810b",
+      "expected_match": true,
+      "stat_unchanged_during_audit": true
+    },
+    {
+      "file": "PS5UPDATE1.PUP",
+      "size": 1266089597,
+      "sha256": "7056fe13f5242b146d4941a277ca758a91c885c7aef5f3db0ffdee84b7f668b1",
+      "expected_match": true,
+      "stat_unchanged_during_audit": true
+    }
+  ],
+  "slb2": {
+    "magic": "SLB2",
+    "version": 3,
+    "flags": "0x10000",
+    "entry_count": 1,
+    "block_count": 2472834,
+    "sector_bytes": 512,
+    "block_count_matches_size": true,
+    "outer_alignment_remainder": 0,
+    "entries": [
+      {
+        "name": "PS5UPDATE1.PUP",
+        "start": 1024,
+        "size": 1266089597,
+        "end": 1266090621,
+        "sector": 2,
+        "sha256": "7056fe13f5242b146d4941a277ca758a91c885c7aef5f3db0ffdee84b7f668b1",
+        "trailing_bytes": 387,
+        "trailing_all_zero": true,
+        "sector_aligned_start": true,
+        "entry_reserved_hex": "0000000000000000"
+      }
+    ],
+    "unknown_slot_0x200_hex": "abd7c34897f9f69ccb02b294eee7a15d4cff0c08b7381424b4b9c81654447544",
+    "unknown_slot_0x3e0_hex": "d2c1898538c0218d515c77d53a48081f7256231f2121cabe609b47cc562faddf"
+  },
+  "inner": {
+    "prefix16_hex": "5414f5ee1001013204000000b005e00d",
+    "magic": "0xeef51454",
+    "raw_u32_04": "0x32010110",
+    "raw_u16_04": 272,
+    "raw_bytes_04_08": [
+      16,
+      1,
+      1,
+      50
+    ],
+    "raw_u16_08": 4,
+    "raw_u16_0c": 1456,
+    "raw_u16_0e": 3552,
+    "reject_ciphertext_file_size": 7778815604992573160,
+    "reject_ciphertext_count": 54760,
+    "entropy_sample_offset": 16384,
+    "entropy_sample_bytes": 1048576,
+    "entropy_bits_per_byte": 7.9998337522157925,
+    "metadata_limit": "Record raw prologue fields; do not infer executable type, key identity or exact segment count from a shared magic and size formula. Entropy alone does not prove encryption."
+  }
+}

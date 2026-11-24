@@ -41,6 +41,22 @@ All new entries are **documentation syntheses of user-supplied reports**, not up
 
 ---
 
+## Phase 20 external audit — 24 November 2026
+
+**Audit completed with qualifications. Jailbreak possibility remains UNKNOWN.**
+
+The audit reviewed the incorporated external repositories at pinned commits: **54 claims**, comprising **11 independently verified**, **4 reproduced on desktop Chromium**, **13 unverified** and **6 contradicted**. The remaining claims are source-supported, author-reported, simulation-only or blocked. These are claim counts, not independent hardware experiments.
+
+- Existing 14.22 package hashes, SLB2 entry boundaries and **387 zero padding bytes** were independently checked without altering or decrypting firmware.
+- The browser diagnostic's non-shared Atomics expectation was corrected: nine ordinary operations succeed normally, but the original page labels each as an anomaly. Expected sandbox isolation is also mislabelled.
+- Static accounting found that the nominal 320 MB slow chain can retain **905 MiB**; pressure modes were not executed.
+- Mock/TCP success, older kernel results and public source defaults do not establish retail 14.22 exploitability. No exploit chain, trigger payload or console test was run.
+- Earlier homebrew Ghidra evidence was reviewed; fresh metadata decoding confirms the library names and relocation types. This is not a new retail firmware analysis or a rerun of the complete Ghidra workflow.
+
+Read the [Phase 20 final report](phase-20/PHASE-20-FINAL-REPORT.md), [evidence register](phase-20/EVIDENCE-REGISTER.csv), [browser review](phase-20/BROWSER-DIAGNOSTICS-REVIEW.md) and [limitations](phase-20/LIMITATIONS.md). Historical Phases 1–19 remain unchanged. Published evidence excludes firmware/game/system binaries, private keys and executable exploitation tools.
+
+---
+
 ## Latest research — 24 November 2026
 
 Research has resumed with a Kali Linux static-analysis environment. The maintainer reports the following milestones from local Codex-assisted work; independent replication is welcome.
@@ -55,7 +71,7 @@ Research has resumed with a Kali Linux static-analysis environment. The maintain
 | Firmware container | Official 14.22 SLB2 structure and extraction identity checked; original and extracted SHA-256 hashes preserved |
 | Evidence preservation | Six local notes, repair artifacts, backups and annotated project snapshot saved; snapshot reopened successfully |
 
-The original ABI-0 homebrew ELF was not a valid test of the specialized Prospero loader. A separate compatible public sample was used for validation. Protected firmware 14.22 executable code remains unanalysed. No working jailbreak has been demonstrated. The local evidence bundle has not been independently reviewed or uploaded here.
+The original ABI-0 homebrew ELF was not a valid test of the specialized Prospero loader. A separate compatible public sample was used for validation. Protected firmware 14.22 executable code remains unanalysed. No working jailbreak has been demonstrated. Phase 20 reviews the saved local evidence and independently rechecks selected metadata. It does not claim independent human replication; the full earlier local bundle remains outside this publication.
 
 ### External references incorporated locally
 

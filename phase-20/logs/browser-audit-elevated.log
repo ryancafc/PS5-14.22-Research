@@ -1,0 +1,126 @@
+{
+  "browserVersion": "150.0.7871.181",
+  "maxOriginalWasmPages": 11,
+  "excluded": [
+    "alloc-pressure run",
+    "typedarray runSafe",
+    "chain.html",
+    "slow-chain.html",
+    "all console and exploit tests"
+  ],
+  "control": {
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36",
+    "isSecureContext": true,
+    "crossOriginIsolated": false,
+    "sab": "undefined",
+    "ops": {
+      "load": {
+        "result": 16,
+        "after": 16
+      },
+      "store": {
+        "result": 65,
+        "after": 65
+      },
+      "add": {
+        "result": 65,
+        "after": 66
+      },
+      "sub": {
+        "result": 66,
+        "after": 65
+      },
+      "and": {
+        "result": 65,
+        "after": 65
+      },
+      "or": {
+        "result": 65,
+        "after": 81
+      },
+      "xor": {
+        "result": 81,
+        "after": 113
+      },
+      "exchange": {
+        "result": 113,
+        "after": 153
+      },
+      "compareExchange": {
+        "result": 153,
+        "after": 119
+      },
+      "wait": {
+        "error": "TypeError"
+      },
+      "notify": {
+        "result": 0,
+        "after": 119
+      },
+      "floatInvalid": {
+        "error": "TypeError"
+      },
+      "outOfBounds": {
+        "error": "RangeError"
+      }
+    },
+    "overlapResult": {
+      "typed": 1144201745,
+      "littleEndianDataView": 1144201745
+    },
+    "transfer": {
+      "senderLength": 0,
+      "receiver": {
+        "length": 512,
+        "value": 42
+      }
+    },
+    "wasm": {
+      "oldPages": 1,
+      "newPages": 2,
+      "oldBufferLength": 0
+    },
+    "bitmap": {
+      "width": 2,
+      "height": 2
+    }
+  },
+  "original": {
+    "atomics-probe.html": {
+      "unexpectedSuccessLabels": 9,
+      "expectedTypeErrorLabels": 0,
+      "logSha256": "a9dc1785a530823e0970d79c2e65c8c2789256748909ec55ad2d1e52ae92b38b"
+    },
+    "iframe-sandbox.html": {
+      "sameAccessible": true,
+      "sandboxNullLabelledFail": true,
+      "sandboxPostMessageTested": false,
+      "logSha256": "b731d4fe3dd06854f00c67b9b69820b2a0217402f2db0bd35e095e34beca5852"
+    },
+    "typedarray-edge.html": {
+      "ran": "runViewsOnly only",
+      "nonSharedSuccessMarkedUnexpected": true,
+      "containsDetachedLengthZero": true,
+      "logSha256": "9e650b790eb4f7aa9a2268787e5c7d8d949ad6715e87287ccaa481c54e062da6"
+    },
+    "wasm-basic.html": {
+      "compilePassed": true,
+      "instantiatePassed": true,
+      "grewOneToEleven": true,
+      "logSha256": "4d2749436f36733c4f30decaee27e88bc4d68d243cf44bbd90179176ad315d23"
+    }
+  },
+  "iframe": {
+    "sameDocumentAccessible": true,
+    "sandboxDocumentNull": true,
+    "reply": {
+      "received": true,
+      "origin": "null"
+    }
+  },
+  "isolated": {
+    "isSecureContext": true,
+    "crossOriginIsolated": true,
+    "sab": "function"
+  }
+}

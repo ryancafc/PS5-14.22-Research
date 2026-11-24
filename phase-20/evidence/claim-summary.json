@@ -1,0 +1,19 @@
+{
+  "total_claims": 54,
+  "by_repository": {
+    "ccclosed/ps5-1422-research": 37,
+    "karter-captain/ps5-14.22-browser-probes": 17
+  },
+  "by_classification": {
+    "Independently verified": 11,
+    "Reproduced locally": 4,
+    "Source-supported": 10,
+    "Author-reported": 6,
+    "Simulation only": 2,
+    "Unverified": 13,
+    "Contradicted": 6,
+    "Blocked": 2
+  },
+  "unverified_or_contradicted": 19,
+  "classification_policy": "One primary class per claim. Counts are claim units, not independent experiments. Reproduced locally means desktop-only where stated."
+}
