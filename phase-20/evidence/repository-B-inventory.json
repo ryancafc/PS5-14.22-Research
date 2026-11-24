@@ -1,0 +1,93 @@
+{
+  "root": "~/PS5-Research/external/ps5-14.22-browser-probes",
+  "commit": "d0702131ff94d40bd8c408452ccac4c94f2af00e",
+  "branch": "main",
+  "status": "",
+  "tracked_files": 11,
+  "bytes": 50424,
+  "extension_counts": {
+    ".md": 1,
+    ".html": 10
+  },
+  "top_level_counts": {
+    "README.md": 1,
+    "alloc-pressure.html": 1,
+    "atomics-probe.html": 1,
+    "chain.html": 1,
+    "iframe-sandbox.html": 1,
+    "index.html": 1,
+    "notes.html": 1,
+    "slow-chain.html": 1,
+    "typedarray-edge.html": 1,
+    "wasm-basic.html": 1,
+    "webkit-sniff.html": 1
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1012,
+      "sha256": "d09ee3869781ccd72882e6e1ebf640a30ca3e8c5a8941690b3bce3c15ce1276e",
+      "lines": 26
+    },
+    {
+      "path": "alloc-pressure.html",
+      "bytes": 2703,
+      "sha256": "0bd0102aa6b20f1d24e5dbeb7706c0366b2c0c58958df9b4516fe9d97ba5e279",
+      "lines": 71
+    },
+    {
+      "path": "atomics-probe.html",
+      "bytes": 6966,
+      "sha256": "83f08df6f9ea67b5ccd164d8a6fef758cd887c29979baf00d4461a9bc03fafbc",
+      "lines": 205
+    },
+    {
+      "path": "chain.html",
+      "bytes": 9446,
+      "sha256": "a8c4e3defa894451d08eba88ba1e8d37c6416e2f47216c607188f9728f4faff8",
+      "lines": 294
+    },
+    {
+      "path": "iframe-sandbox.html",
+      "bytes": 2626,
+      "sha256": "9877dc2d598322f18ba96a9e9105a6571a51df6453c156dea89776c6dc8ccf2a",
+      "lines": 65
+    },
+    {
+      "path": "index.html",
+      "bytes": 3338,
+      "sha256": "e09c313c9dfc2ceecea707d4dca70bd6710561fc9fc0b4a8b0cc84aa0d9d897c",
+      "lines": 99
+    },
+    {
+      "path": "notes.html",
+      "bytes": 1945,
+      "sha256": "d3e3682fbbe261dc96fb357ee1e17e6f4b201c383768a9d762110ade5e7ce008",
+      "lines": 46
+    },
+    {
+      "path": "slow-chain.html",
+      "bytes": 10831,
+      "sha256": "9a9247928fc101a7a2deba0d24ed25a244e4578be4b15eb6092376c964ddae81",
+      "lines": 315
+    },
+    {
+      "path": "typedarray-edge.html",
+      "bytes": 6081,
+      "sha256": "0cc8c8ee602f10ffa73b8f18352702ee6a39cbbbe96bdca8fdf7c229e0107015",
+      "lines": 174
+    },
+    {
+      "path": "wasm-basic.html",
+      "bytes": 2225,
+      "sha256": "bbbfbeb0ae088d77b67551143b9d0c609ee4622be5e52500d0058cbb433d0f0a",
+      "lines": 61
+    },
+    {
+      "path": "webkit-sniff.html",
+      "bytes": 3251,
+      "sha256": "b9c95513d4043d2b4eec137a2182bcb0916504b36e7df16a079e825cfee50a05",
+      "lines": 76
+    }
+  ]
+}

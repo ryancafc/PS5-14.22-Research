@@ -1,0 +1,31 @@
+{
+  "units": "MiB (code multiplies by 1024*1024)",
+  "slow_chain_warmup": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "slow_chain_ramp": [
+    16,
+    48,
+    96,
+    160,
+    240,
+    320
+  ],
+  "slow_chain_retry_allocations": [
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "slow_chain_max_retained_MiB": 905,
+  "allocation_pressure_max_retained_MiB": {
+    "64": 2560,
+    "128": 5120,
+    "256": 10240
+  },
+  "large_allocations_executed": false
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "path": "tools/probe/certs/server.key",
+    "private_key_pem_marker": true,
+    "publication_excluded": true
+  }
+]

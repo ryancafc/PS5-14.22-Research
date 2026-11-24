@@ -1,0 +1,28 @@
+{
+  "checkedOn": "2026-11-24",
+  "webkitCommit": "3eaf309008249fe8c0d7c9d1ec2a73103052a0ca",
+  "files": [
+    {
+      "path": "Source/cmake/OptionsPlayStation.cmake",
+      "sha": "8b85432e18d1478beca6fc6aba4e2ce0b8b8b6f4",
+      "url": "https://github.com/WebKit/WebKit/blob/3eaf309008249fe8c0d7c9d1ec2a73103052a0ca/Source/cmake/OptionsPlayStation.cmake",
+      "relevantLines": [
+        176,
+        177,
+        178
+      ]
+    },
+    {
+      "path": "Source/WebCore/platform/playstation/UserAgentPlayStation.cpp",
+      "sha": "74f133472cefee91e03fbd2d81f569eac072dd8a",
+      "url": "https://github.com/WebKit/WebKit/blob/3eaf309008249fe8c0d7c9d1ec2a73103052a0ca/Source/WebCore/platform/playstation/UserAgentPlayStation.cpp",
+      "relevantLines": [
+        55,
+        61,
+        64,
+        71,
+        88
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "file": "elfldr-ps5.elf",
+    "abi": 0,
+    "elf_type": "0x3",
+    "program_headers": 4,
+    "libraries": [
+      "libkernel_web.sprx",
+      "libSceLibcInternal.sprx",
+      "libSceNet.sprx"
+    ],
+    "tables": [
+      {
+        "table": "DT_RELA",
+        "entries": 164
+      }
+    ],
+    "relocation_type_counts": {
+      "8": 140,
+      "6": 24
+    },
+    "relocation_type_names": {
+      "6": "R_X86_64_GLOB_DAT",
+      "7": "R_X86_64_JUMP_SLOT",
+      "8": "R_X86_64_RELATIVE"
+    }
+  },
+  {
+    "file": "sharpprospero-sample-5dfdb4b-eboot.elf",
+    "abi": 2,
+    "elf_type": "0xfe10",
+    "program_headers": 8,
+    "libraries": [
+      "libc.prx",
+      "libkernel.prx",
+      "libScePad.prx",
+      "libSceSystemService.prx",
+      "libSceUserService.prx",
+      "libSceVideoOut.prx"
+    ],
+    "tables": [
+      {
+        "table": "DT_RELA",
+        "entries": 402
+      },
+      {
+        "table": "DT_JMPREL",
+        "entries": 165
+      }
+    ],
+    "relocation_type_counts": {
+      "8": 402,
+      "7": 165
+    },
+    "relocation_type_names": {
+      "6": "R_X86_64_GLOB_DAT",
+      "7": "R_X86_64_JUMP_SLOT",
+      "8": "R_X86_64_RELATIVE"
+    }
+  }
+]

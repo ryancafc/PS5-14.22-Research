@@ -1,0 +1,17 @@
+{
+  "authoring": "Bundled Artifact Tool range values; RFC 4180 serialization because the documented surface has no CSV exporter",
+  "checks": [
+    {
+      "sheet": "Claims",
+      "rows": 54,
+      "columns": 9,
+      "inspection": "{\"kind\":\"table\",\"sheet\":\"Claims\",\"address\":\"A1:C4\",\"rows\":4,\"cols\":3,\"values\":[[\"Claim ID\",\"Repository\",\"Original claim\"],[\"A01\",\"ccclosed/ps5-1422-research\",\"The 14.22 standard-update SHA-256 is b0d5818d…706a810b.\"],[\"A02\",\"ccclosed/ps5-1422-research\",\"The 14.22 outer package is 1,266,091,008 bytes.\"],[\"A03\",\"ccclosed/ps5-1422-research\",\"The outer package is SLB2 version 3, flags 0x10000, with one entry.\"]]}"
+    },
+    {
+      "sheet": "Evidence",
+      "rows": 54,
+      "columns": 14,
+      "inspection": "{\"kind\":\"table\",\"sheet\":\"Evidence\",\"address\":\"A1:C4\",\"rows\":4,\"cols\":3,\"values\":[[\"Claim ID\",\"Repository\",\"Source file\"],[\"A01\",\"ccclosed/ps5-1422-research\",\"evidence/pup-diff.md\"],[\"A02\",\"ccclosed/ps5-1422-research\",\"evidence/pup-diff.md\"],[\"A03\",\"ccclosed/ps5-1422-research\",\"evidence/pup-diff.md\"]]}"
+    }
+  ]
+}

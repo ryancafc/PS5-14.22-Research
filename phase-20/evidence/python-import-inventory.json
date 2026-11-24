@@ -1,0 +1,347 @@
+{
+  "tools/ffpfsc.py": [
+    "__future__",
+    "argparse",
+    "collections",
+    "json",
+    "os",
+    "re",
+    "struct",
+    "subprocess",
+    "sys",
+    "time",
+    "zlib"
+  ],
+  "tools/libmap/extract_imports.py": [
+    "__future__",
+    "argparse",
+    "dataclasses",
+    "json",
+    "os",
+    "re",
+    "struct",
+    "sys"
+  ],
+  "tools/libmap/diff_eras.py": [
+    "__future__",
+    "argparse",
+    "collections",
+    "json",
+    "os"
+  ],
+  "tools/libmap/local_exfat_param.py": [
+    "__future__",
+    "argparse",
+    "importlib.util",
+    "json",
+    "os",
+    "struct",
+    "sys"
+  ],
+  "tools/rop/ps5bin.py": [
+    "__future__",
+    "mmap",
+    "os",
+    "struct"
+  ],
+  "tools/rop/x86len.py": [
+    "__future__",
+    "sys"
+  ],
+  "tools/lua-lab/lab_client.py": [
+    "__future__",
+    "argparse",
+    "socket",
+    "struct",
+    "sys",
+    "time"
+  ],
+  "tools/lua-lab/mock_loader.py": [
+    "__future__",
+    "argparse",
+    "dataclasses",
+    "pathlib",
+    "socket",
+    "struct",
+    "sys",
+    "threading"
+  ],
+  "tools/lua-lab/offline_suite.py": [
+    "__future__",
+    "argparse",
+    "pathlib",
+    "re",
+    "subprocess",
+    "sys",
+    "time"
+  ],
+  "tools/lua-lab/syntax_lua51.py": [
+    "__future__",
+    "argparse",
+    "lupa.lua51",
+    "pathlib",
+    "sys",
+    "time"
+  ],
+  "tools/lua-lab/protocol_selftest.py": [
+    "__future__",
+    "argparse",
+    "lab_client",
+    "mock_loader",
+    "socket",
+    "sys"
+  ],
+  "tools/pup/keytest.py": [
+    "__future__",
+    "argparse",
+    "cryptography.hazmat.primitives.ciphers",
+    "dataclasses",
+    "hashlib",
+    "json",
+    "math",
+    "os",
+    "struct",
+    "sys"
+  ],
+  "tools/pup/fetch.py": [
+    "__future__",
+    "argparse",
+    "hashlib",
+    "json",
+    "os",
+    "re",
+    "subprocess",
+    "sys",
+    "urllib.request"
+  ],
+  "tools/pup/self_probe.py": [
+    "__future__",
+    "argparse",
+    "hashlib",
+    "math",
+    "mmap",
+    "os",
+    "struct",
+    "sys"
+  ],
+  "tools/pup/parse.py": [
+    "__future__",
+    "argparse",
+    "hashlib",
+    "json",
+    "math",
+    "os",
+    "struct",
+    "sys",
+    "tempfile",
+    "time"
+  ],
+  "tools/pup/scan_self_classes.py": [
+    "__future__",
+    "argparse",
+    "io",
+    "json",
+    "math",
+    "os",
+    "re",
+    "struct",
+    "sys",
+    "zipfile"
+  ],
+  "tools/pup/ps4scheme.py": [
+    "__future__",
+    "argparse",
+    "collections",
+    "cryptography.hazmat.primitives.ciphers",
+    "hashlib",
+    "hmac",
+    "os",
+    "struct",
+    "sys"
+  ],
+  "tools/pup/delta1422.py": [
+    "__future__",
+    "argparse",
+    "hashlib",
+    "math",
+    "numpy",
+    "os",
+    "struct",
+    "sys"
+  ],
+  "tools/probe/serve.py": [
+    "__future__",
+    "argparse",
+    "cryptography",
+    "cryptography.hazmat.primitives",
+    "cryptography.hazmat.primitives.asymmetric",
+    "cryptography.x509.oid",
+    "datetime",
+    "errno",
+    "hashlib",
+    "http",
+    "http.server",
+    "json",
+    "os",
+    "pathlib",
+    "signal",
+    "socket",
+    "ssl",
+    "subprocess",
+    "sys",
+    "threading",
+    "time",
+    "urllib.parse"
+  ],
+  "tools/probe/canvas_oracle_runner.py": [
+    "gi",
+    "gi.repository",
+    "json",
+    "pathlib",
+    "sys"
+  ],
+  "tools/sysent/scanner.py": [
+    "__future__",
+    "argparse",
+    "bisect",
+    "dataclasses",
+    "hashlib",
+    "json",
+    "pathlib",
+    "struct",
+    "sys",
+    "typing"
+  ],
+  "tools/sysent/dump.py": [
+    "__future__",
+    "argparse",
+    "csv",
+    "json",
+    "pathlib",
+    "scanner",
+    "sys",
+    "typing"
+  ],
+  "tools/emu/prx.py": [
+    "__future__",
+    "argparse",
+    "json",
+    "mmap",
+    "os",
+    "struct",
+    "sys",
+    "unicorn"
+  ],
+  "tools/emu/emu.py": [
+    "__future__",
+    "argparse",
+    "capstone",
+    "collections",
+    "mmap",
+    "os",
+    "re",
+    "struct",
+    "sys",
+    "time",
+    "unicorn",
+    "unicorn.x86_const"
+  ],
+  "tools/probe/bundles/entry-1422/run_local.py": [
+    "gi",
+    "gi.repository",
+    "json",
+    "pathlib",
+    "sys"
+  ],
+  "tools/jb1422/tests/run_local_webkit.py": [
+    "argparse",
+    "functools",
+    "gi",
+    "gi.repository",
+    "http.server",
+    "pathlib",
+    "socketserver",
+    "sys",
+    "threading"
+  ],
+  "tools/lua-lab/bundle-1422/mock_agent.py": [
+    "__future__",
+    "argparse",
+    "socket",
+    "threading"
+  ],
+  "tools/lua-lab/bundle-1422/kernel-runner.py": [
+    "__future__",
+    "argparse",
+    "bridge_server",
+    "primitive",
+    "socket",
+    "struct",
+    "sys",
+    "threading",
+    "time",
+    "utils.tcp"
+  ],
+  "tools/lua-lab/bundle-1422/yarpe_agent.py": [
+    "__future__",
+    "calls",
+    "sc",
+    "struct",
+    "utils.etc",
+    "utils.rp",
+    "utils.tcp"
+  ],
+  "tools/lua-lab/bundle-1422/demo-fullchain.py": [
+    "__future__",
+    "argparse",
+    "pathlib",
+    "re",
+    "subprocess",
+    "sys",
+    "time"
+  ],
+  "tools/lua-lab/bundle-1422/selftest.py": [
+    "__future__",
+    "lupa.lua51",
+    "pathlib",
+    "sys"
+  ],
+  "tools/lua-lab/bundle-1422/bridge_server.py": [
+    "__future__",
+    "argparse",
+    "http.server",
+    "json",
+    "mock_agent",
+    "socket",
+    "struct",
+    "threading",
+    "time",
+    "urllib.error",
+    "urllib.parse",
+    "urllib.request"
+  ],
+  "tools/lua-lab/bundle-1422/send_lua.py": [
+    "__future__",
+    "argparse",
+    "socket",
+    "struct",
+    "sys",
+    "time"
+  ],
+  "tools/lua-lab/bundle-1422/primitive.py": [
+    "__future__",
+    "calls",
+    "sc",
+    "struct",
+    "sys",
+    "utils.etc"
+  ],
+  "tools/lua-lab/bundle-1422/yarpe_hello_9025.py": [
+    "__future__",
+    "sc",
+    "traceback",
+    "utils.etc",
+    "utils.rp",
+    "utils.unsafe"
+  ]
+}
