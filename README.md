@@ -23,9 +23,9 @@ The project focuses on:
 
 **This is an experimental research project, not a released jailbreak.**
 
-## Project closeout — 19 November 2026 (Phases 1–19)
+## Historical research — 19 November 2026 (Phases 1–19)
 
-**Status: Research stopped by the maintainer. No PS5 firmware 14.22 jailbreak or native UAF on retail PS5 has been demonstrated.**
+**Status: Research resumed. No PS5 firmware 14.22 jailbreak or native UAF on retail PS5 has been demonstrated.**
 
 The **15 November publication below is the historical Phase 1–10 milestone**, not the final project state. Further work through **Phases 11–18** covered benign console browser checks, evidence review, Sony WebKit source, an instrumented Linux upstream heap-use-after-free comparison, and successful retail User's Guide diagnostics. **Phase 19 was prepared but not run.**
 
@@ -37,7 +37,35 @@ The **15 November publication below is the historical Phase 1–10 milestone**, 
 - **[Phase 19: planned test, stopped](docs/PHASE-19-STOPPED.md)** — test HTML created and hashed; no recorded MiniBrowser results.
 - **[Evidence register for Phases 11–19](docs/PHASES-11-19-EVIDENCE-REGISTER.csv)** — each claim's verification class and limitation.
 
-All new entries are **documentation syntheses of user-supplied reports**, not uploads of the original source archives, ASan logs, raw test programs or console binaries. The project is archived as research, not distributed exploitation software.
+All new entries are **documentation syntheses of user-supplied reports**, not uploads of the original source archives, ASan logs, raw test programs or console binaries. These historical records remain available for reproducibility; current research is active.
+
+---
+
+## Latest research — 24 November 2026
+
+Research has resumed with a Kali Linux static-analysis environment. The maintainer reports the following milestones from local Codex-assisted work; independent replication is welcome.
+
+| Milestone | Reported result |
+|---|---|
+| Analysis environment | Ghidra 12.2, Java 25.0.5, Gradle 9.2.1 verified |
+| Standard ELF test | Linux sample imported, disassembled and decompiled |
+| GhidraProspero | Loader registration verified; dynamic-table parsing defect repaired with backup |
+| Compatible public PS5 sample | 165 imports across six libraries; 567/567 relocations applied |
+| elfldr v0.28 | Entry point recovered, source-backed annotations added, 123 initialized function bodies decompiled |
+| Firmware container | Official 14.22 SLB2 structure and extraction identity checked; original and extracted SHA-256 hashes preserved |
+| Evidence preservation | Six local notes, repair artifacts, backups and annotated project snapshot saved; snapshot reopened successfully |
+
+The original ABI-0 homebrew ELF was not a valid test of the specialized Prospero loader. A separate compatible public sample was used for validation. Protected firmware 14.22 executable code remains unanalysed. No working jailbreak has been demonstrated. The local evidence bundle has not been independently reviewed or uploaded here.
+
+### External references incorporated locally
+
+- [ccclosed/ps5-1422-research](https://github.com/ccclosed/ps5-1422-research) — third-party firmware-container research; claims require independent validation.
+- [karter-captain/ps5-14.22-browser-probes](https://github.com/karter-captain/ps5-14.22-browser-probes) — browser diagnostics reference, not proof of exploitation.
+- [GhidraProspero](https://github.com/shadps5-emu/GhidraProspero) and [elfldr](https://github.com/ps5-payload-dev/elfldr) — upstream analysis references.
+
+### Research status tracking
+
+See [jailbreak possibility status](exploits/jailbreak-possibility-percentage.txt). No numerical probability can be justified by current evidence; commit activity is not a measure of exploitability.
 
 ---
 
@@ -76,6 +104,9 @@ All new entries are **documentation syntheses of user-supplied reports**, not up
 
 | Research component | Status |
 |---|---|
+| Ghidra and GhidraProspero | Validated on public samples (maintainer report) |
+| 14.22 PUP container | Hashes and extraction verified (maintainer report) |
+| Protected 14.22 executable code | Not analysed |
 | Historical public exploit research | Documented with pinned source references |
 | Firmware release and patch attribution | Documented; key fix boundaries unresolved |
 | Sony 13.x vs 14.x WebKit source comparison | Locally reproduced and audited (reported) |
