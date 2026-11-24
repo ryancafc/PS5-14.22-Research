@@ -1,0 +1,28 @@
+{
+  "prior_report_note_files_preserved": 139,
+  "external_source_files_preserved": 231,
+  "phase21_snapshot_files_preserved": 16,
+  "firmware_hashes_match": 4,
+  "all_34_inventory_file_hashes_preserved": true,
+  "new_sdk_linker_tracked_source_unchanged": true,
+  "installed_extension_unchanged": true,
+  "preflight_unit_tests": {
+    "pass": 30,
+    "fail": 0
+  },
+  "raw_parser_experimental_strict": {
+    "pass": 14,
+    "fail": 12
+  },
+  "ghidra_full_analysis_rows": 12,
+  "new_sdk_imports_partial": true,
+  "browser_final_normal": {
+    "pass": 126,
+    "fail": 0
+  },
+  "original_webkit_failures_retained": 2,
+  "synthetic_fixture_count": 26,
+  "genuine_abi3": "BLOCKED",
+  "protected_retail_plaintext_analysed": false,
+  "publication_binary_allowlist": "Only manifested original synthetic fixtures; at most2048 bytes each"
+}

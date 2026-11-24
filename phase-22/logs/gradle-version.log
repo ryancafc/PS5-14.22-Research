@@ -1,0 +1,14 @@
+
+------------------------------------------------------------
+Gradle 9.2.1
+------------------------------------------------------------
+
+Build time:    2025-11-17 13:40:48 UTC
+Revision:      30ecdc708db275e8f8769ea0620f6dd919a58f76
+
+Kotlin:        2.2.20
+Groovy:        4.0.28
+Ant:           Apache Ant(TM) version 1.10.15 compiled on August 25 2024
+Launcher JVM:  25.0.5 (Debian 25.0.5+8-1-Debian)
+Daemon JVM:    /usr/lib/jvm/java-25-openjdk-amd64 (no JDK specified, using current Java home)
+OS:            Linux 7.2.15+kali-amd64 amd64

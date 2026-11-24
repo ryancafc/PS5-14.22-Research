@@ -1,0 +1,452 @@
+[
+  {
+    "engine": "WebKitGTK",
+    "version": "2.52.6-1",
+    "mode": "plain",
+    "control": "normal",
+    "sandbox_disabled": false,
+    "fresh_profile": true,
+    "received_result": true,
+    "result": {
+      "schemaVersion": 1,
+      "date": "2026-11-24T17:52:38.730Z",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15",
+      "platform": "Linux x86_64",
+      "url": "http://127.0.0.1:43261/plain/index.html?autorun=true&submit=true&run=3b78c7121a63ba6ba9b61250be6799aa&expectedIsolation=false",
+      "isSecureContext": true,
+      "crossOriginIsolated": false,
+      "limits": {
+        "asyncTimeoutMs": 3000,
+        "wasmMaximumPages": 2,
+        "transferBytes": 512,
+        "typedArrayBytes": 16,
+        "maxLiveIframes": 2,
+        "explicitBackingStoreBudgetBytes": 262144
+      },
+      "limitations": [
+        "One desktop browser/context per run; not a security or retail firmware test.",
+        "Explicit backing-store budget excludes engine/JIT/process overhead.",
+        "No allocation ceiling or memory pressure is measured."
+      ],
+      "tests": [
+        {
+          "id": "feature-availability",
+          "status": "PASS",
+          "observed": {
+            "Atomics": true,
+            "SharedArrayBuffer": false,
+            "MessageChannel": true,
+            "WebAssembly": true,
+            "structuredClone": true
+          }
+        },
+        {
+          "id": "secure-context",
+          "status": "PASS",
+          "observed": {
+            "actual": true,
+            "expected": true
+          }
+        },
+        {
+          "id": "cross-origin-isolation",
+          "status": "PASS",
+          "observed": {
+            "actual": false,
+            "expected": false
+          }
+        },
+        {
+          "id": "atomics-normal-load",
+          "status": "PASS",
+          "observed": {
+            "returned": 8,
+            "stored": 8,
+            "shared": false
+          }
+        },
+        {
+          "id": "atomics-normal-store",
+          "status": "PASS",
+          "observed": {
+            "returned": 5,
+            "stored": 5,
+            "shared": false
+          }
+        },
+        {
+          "id": "atomics-normal-add",
+          "status": "PASS",
+          "observed": {
+            "returned": 8,
+            "stored": 11,
+            "shared": false
+          }
+        },
+        {
+          "id": "atomics-normal-sub",
+          "status": "PASS",
+          "observed": {
+            "returned": 8,
+            "stored": 5,
+            "shared": false
+          }
+        },
+        {
+          "id": "atomics-normal-and",
+          "status": "PASS",
+          "observed": {
+            "returned": 8,
+            "stored": 0,
+            "shared": false
+          }
+        },
+        {
+          "id": "atomics-normal-or",
+          "status": "PASS",
+          "observed": {
+            "returned": 8,
+            "stored": 11,
+            "shared": false
+          }
+        },
+        {
+          "id": "atomics-normal-xor",
+          "status": "PASS",
+          "observed": {
+            "returned": 8,
+            "stored": 11,
+            "shared": false
+          }
+        },
+        {
+          "id": "atomics-normal-exchange",
+          "status": "PASS",
+          "observed": {
+            "returned": 8,
+            "stored": 4,
+            "shared": false
+          }
+        },
+        {
+          "id": "atomics-normal-compareExchange",
+          "status": "PASS",
+          "observed": {
+            "returned": 8,
+            "stored": 6,
+            "shared": false
+          }
+        },
+        {
+          "id": "atomics-float-TypeError",
+          "status": "PASS",
+          "observed": {
+            "actual": "TypeError",
+            "expected": "TypeError"
+          }
+        },
+        {
+          "id": "atomics-bounds-RangeError",
+          "status": "PASS",
+          "observed": {
+            "actual": "RangeError",
+            "expected": "RangeError"
+          }
+        },
+        {
+          "id": "atomics-wait-nonshared-TypeError",
+          "status": "PASS",
+          "observed": {
+            "actual": "TypeError",
+            "expected": "TypeError"
+          }
+        },
+        {
+          "id": "atomics-notify-nonshared-zero",
+          "status": "PASS",
+          "observed": {
+            "actual": 0,
+            "expected": 0
+          }
+        },
+        {
+          "id": "typedarray-overlap",
+          "status": "PASS",
+          "observed": {
+            "littleEndianValue": 1144201745,
+            "bytes": 16
+          }
+        },
+        {
+          "id": "arraybuffer-transfer",
+          "status": "PASS",
+          "observed": {
+            "senderBytes": 0,
+            "receiverBytes": 512,
+            "firstByte": 42
+          }
+        },
+        {
+          "id": "iframe-same-origin-and-postMessage",
+          "status": "FAIL",
+          "observed": {
+            "name": "Error",
+            "message": "check timed out"
+          }
+        },
+        {
+          "id": "iframe-opaque-origin-and-postMessage",
+          "status": "PASS",
+          "observed": {
+            "sandboxed": true,
+            "contentDocumentNull": true,
+            "messageOrigin": "null",
+            "echoAcknowledged": true
+          }
+        },
+        {
+          "id": "wasm-empty-module-and-bounded-growth",
+          "status": "PASS",
+          "observed": {
+            "moduleBytes": 8,
+            "initialPages": 1,
+            "finalPages": 2,
+            "maximumPages": 2,
+            "oldBufferDetached": true
+          }
+        }
+      ],
+      "summary": {
+        "PASS": 20,
+        "FAIL": 1,
+        "SKIP": 0,
+        "UNSUPPORTED": 0
+      }
+    }
+  },
+  {
+    "engine": "WebKitGTK",
+    "version": "2.52.6-1",
+    "mode": "isolated",
+    "control": "normal",
+    "sandbox_disabled": false,
+    "fresh_profile": true,
+    "received_result": true,
+    "result": {
+      "schemaVersion": 1,
+      "date": "2026-11-24T17:52:42.455Z",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15",
+      "platform": "Linux x86_64",
+      "url": "http://127.0.0.1:43261/isolated/index.html?autorun=true&submit=true&run=1b8c9cf84a6e561f8a1af980506e1de6&expectedIsolation=true",
+      "isSecureContext": true,
+      "crossOriginIsolated": true,
+      "limits": {
+        "asyncTimeoutMs": 3000,
+        "wasmMaximumPages": 2,
+        "transferBytes": 512,
+        "typedArrayBytes": 16,
+        "maxLiveIframes": 2,
+        "explicitBackingStoreBudgetBytes": 262144
+      },
+      "limitations": [
+        "One desktop browser/context per run; not a security or retail firmware test.",
+        "Explicit backing-store budget excludes engine/JIT/process overhead.",
+        "No allocation ceiling or memory pressure is measured."
+      ],
+      "tests": [
+        {
+          "id": "feature-availability",
+          "status": "PASS",
+          "observed": {
+            "Atomics": true,
+            "SharedArrayBuffer": false,
+            "MessageChannel": true,
+            "WebAssembly": true,
+            "structuredClone": true
+          }
+        },
+        {
+          "id": "secure-context",
+          "status": "PASS",
+          "observed": {
+            "actual": true,
+            "expected": true
+          }
+        },
+        {
+          "id": "cross-origin-isolation",
+          "status": "PASS",
+          "observed": {
+            "actual": true,
+            "expected": true
+          }
+        },
+        {
+          "id": "atomics-normal-load",
+          "status": "PASS",
+          "observed": {
+            "returned": 8,
+            "stored": 8,
+            "shared": false
+          }
+        },
+        {
+          "id": "atomics-normal-store",
+          "status": "PASS",
+          "observed": {
+            "returned": 5,
+            "stored": 5,
+            "shared": false
+          }
+        },
+        {
+          "id": "atomics-normal-add",
+          "status": "PASS",
+          "observed": {
+            "returned": 8,
+            "stored": 11,
+            "shared": false
+          }
+        },
+        {
+          "id": "atomics-normal-sub",
+          "status": "PASS",
+          "observed": {
+            "returned": 8,
+            "stored": 5,
+            "shared": false
+          }
+        },
+        {
+          "id": "atomics-normal-and",
+          "status": "PASS",
+          "observed": {
+            "returned": 8,
+            "stored": 0,
+            "shared": false
+          }
+        },
+        {
+          "id": "atomics-normal-or",
+          "status": "PASS",
+          "observed": {
+            "returned": 8,
+            "stored": 11,
+            "shared": false
+          }
+        },
+        {
+          "id": "atomics-normal-xor",
+          "status": "PASS",
+          "observed": {
+            "returned": 8,
+            "stored": 11,
+            "shared": false
+          }
+        },
+        {
+          "id": "atomics-normal-exchange",
+          "status": "PASS",
+          "observed": {
+            "returned": 8,
+            "stored": 4,
+            "shared": false
+          }
+        },
+        {
+          "id": "atomics-normal-compareExchange",
+          "status": "PASS",
+          "observed": {
+            "returned": 8,
+            "stored": 6,
+            "shared": false
+          }
+        },
+        {
+          "id": "atomics-float-TypeError",
+          "status": "PASS",
+          "observed": {
+            "actual": "TypeError",
+            "expected": "TypeError"
+          }
+        },
+        {
+          "id": "atomics-bounds-RangeError",
+          "status": "PASS",
+          "observed": {
+            "actual": "RangeError",
+            "expected": "RangeError"
+          }
+        },
+        {
+          "id": "atomics-wait-nonshared-TypeError",
+          "status": "PASS",
+          "observed": {
+            "actual": "TypeError",
+            "expected": "TypeError"
+          }
+        },
+        {
+          "id": "atomics-notify-nonshared-zero",
+          "status": "PASS",
+          "observed": {
+            "actual": 0,
+            "expected": 0
+          }
+        },
+        {
+          "id": "typedarray-overlap",
+          "status": "PASS",
+          "observed": {
+            "littleEndianValue": 1144201745,
+            "bytes": 16
+          }
+        },
+        {
+          "id": "arraybuffer-transfer",
+          "status": "PASS",
+          "observed": {
+            "senderBytes": 0,
+            "receiverBytes": 512,
+            "firstByte": 42
+          }
+        },
+        {
+          "id": "iframe-same-origin-and-postMessage",
+          "status": "FAIL",
+          "observed": {
+            "name": "Error",
+            "message": "check timed out"
+          }
+        },
+        {
+          "id": "iframe-opaque-origin-and-postMessage",
+          "status": "PASS",
+          "observed": {
+            "sandboxed": true,
+            "contentDocumentNull": true,
+            "messageOrigin": "null",
+            "echoAcknowledged": true
+          }
+        },
+        {
+          "id": "wasm-empty-module-and-bounded-growth",
+          "status": "PASS",
+          "observed": {
+            "moduleBytes": 8,
+            "initialPages": 1,
+            "finalPages": 2,
+            "maximumPages": 2,
+            "oldBufferDetached": true
+          }
+        }
+      ],
+      "summary": {
+        "PASS": 20,
+        "FAIL": 1,
+        "SKIP": 0,
+        "UNSUPPORTED": 0
+      }
+    }
+  }
+]

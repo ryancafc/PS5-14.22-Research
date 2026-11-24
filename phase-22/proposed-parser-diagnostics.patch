@@ -1,0 +1,20 @@
+--- a/src/main/java/prospero/elf/ProsperoElfHeader.java
++++ b/src/main/java/prospero/elf/ProsperoElfHeader.java
+@@ -381,7 +381,7 @@
+ 			tables.add(tbl);
+ 			setStringTables(tables.toArray(ElfStringTable[]::new));
+ 		} catch (NotFoundException e) {
+-			throw new AssertException(e);
++			throw new IOException("Incomplete SCE dynamic metadata: " + e.getMessage(), e);
+ 		}
+ 	}
+ 
+@@ -444,7 +444,7 @@
+ 			setSymbolTables(tables.toArray(ElfSymbolTable[]::new));
+ 		}
+ 		catch (NotFoundException e) {
+-			throw new AssertException(e);
++			throw new IOException("Incomplete SCE dynamic metadata: " + e.getMessage(), e);
+ 		}
+ 	}
+ 

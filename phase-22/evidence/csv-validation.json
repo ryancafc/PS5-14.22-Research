@@ -1,0 +1,26 @@
+{
+  "method": "Bundled Artifact Tool range values, inspected and exact readback reconciled; RFC 4180 CSV export",
+  "checks": [
+    {
+      "name": "EXECUTABLE-INVENTORY.csv",
+      "rows": 34,
+      "columns": 19,
+      "all_cells_roundtripped": true,
+      "inspection": "{\"kind\":\"table\",\"sheet\":\"Table0\",\"address\":\"A1:D4\",\"rows\":4,\"cols\":4,\"values\":[[\"ID\",\"File\",\"Evidence kind\",\"Source URL\"],[\"sharp-baseline\",\"sharpprospero-sample-5dfdb4b-eboot.elf\",\"upstream homebrew\",\"https://github.com/SvenGDK/SharpProspero\"],[\"elfldr\",\"elfldr-ps5.elf\",\"upstream homebrew\",\"https://github.com/ps5-payload-dev/elfldr\"],[\"sharpemu\",\"sharpemu-demo-0.elf\",\"upstream homebrew\",\"https://github.com/sharpemu/sharpemu-demo\"]]}"
+    },
+    {
+      "name": "GHIDRA-REGRESSION-RESULTS.csv",
+      "rows": 12,
+      "columns": 20,
+      "all_cells_roundtripped": true,
+      "inspection": "{\"kind\":\"table\",\"sheet\":\"Table1\",\"address\":\"A1:D4\",\"rows\":4,\"cols\":4,\"values\":[[\"Stage\",\"File\",\"Evidence kind\",\"SHA256\"],[\"before\",\"sdk-imports.elf\",\"SDK-generated\",\"97df4ad56083e1de2422476a6ddaba1c320734110cd86de24bfad84c5d6ffb8c\"],[\"before\",\"sdk-minimal.elf\",\"SDK-generated\",\"234071c6731e9df08fd21a596d1545c411ba788a27a51819389f829be1472593\"],[\"after\",\"elfldr-ps5.elf\",\"upstream homebrew\",\"66968bae6159d8fb06125fcd43fb99cf64d6bfdf730c70f37a6f5d056ff63458\"]]}"
+    },
+    {
+      "name": "EVIDENCE-REGISTER.csv",
+      "rows": 22,
+      "columns": 8,
+      "all_cells_roundtripped": true,
+      "inspection": "{\"kind\":\"table\",\"sheet\":\"Table2\",\"address\":\"A1:D4\",\"rows\":4,\"cols\":4,\"values\":[[\"ID\",\"Claim\",\"Method\",\"Observed\"],[\"P22-01\",\"Existing repair reproducible\",\"Independent source/cache rebuild\",\"Installed and rebuilt JAR hashes identical\"],[\"P22-02\",\"New SDK corpus\",\"Compile original C; unchanged native linker\",\"Two ABI2 SCE outputs,82648 bytes each\"],[\"P22-03\",\"Genuine ABI3\",\"Bounded provenance-aware source/sample search\",\"No eligible genuine sample obtained\"]]}"
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+[
+  {
+    "name": "valid-standard",
+    "expected": "accept",
+    "expected_eligible": true,
+    "note": "",
+    "file": "valid-standard.elf",
+    "sha256": "921911941adc3609717288fef696cef530064e6ae5e72680f0cbeb83c8dc5dfb",
+    "size": 2048,
+    "synthetic": true
+  },
+  {
+    "name": "valid-sce-relative",
+    "expected": "accept",
+    "expected_eligible": true,
+    "note": "",
+    "file": "valid-sce-relative.elf",
+    "sha256": "01da16fbcd7defe72be2b67db61bcde6655b2a8048dd1a261df57fd2e26e0487",
+    "size": 2048,
+    "synthetic": true
+  },
+  {
+    "name": "valid-abi3-synthetic",
+    "expected": "accept",
+    "expected_eligible": true,
+    "note": "Synthetic parser acceptance only; not genuine ABI3 compatibility",
+    "file": "valid-abi3-synthetic.elf",
+    "sha256": "dd34a48412b67d32d2c8087e801bcc21ff28fec511e616cb3e097a8adf35e4b6",
+    "size": 2048,
+    "synthetic": true
+  },
+  {
+    "name": "ordinary-etdyn",
+    "expected": "accept",
+    "expected_eligible": false,
+    "note": "",
+    "file": "ordinary-etdyn.elf",
+    "sha256": "5df8ac1345f9e57d67aec99a5e8846add5b50d43f9f3f28605a2d4b545bb83c6",
+    "size": 2048,
+    "synthetic": true
+  },
+  {
+    "name": "unsupported-abi0",
+    "expected": "accept",
+    "expected_eligible": false,
+    "note": "",
+    "file": "unsupported-abi0.elf",
+    "sha256": "f1a3a8bbaa9031e6641268971caa7ac15835d29d7672defa88f42b5d5301c779",
+    "size": 2048,
+    "synthetic": true
+  },
+  {
+    "name": "unsupported-abi4",
+    "expected": "accept",
+    "expected_eligible": false,
+    "note": "",
+    "file": "unsupported-abi4.elf",
+    "sha256": "4763715c4a08348d0279ea1a91e7f6f65b992813a7ac2cc1988ce794fd8af611",
+    "size": 2048,
+    "synthetic": true
+  },
+  {
+    "name": "unsupported-type",
+    "expected": "accept",
+    "expected_eligible": false,
+    "note": "",
+    "file": "unsupported-type.elf",
+    "sha256": "cb165b6d3751e3ee6f3c406d00c6fc850663e4fa297a9f9f12205c1fe243df79",
+    "size": 2048,
+    "synthetic": true
+  },
+  {
+    "name": "valid-rel-format",
+    "expected": "accept",
+    "expected_eligible": true,
+    "note": "",
+    "file": "valid-rel-format.elf",
+    "sha256": "534cd55470a2f875038534c131c9ab3bfca818e7b9cef4456551d0dce27ae3d6",
+    "size": 2048,
+    "synthetic": true
+  },
+  {
+    "name": "valid-dynamic-tail-padding",
+    "expected": "accept",
+    "expected_eligible": true,
+    "note": "DT_NULL precedes extra segment tail bytes",
+    "file": "valid-dynamic-tail-padding.elf",
+    "sha256": "f51a6f5acfaba61d635d0dfbde21178406d2fca1d80652caf7d54095351599ef",
+    "size": 2048,
+    "synthetic": true
+  },
+  {
+    "name": "bad-magic",
+    "expected": "reject",
+    "expected_eligible": null,
+    "note": "",
+    "file": "bad-magic.elf",
+    "sha256": "2ed1fc5699d8334348d271fcf1578d8354cafcafee2a81ef1fa01001d181855b",
+    "size": 2048,
+    "synthetic": true
+  },
+  {
+    "name": "truncated-ident",
+    "expected": "reject",
+    "expected_eligible": null,
+    "note": "",
+    "file": "truncated-ident.elf",
+    "sha256": "cbb24a434399ae70351cd1492fdd22eaea0760682b4458ec6eb7fe6be15df3bb",
+    "size": 5,
+    "synthetic": true
+  },
+  {
+    "name": "truncated-header",
+    "expected": "reject",
+    "expected_eligible": null,
+    "note": "",
+    "file": "truncated-header.elf",
+    "sha256": "4bd6b1c6547034353314de8b8d7f34173184b64c3b0c30829e14994c5321df1b",
+    "size": 40,
+    "synthetic": true
+  },
+  {
+    "name": "phoff-outside",
+    "expected": "reject",
+    "expected_eligible": null,
+    "note": "",
+    "file": "phoff-outside.elf",
+    "sha256": "a867cd250737d9a0434d04807ed8183ac31a845c875d579de8911ff1b7daca62",
+    "size": 2048,
+    "synthetic": true
+  },
+  {
+    "name": "segment-outside",
+    "expected": "reject",
+    "expected_eligible": null,
+    "note": "",
+    "file": "segment-outside.elf",
+    "sha256": "243712c3ec501dec33197fb21a8d574b0021a90628c7522157cd74bfc1606501",
+    "size": 2048,
+    "synthetic": true
+  },
+  {
+    "name": "dynamic-outside",
+    "expected": "reject",
+    "expected_eligible": null,
+    "note": "",
+    "file": "dynamic-outside.elf",
+    "sha256": "d1b9a9e184e6e7ee05ebd2c56d968cfac0a7187bfb00231b9c79d7a33a08ec16",
+    "size": 2048,
+    "synthetic": true
+  },
+  {
+    "name": "dynamic-unaligned-size",
+    "expected": "reject",
+    "expected_eligible": null,
+    "note": "",
+    "file": "dynamic-unaligned-size.elf",
+    "sha256": "4471bb0de972bbad4324ba9f337d702690774727eec9e890c44b1488dc860468",
+    "size": 2048,
+    "synthetic": true
+  },
+  {
+    "name": "dynamic-missing-null",
+    "expected": "reject",
+    "expected_eligible": null,
+    "note": "",
+    "file": "dynamic-missing-null.elf",
+    "sha256": "cca01ce3fffb1bfadfb97d57b8b5a424c47d248eeee6d9e08cf1cd390e7b84db",
+    "size": 2048,
+    "synthetic": true
+  },
+  {
+    "name": "sce-missing-strtab",
+    "expected": "reject",
+    "expected_eligible": null,
+    "note": "",
+    "file": "sce-missing-strtab.elf",
+    "sha256": "7063bd5c4d6f432c9b19dc164e5545c532a701f82ed66dc1da0259dd479756bb",
+    "size": 2048,
+    "synthetic": true
+  },
+  {
+    "name": "sce-missing-symtabsz",
+    "expected": "reject",
+    "expected_eligible": null,
+    "note": "",
+    "file": "sce-missing-symtabsz.elf",
+    "sha256": "dc9389d0471646cb4ac86fc7e7c830b9d6b0708f09dbb180a624fb208f196208",
+    "size": 2048,
+    "synthetic": true
+  },
+  {
+    "name": "string-pointer-outside",
+    "expected": "reject",
+    "expected_eligible": null,
+    "note": "",
+    "file": "string-pointer-outside.elf",
+    "sha256": "bd4853cc45c0d7bd1059fccec5dd1436528e029d30579017123aca799883a93c",
+    "size": 2048,
+    "synthetic": true
+  },
+  {
+    "name": "string-size-outside",
+    "expected": "reject",
+    "expected_eligible": null,
+    "note": "",
+    "file": "string-size-outside.elf",
+    "sha256": "8b52774f06db5f5a4c6c1a28590f5e29024591194f6f64c3e7491a32eca7d0d0",
+    "size": 2048,
+    "synthetic": true
+  },
+  {
+    "name": "symbol-name-outside",
+    "expected": "reject",
+    "expected_eligible": null,
+    "note": "",
+    "file": "symbol-name-outside.elf",
+    "sha256": "f40a4291c91d3a9b33d84714e703166c5bae616f5ecf8072c74a23682ed9018b",
+    "size": 2048,
+    "synthetic": true
+  },
+  {
+    "name": "relocation-symbol-outside",
+    "expected": "reject",
+    "expected_eligible": null,
+    "note": "",
+    "file": "relocation-symbol-outside.elf",
+    "sha256": "bf7ad4301b40b75d73c7ca299121ecf7151a41ad52d26ec54a7b88b2419587d6",
+    "size": 2048,
+    "synthetic": true
+  },
+  {
+    "name": "unsupported-relocation",
+    "expected": "diagnose",
+    "expected_eligible": true,
+    "note": "Parser may retain unknown type; import must not mark it APPLIED",
+    "file": "unsupported-relocation.elf",
+    "sha256": "dba4c1abd656847c320649ac34612c2a3eb2da2bd7748f3d6b8b196d81ad3a7c",
+    "size": 2048,
+    "synthetic": true
+  },
+  {
+    "name": "duplicate-singleton-strtab",
+    "expected": "reject",
+    "expected_eligible": null,
+    "note": "",
+    "file": "duplicate-singleton-strtab.elf",
+    "sha256": "9aeb4c46ddadffb4deec685d4827491aac4b803c5fba42166ca09895fcee0a2a",
+    "size": 2048,
+    "synthetic": true
+  },
+  {
+    "name": "duplicate-sce-segment",
+    "expected": "reject",
+    "expected_eligible": null,
+    "note": "",
+    "file": "duplicate-sce-segment.elf",
+    "sha256": "833083cadb0e464db269555b6ad69781844b1e7a5799d212944edf84ce14b81a",
+    "size": 2048,
+    "synthetic": true
+  }
+]

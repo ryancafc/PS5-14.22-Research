@@ -1,0 +1,26 @@
+[
+  {
+    "file": "~/PS5-Research/14.22/firmware/PS5UPDATE.PUP",
+    "size": 1266091008,
+    "sha256": "b0d5818d5ce26e2537d1e2febaebd9a3bef1bb1cf8e9898ddf099773706a810b",
+    "stat_preserved": true
+  },
+  {
+    "file": "~/PS5-Research/14.22/firmware-comparison/phase-21/14.20-standard.PUP",
+    "size": 1266086912,
+    "sha256": "0f81be6fd890bc04925b3953e0862dfc2ead68edfdc33f31c3c60d0c267f68e4",
+    "stat_preserved": true
+  },
+  {
+    "file": "~/PS5-Research/14.22/firmware-comparison/phase-21/14.22-recovery.PUP",
+    "size": 1423697408,
+    "sha256": "42ea0e5aad1361e098837d40157863c4c519f0bbc66eb03c04dbaaf339b063fb",
+    "stat_preserved": true
+  },
+  {
+    "file": "~/PS5-Research/14.22/analysis/inner/PS5UPDATE1.PUP",
+    "size": 1266089597,
+    "sha256": "7056fe13f5242b146d4941a277ca758a91c885c7aef5f3db0ffdee84b7f668b1",
+    "stat_preserved": true
+  }
+]

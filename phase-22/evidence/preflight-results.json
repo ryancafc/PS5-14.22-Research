@@ -1,0 +1,158 @@
+{
+  "tests": 30,
+  "passed": 30,
+  "failures": 0,
+  "errors": 0,
+  "records": [
+    {
+      "test": "__main__.PreflightTests.test_cli_missing_file",
+      "status": "PASS",
+      "elapsed_ms": 50.30449699916062
+    },
+    {
+      "test": "__main__.PreflightTests.test_file_preserved",
+      "status": "PASS",
+      "elapsed_ms": 0.8604619997640839
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_bad_magic",
+      "status": "PASS",
+      "elapsed_ms": 0.055176000387291424
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_duplicate_sce_segment",
+      "status": "PASS",
+      "elapsed_ms": 0.05475699981616344
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_duplicate_singleton_strtab",
+      "status": "PASS",
+      "elapsed_ms": 0.05384900032368023
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_dynamic_missing_null",
+      "status": "PASS",
+      "elapsed_ms": 0.039041999116307124
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_dynamic_outside",
+      "status": "PASS",
+      "elapsed_ms": 0.03191799987689592
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_dynamic_unaligned_size",
+      "status": "PASS",
+      "elapsed_ms": 0.03247699896746781
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_ordinary_etdyn",
+      "status": "PASS",
+      "elapsed_ms": 0.0794810002844315
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_phoff_outside",
+      "status": "PASS",
+      "elapsed_ms": 0.028636000934056938
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_relocation_symbol_outside",
+      "status": "PASS",
+      "elapsed_ms": 0.056712000514380634
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_sce_missing_strtab",
+      "status": "PASS",
+      "elapsed_ms": 0.04463000004761852
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_sce_missing_symtabsz",
+      "status": "PASS",
+      "elapsed_ms": 0.04560699926514644
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_segment_outside",
+      "status": "PASS",
+      "elapsed_ms": 0.029614000595756806
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_string_pointer_outside",
+      "status": "PASS",
+      "elapsed_ms": 0.04008999894722365
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_string_size_outside",
+      "status": "PASS",
+      "elapsed_ms": 0.038622998545179144
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_symbol_name_outside",
+      "status": "PASS",
+      "elapsed_ms": 0.04707399966719095
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_truncated_header",
+      "status": "PASS",
+      "elapsed_ms": 0.025002998881973326
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_truncated_ident",
+      "status": "PASS",
+      "elapsed_ms": 0.024234999727923423
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_unsupported_abi0",
+      "status": "PASS",
+      "elapsed_ms": 0.06530300015583634
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_unsupported_abi4",
+      "status": "PASS",
+      "elapsed_ms": 0.06243899952096399
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_unsupported_relocation",
+      "status": "PASS",
+      "elapsed_ms": 0.06174100053613074
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_unsupported_type",
+      "status": "PASS",
+      "elapsed_ms": 0.06146200030343607
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_valid_abi3_synthetic",
+      "status": "PASS",
+      "elapsed_ms": 0.06055300036678091
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_valid_dynamic_tail_padding",
+      "status": "PASS",
+      "elapsed_ms": 0.05957600114925299
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_valid_rel_format",
+      "status": "PASS",
+      "elapsed_ms": 0.059295998653396964
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_valid_sce_relative",
+      "status": "PASS",
+      "elapsed_ms": 0.06669899994449224
+    },
+    {
+      "test": "__main__.PreflightTests.test_fixture_valid_standard",
+      "status": "PASS",
+      "elapsed_ms": 0.06202000076882541
+    },
+    {
+      "test": "__main__.PreflightTests.test_known_rel_and_rela_metadata",
+      "status": "PASS",
+      "elapsed_ms": 0.14080300024943426
+    },
+    {
+      "test": "__main__.PreflightTests.test_oversize_file_refused",
+      "status": "PASS",
+      "elapsed_ms": 0.22929399892746005
+    }
+  ]
+}
