@@ -1,0 +1,26 @@
+[
+  {
+    "name": "SharpProspero-v0.6",
+    "url": "https://github.com/SvenGDK/SharpProspero/releases/download/v0.6/SharpProspero-SDK-v0.6.zip",
+    "archive_sha256": "8f934876c6ccc0c25865e1ca739be11d9fd422865b9214f1d638f05ce6dca328",
+    "archive_bytes": 1702733,
+    "elfs": []
+  },
+  {
+    "name": "sharpemu-demo",
+    "url": "https://github.com/sharpemu/sharpemu-demo/releases/download/49e6b3b/sharpemu-demo.zip",
+    "archive_sha256": "2413f587b6f310c7b0f5ae3f76019de53d5a419141e7392b48096648eb74def4",
+    "archive_bytes": 3653885,
+    "elfs": [
+      {
+        "archive_path": "eboot.bin",
+        "local_path": "work/phase21/samples/sharpemu-demo-0.elf",
+        "sha256": "05c414993d1cd9e7182bbf5647be1ffad72c6ed6b6f5399d01af27281fef48b8",
+        "bytes": 69248,
+        "osabi": 9,
+        "abi": 2,
+        "type": 3
+      }
+    ]
+  }
+]

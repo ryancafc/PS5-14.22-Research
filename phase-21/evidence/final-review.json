@@ -1,0 +1,20 @@
+{
+  "prior_phase20_notes_files_rehashed": 59,
+  "external_source_files_rehashed": 231,
+  "prior_files_preserved": true,
+  "available_firmware_full_hashes_match": 3,
+  "firmware_inputs_stat_preserved": true,
+  "utility_tests_passed": 27,
+  "ghidra_new_static_imports": 4,
+  "normal_browser_results_passed": 84,
+  "normal_browser_results_failed": 0,
+  "harness_controls_separate": true,
+  "portable_harness_replay_matches": true,
+  "csv_row_counts": [
+    4,
+    126,
+    22
+  ],
+  "protected_content_analysed": false,
+  "publication_excludes_firmware_keys_exploitation_and_external_binaries": true
+}

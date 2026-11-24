@@ -1,0 +1,18 @@
+{
+  "url": "https://pc.ps5.update.playstation.net/update/ps5/official/tJMRE80IbXnE9YuG0jzTXgKEjIMoabr6/image/2026_0928/sys_c17384946df6e5c85b2d72cbeee2057b165bf90279d9e2a86d527d0778cdaaf6/PS5UPDATE.PUP?dest=us",
+  "method": "GET",
+  "request_range": "bytes=0-31",
+  "status": 200,
+  "headers": {
+    "Accept-Ranges": "bytes",
+    "Content-Length": "0",
+    "Content-Type": "text/plain",
+    "ETag": "\"d41d8cd98f00b204e9800998ecf8427e:1794991245.620145\"",
+    "Last-Modified": "Wed, 18 Nov 2026 08:40:44 GMT",
+    "Server": "AkamaiNetStorage",
+    "Date": "Tue, 24 Nov 2026 17:30:17 GMT",
+    "Connection": "close"
+  },
+  "received_bytes": 0,
+  "received_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,19 @@
+~/PS5-Research/14.22/firmware-comparison/phase-21/14.20-standard.PUP: 1266086912 bytes SHA256=0f81be6fd890bc04925b3953e0862dfc2ead68edfdc33f31c3c60d0c267f68e4 SLB2 v3 entries=1
+  PS5UPDATE1.PUP: [0x400, 0x4b76f25d) size=1266085469 SHA256=24bc10e2ce6863b4df4c680f70b72d193381d96176fb1bf8f55e8f3c524bab94
+~/PS5-Research/14.22/firmware/PS5UPDATE.PUP: 1266091008 bytes SHA256=b0d5818d5ce26e2537d1e2febaebd9a3bef1bb1cf8e9898ddf099773706a810b SLB2 v3 entries=1
+  PS5UPDATE1.PUP: [0x400, 0x4b77027d) size=1266089597 SHA256=7056fe13f5242b146d4941a277ca758a91c885c7aef5f3db0ffdee84b7f668b1
+~/PS5-Research/14.22/firmware-comparison/phase-21/14.22-recovery.PUP: 1423697408 bytes SHA256=42ea0e5aad1361e098837d40157863c4c519f0bbc66eb03c04dbaaf339b063fb SLB2 v3 entries=2
+  PS5UPDATE1.PUP: [0x400, 0x4b77027d) size=1266089597 SHA256=7056fe13f5242b146d4941a277ca758a91c885c7aef5f3db0ffdee84b7f668b1
+  PS5UPDATE2.PUP: [0x4b770400, 0x54dbe4bd) size=157606077 SHA256=60205c0443eb853e7e02f432549ac63a1a2e2bbdb1d227c6232d75b2aa425579
+WINDOW ~/PS5-Research/14.22/firmware-comparison/phase-21/14.20-standard.PUP vs ~/PS5-Research/14.22/firmware/PS5UPDATE.PUP [0x0,0x440): 115 differing bytes
+WINDOW ~/PS5-Research/14.22/firmware-comparison/phase-21/14.20-standard.PUP vs ~/PS5-Research/14.22/firmware/PS5UPDATE.PUP [0x400,0x410): 0 differing bytes
+WINDOW ~/PS5-Research/14.22/firmware-comparison/phase-21/14.20-standard.PUP vs ~/PS5-Research/14.22/firmware/PS5UPDATE.PUP [0x200,0x220): 32 differing bytes
+WINDOW ~/PS5-Research/14.22/firmware-comparison/phase-21/14.20-standard.PUP vs ~/PS5-Research/14.22/firmware/PS5UPDATE.PUP [0x3e0,0x400): 32 differing bytes
+WINDOW ~/PS5-Research/14.22/firmware-comparison/phase-21/14.20-standard.PUP vs ~/PS5-Research/14.22/firmware-comparison/phase-21/14.22-recovery.PUP [0x0,0x440): 170 differing bytes
+WINDOW ~/PS5-Research/14.22/firmware-comparison/phase-21/14.20-standard.PUP vs ~/PS5-Research/14.22/firmware-comparison/phase-21/14.22-recovery.PUP [0x400,0x410): 0 differing bytes
+WINDOW ~/PS5-Research/14.22/firmware-comparison/phase-21/14.20-standard.PUP vs ~/PS5-Research/14.22/firmware-comparison/phase-21/14.22-recovery.PUP [0x200,0x220): 32 differing bytes
+WINDOW ~/PS5-Research/14.22/firmware-comparison/phase-21/14.20-standard.PUP vs ~/PS5-Research/14.22/firmware-comparison/phase-21/14.22-recovery.PUP [0x3e0,0x400): 32 differing bytes
+WINDOW ~/PS5-Research/14.22/firmware/PS5UPDATE.PUP vs ~/PS5-Research/14.22/firmware-comparison/phase-21/14.22-recovery.PUP [0x0,0x440): 88 differing bytes
+WINDOW ~/PS5-Research/14.22/firmware/PS5UPDATE.PUP vs ~/PS5-Research/14.22/firmware-comparison/phase-21/14.22-recovery.PUP [0x400,0x410): 0 differing bytes
+WINDOW ~/PS5-Research/14.22/firmware/PS5UPDATE.PUP vs ~/PS5-Research/14.22/firmware-comparison/phase-21/14.22-recovery.PUP [0x200,0x220): 0 differing bytes
+WINDOW ~/PS5-Research/14.22/firmware/PS5UPDATE.PUP vs ~/PS5-Research/14.22/firmware-comparison/phase-21/14.22-recovery.PUP [0x3e0,0x400): 32 differing bytes

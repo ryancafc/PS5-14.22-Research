@@ -1,0 +1,21 @@
+{
+  "version": "14.10",
+  "kind": "standard",
+  "url": "http://dus01.ps5.update.playstation.net/update/ps5/official/tJMRE80IbXnE9YuG0jzTXgKEjIMoabr6/image/2026_0928/sys_c17384946df6e5c85b2d72cbeee2057b165bf90279d9e2a86d527d0778cdaaf6/PS5UPDATE.PUP?dest=us",
+  "transport": "Original archived HTTP; no TLS authenticity claim",
+  "expected_size": 1261408256,
+  "expected_sha256": "c17384946df6e5c85b2d72cbeee2057b165bf90279d9e2a86d527d0778cdaaf6",
+  "status": 200,
+  "headers": {
+    "Accept-Ranges": "bytes",
+    "Content-Type": "text/plain",
+    "ETag": "\"d41d8cd98f00b204e9800998ecf8427e:1794991245.620145\"",
+    "Last-Modified": "Wed, 18 Nov 2026 08:40:44 GMT",
+    "Server": "AkamaiNetStorage",
+    "Content-Length": "0",
+    "Date": "Tue, 24 Nov 2026 17:29:43 GMT",
+    "Connection": "close"
+  },
+  "final_url": "http://dus01.ps5.update.playstation.net/update/ps5/official/tJMRE80IbXnE9YuG0jzTXgKEjIMoabr6/image/2026_0928/sys_c17384946df6e5c85b2d72cbeee2057b165bf90279d9e2a86d527d0778cdaaf6/PS5UPDATE.PUP?dest=us",
+  "availability": "BLOCKED: response length does not match reference"
+}

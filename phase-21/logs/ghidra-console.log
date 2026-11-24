@@ -1,0 +1,412 @@
+openjdk version "25.0.5" 2026-10-20
+OpenJDK Runtime Environment (build 25.0.5+8-1-Debian)
+OpenJDK 64-Bit Server VM (build 25.0.5+8-1-Debian, mixed mode)
+INFO  Using log config file: jar:file:~/ghidra_12.2_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)
+INFO  Using log file: work/phase21/logs/ghidra-headless.log (LoggingInitialization)
+INFO  Loading user preferences: ~/.config/ghidra/ghidra_12.2_PUBLIC/preferences (Preferences)
+INFO  Searching for classes... (ClassSearcher)
+INFO  Class search complete (950 ms) (ClassSearcher)
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)
+INFO  Initializing Random Number Generator... (SecureRandomFactory)
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)
+INFO  Loaded 120 trusted CA certificate(s) from /etc/ssl/certs/ca-certificates.crt (UnixSystemTrustKeyStoreUtil)
+INFO  Loaded 120 trusted CA certificates from the OS trust store. (DefaultTrustManagerFactory)
+INFO  Loaded 121 trusted CA certificates from the Java default trust store. (DefaultTrustManagerFactory)
+INFO  Headless startup complete (2132 ms) (AnalyzeHeadless)
+INFO  Class searcher loaded 64 extension points (20 false positives) (ClassSearcher)
+INFO  HEADLESS Script Paths:
+    ~/ghidra_12.2_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    ~/ghidra_12.2_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    ~/ghidra_12.2_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    ~/ghidra_12.2_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts
+    ~/ghidra_12.2_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    ~/ghidra_12.2_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    AUDIT_WORKSPACE/work/phase21/scripts
+    ~/ghidra_12.2_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    ~/ghidra_12.2_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    ~/ghidra_12.2_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    ~/ghidra_12.2_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    ~/ghidra_12.2_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    ~/ghidra_12.2_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    ~/ghidra_12.2_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    ~/.config/ghidra/ghidra_12.2_PUBLIC/Extensions/GhidraProspero/ghidra_scripts
+    ~/ghidra_12.2_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    ~/ghidra_12.2_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    ~/ghidra_12.2_PUBLIC/Ghidra/Features/Swift/ghidra_scripts
+    ~/ghidra_12.2_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    ~/ghidra_12.2_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    ~/ghidra_12.2_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    ~/ghidra_12.2_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    ~/ghidra_12.2_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    ~/ghidra_12.2_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts (HeadlessAnalyzer)
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)
+INFO  Creating project: AUDIT_WORKSPACE/work/phase21/ghidra-projects/Phase21 (HeadlessAnalyzer)
+INFO  Creating project: AUDIT_WORKSPACE/work/phase21/ghidra-projects/Phase21 (DefaultProject)
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)
+INFO       project: AUDIT_WORKSPACE/work/phase21/ghidra-projects/Phase21 (HeadlessAnalyzer)
+INFO  IMPORTING: file://~/PS5-Research/14.22/test-binaries/sharpprospero-sample-5dfdb4b-eboot.elf (HeadlessAnalyzer)
+INFO  Using Loader: Prospero ELF (ProgramLoader)
+INFO  Using Language/Compiler: x86:LE:64:default:gcc (ProgramLoader)
+INFO  Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib/x86_64-linux-gnu/jni, /usr/lib/x86_64-linux-gnu, /usr/lib/jni] (ProgramLoader)
+INFO  ProsperoElfHeader: Parsed Dynamic String Table. FileOffset: 0xe87c8, AddrOffset: 0xe47c8, Size: 2837 (ProsperoElfHeader)
+INFO  ProsperoElfExtension: Registered Import Library. ID: 0 -> libc.prx (ProsperoElfExtension)
+INFO  ProsperoElfExtension: Registered Import Library. ID: 1 -> libkernel.prx (ProsperoElfExtension)
+INFO  ProsperoElfExtension: Registered Import Library. ID: 2 -> libScePad.prx (ProsperoElfExtension)
+INFO  ProsperoElfExtension: Registered Import Library. ID: 3 -> libSceSystemService.prx (ProsperoElfExtension)
+INFO  ProsperoElfExtension: Registered Import Library. ID: 4 -> libSceUserService.prx (ProsperoElfExtension)
+INFO  ProsperoElfExtension: Registered Import Library. ID: 5 -> libSceVideoOut.prx (ProsperoElfExtension)
+INFO  Additional info:
+Loading file://~/PS5-Research/14.22/test-binaries/sharpprospero-sample-5dfdb4b-eboot.elf?MD5=a13ae6f90ac61043dd3e04c57cba31bd...
+------------------------------------------------
+
+Linking the External Programs of 'sharpprospero-sample-5dfdb4b-eboot.elf' to imported libraries...
+  [libc.prx] -> not found in project
+  [libkernel.prx] -> not found in project
+  [libScePad.prx] -> not found in project
+  [libSceSystemService.prx] -> not found in project
+  [libSceUserService.prx] -> not found in project
+  [libSceVideoOut.prx] -> not found in project
+------------------------------------------------
+
+Resolving External Symbols of [/sharpprospero-sample-5dfdb4b-eboot.elf] - 165 unresolved symbols, no external libraries configured - skipping
+ (ProgramLoader)
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)
+INFO  ANALYZING all memory and code: file://~/PS5-Research/14.22/test-binaries/sharpprospero-sample-5dfdb4b-eboot.elf (HeadlessAnalyzer)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 9BcDykPmo1I#A#B -> Library: libc.prx, Resolved name: __error (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: Ou3iL1abvng#A#B -> Library: libc.prx, Resolved name: __stack_chk_fail (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: vNe1w4diLCs#B#C -> Library: libkernel.prx, Resolved name: __tls_get_addr (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: L1SBTkC+Cvw#A#B -> Library: libc.prx, Resolved name: abort (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 8vE6Z6VEYyk#B#C -> Library: libkernel.prx, Resolved name: access (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 2Btkg8k24Zg#A#B -> Library: libc.prx, Resolved name: aligned_alloc (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: cOYia2dE0Ik#A#B -> Library: libc.prx, Resolved name: asprintf (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 8G2LB+A3rzg#A#B -> Library: libc.prx, Resolved name: atexit (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 5TjaJwkLWxE#A#B -> Library: libc.prx, Resolved name: bcmp (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 2X5agFjKxMc#A#B -> Library: libc.prx, Resolved name: calloc (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 6mMQ1MSPW-Q#B#C -> Library: libkernel.prx, Resolved name: chdir (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: z0dtnPxYgtg#B#C -> Library: libkernel.prx, Resolved name: chmod (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: lLMT9vJAck0#B#C -> Library: libkernel.prx, Resolved name: clock_gettime (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: bY-PO6JhzhQ#B#C -> Library: libkernel.prx, Resolved name: close (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: XepdqehVYe4#A#B -> Library: libc.prx, Resolved name: closedir (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: UteVS6B1ZrU#B#C -> Library: libkernel.prx, Resolved name: dlopen (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: biY+kcVB5D4#B#C -> Library: libkernel.prx, Resolved name: dlsym (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: wdUufa9g-D8#B#C -> Library: libkernel.prx, Resolved name: dup2 (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: +2thxYZ4syk#B#C -> Library: libkernel.prx, Resolved name: environ (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: KaK52lYTBIs#B#C -> Library: libkernel.prx, Resolved name: execv (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: uMei1W9uyNo#A#B -> Library: libc.prx, Resolved name: exit (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: n01yNbQO5W4#B#C -> Library: libkernel.prx, Resolved name: fchmod (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: uodLYyUip20#A#B -> Library: libc.prx, Resolved name: fclose (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 8nY19bKoiZk#B#C -> Library: libkernel.prx, Resolved name: fcntl (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: MUjC4lbHrK4#A#B -> Library: libc.prx, Resolved name: fflush (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 9eMlfusH4sU#B#C -> Library: libkernel.prx, Resolved name: flock (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: mKhVDmYciWA#A#B -> Library: libc.prx, Resolved name: floorf (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: pKwslsMUmSk#A#B -> Library: libc.prx, Resolved name: fmod (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 88Vv-AzHVj8#A#B -> Library: libc.prx, Resolved name: fmodf (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: xeYO4u7uyJ0#A#B -> Library: libc.prx, Resolved name: fopen (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: fffwELXNVFA#A#B -> Library: libc.prx, Resolved name: fprintf (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: QrZZdJ8XsX0#A#B -> Library: libc.prx, Resolved name: fputs (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: tIhsqj0qsFE#A#B -> Library: libc.prx, Resolved name: free (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: mqQMh1zPPT8#B#C -> Library: libkernel.prx, Resolved name: fstat (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: juWbTNM+8hw#B#C -> Library: libkernel.prx, Resolved name: fsync (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: ih4CD9-gghM#B#C -> Library: libkernel.prx, Resolved name: ftruncate (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: MpxhMh8QFro#A#B -> Library: libc.prx, Resolved name: fwrite (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: smbQukfxYJM#A#B -> Library: libc.prx, Resolved name: getenv (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: HoLVWNanBBc#B#C -> Library: libkernel.prx, Resolved name: getpid (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: Wh7HbV7JFqc#B#C -> Library: libkernel.prx, Resolved name: getrlimit (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: hHlZQUnlxSM#B#C -> Library: libkernel.prx, Resolved name: getrusage (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 6O8EwYOgH9Y#B#C -> Library: libkernel.prx, Resolved name: getsockopt (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: n88vx3C5nW8#B#C -> Library: libkernel.prx, Resolved name: gettimeofday (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: PfccT7qURYE#B#C -> Library: libkernel.prx, Resolved name: ioctl (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: rtV7-jWC6Yg#A#B -> Library: libc.prx, Resolved name: log (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 5IpoNfxu84U#A#B -> Library: libc.prx, Resolved name: lrand48 (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: Oy6IpwgtYOk#B#C -> Library: libkernel.prx, Resolved name: lseek (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: DRGXpDDh8Ng#B#C -> Library: libkernel.prx, Resolved name: lstat (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: Jahsnh4KKkg#B#C -> Library: libkernel.prx, Resolved name: madvise (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: gQX+4GDQjpM#A#B -> Library: libc.prx, Resolved name: malloc (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: NDcSfcYZRC8#A#B -> Library: libc.prx, Resolved name: malloc_usable_size (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: Q3VBxCXhUHs#A#B -> Library: libc.prx, Resolved name: memcpy (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: +P6FRGH4LfA#A#B -> Library: libc.prx, Resolved name: memmove (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 8zTFvBIAIN8#A#B -> Library: libc.prx, Resolved name: memset (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: JGMio+21L4c#B#C -> Library: libkernel.prx, Resolved name: mkdir (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: mTBZfEal2Bw#B#C -> Library: libkernel.prx, Resolved name: mlock (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: BPE9s9vQQXo#B#C -> Library: libkernel.prx, Resolved name: mmap (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: YQOfxL4QfeU#B#C -> Library: libkernel.prx, Resolved name: mprotect (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: tZY4+SZNFhA#B#C -> Library: libkernel.prx, Resolved name: msync (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: OG4RsDwLguo#B#C -> Library: libkernel.prx, Resolved name: munlock (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: UqDGjXA5yUM#B#C -> Library: libkernel.prx, Resolved name: munmap (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: yS8U2TGCe1A#B#C -> Library: libkernel.prx, Resolved name: nanosleep (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: wuCroIGjt2g#B#C -> Library: libkernel.prx, Resolved name: open (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: ay3uROQAc5A#A#B -> Library: libc.prx, Resolved name: opendir (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: -Jp7F+pXxNg#B#C -> Library: libkernel.prx, Resolved name: pipe (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: ku7D4q1Y9PI#B#C -> Library: libkernel.prx, Resolved name: poll (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: ezv-RSBNKqI#B#C -> Library: libkernel.prx, Resolved name: pread (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: ZaRzaapAZwM#B#C -> Library: libkernel.prx, Resolved name: preadv (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: zHchY8ft5pk#B#C -> Library: libkernel.prx, Resolved name: pthread_attr_destroy (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: vQm4fDEsWi8#B#C -> Library: libkernel.prx, Resolved name: pthread_attr_getstack (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: wtkt-teR1so#B#C -> Library: libkernel.prx, Resolved name: pthread_attr_init (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: E+tyo3lp5Lw#B#C -> Library: libkernel.prx, Resolved name: pthread_attr_setdetachstate (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 2Q0z6rnBrTE#B#C -> Library: libkernel.prx, Resolved name: pthread_attr_setstacksize (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: mkx2fVhNMsg#B#C -> Library: libkernel.prx, Resolved name: pthread_cond_broadcast (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: RXXqi4CtF8w#B#C -> Library: libkernel.prx, Resolved name: pthread_cond_destroy (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 0TyVk4MSLt0#B#C -> Library: libkernel.prx, Resolved name: pthread_cond_init (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 2MOy+rUfuhQ#B#C -> Library: libkernel.prx, Resolved name: pthread_cond_signal (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 27bAgiJmOh0#B#C -> Library: libkernel.prx, Resolved name: pthread_cond_timedwait (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: Op8TBGY5KHg#B#C -> Library: libkernel.prx, Resolved name: pthread_cond_wait (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: dJcuQVn6-Iw#B#C -> Library: libkernel.prx, Resolved name: pthread_condattr_destroy (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: mKoTx03HRWA#B#C -> Library: libkernel.prx, Resolved name: pthread_condattr_init (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: EjllaAqAPZo#B#C -> Library: libkernel.prx, Resolved name: pthread_condattr_setclock (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: OxhIB8LB-PQ#B#C -> Library: libkernel.prx, Resolved name: pthread_create (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: mqULNdimTn0#B#C -> Library: libkernel.prx, Resolved name: pthread_key_create (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: yH-uQW3LbX0#B#C -> Library: libkernel.prx, Resolved name: pthread_kill (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: ltCfaGr2JGE#B#C -> Library: libkernel.prx, Resolved name: pthread_mutex_destroy (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: ttHNfU+qDBU#B#C -> Library: libkernel.prx, Resolved name: pthread_mutex_init (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 7H0iTOciTLo#B#C -> Library: libkernel.prx, Resolved name: pthread_mutex_lock (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 2Z+PpY6CaJg#B#C -> Library: libkernel.prx, Resolved name: pthread_mutex_unlock (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: HF7lK46xzjY#B#C -> Library: libkernel.prx, Resolved name: pthread_mutexattr_destroy (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: dQHWEsJtoE4#B#C -> Library: libkernel.prx, Resolved name: pthread_mutexattr_init (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: mDmgMOGVUqg#B#C -> Library: libkernel.prx, Resolved name: pthread_mutexattr_settype (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: iGjsr1WAtI0#B#C -> Library: libkernel.prx, Resolved name: pthread_rwlock_rdlock (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: EgmLo6EWgso#B#C -> Library: libkernel.prx, Resolved name: pthread_rwlock_unlock (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: sIlRvQqsN2Y#B#C -> Library: libkernel.prx, Resolved name: pthread_rwlock_wrlock (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: EotR8a3ASf4#B#C -> Library: libkernel.prx, Resolved name: pthread_self (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: WrOLvHU0yQM#B#C -> Library: libkernel.prx, Resolved name: pthread_setspecific (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: JZKw5+Wrnaw#B#C -> Library: libkernel.prx, Resolved name: pthread_sigmask (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: C2kJ-byS5rM#B#C -> Library: libkernel.prx, Resolved name: pwrite (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: FCcmRZhWtOk#B#C -> Library: libkernel.prx, Resolved name: pwritev (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: AqBioC2vF3I#B#C -> Library: libkernel.prx, Resolved name: read (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: lybyyKtP54c#A#B -> Library: libc.prx, Resolved name: readdir (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: Y7aJ1uydPMo#A#B -> Library: libc.prx, Resolved name: realloc (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: vhtcIgZG-Lk#A#B -> Library: libc.prx, Resolved name: realpath (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: NN01qLRhiqU#B#C -> Library: libkernel.prx, Resolved name: rename (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: c7ZnT7V1B98#B#C -> Library: libkernel.prx, Resolved name: rmdir (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: rTXw65xmLIA#B#C -> Library: libkernel.prx, Resolved name: sceKernelAllocateDirectMemory (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: pO96TwzOm5E#B#C -> Library: libkernel.prx, Resolved name: sceKernelGetDirectMemorySize (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: L-Q3LEjIbgA#B#C -> Library: libkernel.prx, Resolved name: sceKernelMapDirectMemory (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: MBuItvba6z8#B#C -> Library: libkernel.prx, Resolved name: sceKernelReleaseDirectMemory (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 6ncge5+l5Qs#C#D -> Library: libScePad.prx, Resolved name: scePadClose (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: hv1luiJrqQM#C#D -> Library: libScePad.prx, Resolved name: scePadInit (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: xk0AcarP3V4#C#D -> Library: libScePad.prx, Resolved name: scePadOpen (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: YndgXqQVV7c#C#D -> Library: libScePad.prx, Resolved name: scePadReadState (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: yFVnOdGxvZY#C#D -> Library: libScePad.prx, Resolved name: scePadSetVibration (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: GBUY7ywdULE#B#C -> Library: libkernel.prx, Resolved name: scePthreadRename (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: Vo5V8KAwCmk#D#E -> Library: libSceSystemService.prx, Resolved name: sceSystemServiceHideSplashScreen (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: j3YMu1MVNNo#E#F -> Library: libSceUserService.prx, Resolved name: sceUserServiceInitialize (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: bwFjS+bX9mA#E#F -> Library: libSceUserService.prx, Resolved name: sceUserServiceTerminate (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: uquVH4-Du78#F#G -> Library: libSceVideoOut.prx, Resolved name: sceVideoOutClose (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: Up36PTk687E#F#G -> Library: libSceVideoOut.prx, Resolved name: sceVideoOutOpen (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: rKBUtgRrtbk#F#G -> Library: libSceVideoOut.prx, Resolved name: sceVideoOutRegisterBuffers2 (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: PjS5uASwcV8#F#G -> Library: libSceVideoOut.prx, Resolved name: sceVideoOutSetBufferAttribute2 (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: CBiu4mCE1DA#F#G -> Library: libSceVideoOut.prx, Resolved name: sceVideoOutSetFlipRate (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: U46NwOiJpys#F#G -> Library: libSceVideoOut.prx, Resolved name: sceVideoOutSubmitFlip (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: N5KDtkIjjJ4#F#G -> Library: libSceVideoOut.prx, Resolved name: sceVideoOutUnregisterBuffers (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: j6RaAUlaLv0#F#G -> Library: libSceVideoOut.prx, Resolved name: sceVideoOutWaitVblank (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 6XG4B33N09g#B#C -> Library: libkernel.prx, Resolved name: sched_yield (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 4X0QwvuCfjc#B#C -> Library: libkernel.prx, Resolved name: setrlimit (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: QuJYZ2KVGGQ#B#C -> Library: libkernel.prx, Resolved name: shm_open (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: tPWsbOUGO8k#B#C -> Library: libkernel.prx, Resolved name: shm_unlink (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: KiJEPEWRyUY#B#C -> Library: libkernel.prx, Resolved name: sigaction (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: JUimFtKe0Kc#B#C -> Library: libkernel.prx, Resolved name: sigaddset (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: +F7C-hdk7+E#B#C -> Library: libkernel.prx, Resolved name: sigemptyset (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: VADc3MNQ3cM#B#C -> Library: libkernel.prx, Resolved name: signal (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: eLdDw6l0-bU#A#B -> Library: libc.prx, Resolved name: snprintf (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: +KSnjvZ0NMc#A#B -> Library: libc.prx, Resolved name: srand48 (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 1Pk0qZQGeWo#A#B -> Library: libc.prx, Resolved name: sscanf (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: E6ao34wPw+U#B#C -> Library: libkernel.prx, Resolved name: stat (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: +CUrIMpVuaM#A#B -> Library: libc.prx, Resolved name: stderr (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 3eGXiXpFLt0#A#B -> Library: libc.prx, Resolved name: stdout (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: AV6ipCNa4Rw#A#B -> Library: libc.prx, Resolved name: strcasecmp (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: Ls4tzzhimqQ#A#B -> Library: libc.prx, Resolved name: strcat (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: Ovb2dSJOAuE#A#B -> Library: libc.prx, Resolved name: strcmp (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: kiZSXIWd9vg#A#B -> Library: libc.prx, Resolved name: strcpy (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: RIa6GnWp+iU#A#B -> Library: libc.prx, Resolved name: strerror (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: RBcs3uut1TA#A#B -> Library: libc.prx, Resolved name: strerror_r (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: j4ViWNHEgww#A#B -> Library: libc.prx, Resolved name: strlen (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: kHg45qPC6f0#A#B -> Library: libc.prx, Resolved name: strncat (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: aesyjrHVWy4#A#B -> Library: libc.prx, Resolved name: strncmp (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 6sJWiWSRuqk#A#B -> Library: libc.prx, Resolved name: strncpy (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 9yDWMxEFdJU#A#B -> Library: libc.prx, Resolved name: strrchr (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: viiwFMaNamA#A#B -> Library: libc.prx, Resolved name: strstr (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: enqPGLfmVNU#A#B -> Library: libc.prx, Resolved name: strtok_r (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: mXlxhmLNMPg#A#B -> Library: libc.prx, Resolved name: strtol (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: VOBg+iNwB-4#A#B -> Library: libc.prx, Resolved name: strtoll (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: QxmSHBCuKTk#A#B -> Library: libc.prx, Resolved name: strtoul (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: 5OqszGpy7Mg#A#B -> Library: libc.prx, Resolved name: strtoull (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: Y2OqwJQ3lr8#B#C -> Library: libkernel.prx, Resolved name: sync (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: mkawd0NA9ts#B#C -> Library: libkernel.prx, Resolved name: sysconf (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: wLlFkwG9UcQ#A#B -> Library: libc.prx, Resolved name: time (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: VAzswvTOCzI#B#C -> Library: libkernel.prx, Resolved name: unlink (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: Q2V+iqvjgC0#A#B -> Library: libc.prx, Resolved name: vsnprintf (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: dTnYqqLIQ6c#B#C -> Library: libkernel.prx, Resolved name: waitpid (NIDResolver)
+INFO  NIDAnalyzer: Resolving symbol NID. Original name: FN4gaPmuFV8#B#C -> Library: libkernel.prx, Resolved name: write (NIDResolver)
+INFO  Unable to find DWARF information, skipping DWARF analysis (DWARFAnalyzer)
+WARN  Failed to find entry point for subroutine containing 0109b8a0 (MultEntSubModel)
+WARN  More than 100 address segments have been created! (AddressMapDB)
+WARN  Failed to find entry point for subroutine containing 0109afe0 (MultEntSubModel)
+WARN  Decompiling 01097e90, pcode error at 5de5894855000000: Could not follow disassembly flow into non-existing memory at 5de5894855000000 (DecompileCallback)
+WARN  Decompiling 01097c40, pcode error at 5de5894855000000: Could not follow disassembly flow into non-existing memory at 5de5894855000000 (DecompileCallback)
+WARN  Decompiling 01097d00, pcode error at 5de5894855000000: Could not follow disassembly flow into non-existing memory at 5de5894855000000 (DecompileCallback)
+WARN  Decompiling 01097d80, pcode error at 5de5894855000000: Could not follow disassembly flow into non-existing memory at 5de5894855000000 (DecompileCallback)
+WARN  Decompiling 01097c70, pcode error at 5de5894855000000: Could not follow disassembly flow into non-existing memory at 5de5894855000000 (DecompileCallback)
+WARN  Decompiling 01097cb0, pcode error at 5de5894855000000: Could not follow disassembly flow into non-existing memory at 5de5894855000000 (DecompileCallback)
+WARN  Decompiling 010980a0, pcode error at 5de5894855000000: Could not follow disassembly flow into non-existing memory at 5de5894855000000 (DecompileCallback)
+INFO  Packed database cache: ~/.cache/ghidra/packed-db-cache (PackedDatabaseCache)
+INFO  Applied data type archive: generic_clib_64 (ApplyDataArchiveAnalyzer)
+WARN  Decompiling 010ac1c0, pcode error at 010ae640: Unable to resolve constructor at 010ae640 (DecompileCallback)
+INFO  -----------------------------------------------------
+    ASCII Strings                              0.494 secs
+    Apply Data Archives                        0.218 secs
+    Call Convention ID                         0.021 secs
+    Call-Fixup Installer                       0.024 secs
+    Create Address Tables                      1.062 secs
+    Create Address Tables - One Time           0.224 secs
+    Create Function                            1.382 secs
+    DWARF                                      0.003 secs
+    Data Reference                             0.867 secs
+    Decompiler Switch Analysis                13.675 secs
+    Demangler GNU                              0.163 secs
+    Disassemble                                2.967 secs
+    Disassemble Entry Points                   0.120 secs
+    ELF Scalar Operand References              0.906 secs
+    Embedded Media                             0.023 secs
+    External Entry References                  0.000 secs
+    Function ID                                0.021 secs
+    Function Start Pre Search                  0.017 secs
+    Function Start Search                      0.095 secs
+    Function Start Search After Code           0.144 secs
+    Function Start Search After Data           0.087 secs
+    GCC Exception Handlers                     0.817 secs
+    NIDAnalyzer                                0.294 secs
+    Non-Returning Functions - Discovered       2.542 secs
+    Non-Returning Functions - Known            0.003 secs
+    Reference                                  0.533 secs
+    Shared Return Calls                        0.375 secs
+    Source Language Support                    0.005 secs
+    Stack                                      2.788 secs
+    Subroutine References                      0.511 secs
+    Subroutine References - One Time           0.000 secs
+    Variadic Function Signature Override       4.053 secs
+    x86 Constant Reference Analyzer            3.804 secs
+-----------------------------------------------------
+     Total Time   38 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)
+INFO  REPORT: Analysis succeeded for file: file://~/PS5-Research/14.22/test-binaries/sharpprospero-sample-5dfdb4b-eboot.elf (HeadlessAnalyzer)
+INFO  REPORT: Execute script: RegressionExport.java 'work/phase21/evidence/ghidra' '~/PS5-Research/14.22/test-binaries/sharpprospero-sample-5dfdb4b-eboot.elf' 'work/phase21/samples/sharpemu-demo-0.elf' 'work/phase21/freebsd-control.o' 'work/phase21/freebsd-control.elf'  (HeadlessAnalyzer)
+INFO  SCRIPT: AUDIT_WORKSPACE/work/phase21/scripts/RegressionExport.java (HeadlessAnalyzer)
+INFO  RegressionExport.java> Phase21 metrics exported: sharpprospero-sample-5dfdb4b-eboot.elf (GhidraScript)
+INFO  ANALYZING changes made by post scripts: file://~/PS5-Research/14.22/test-binaries/sharpprospero-sample-5dfdb4b-eboot.elf (HeadlessAnalyzer)
+INFO  REPORT: Post-analysis succeeded for file: file://~/PS5-Research/14.22/test-binaries/sharpprospero-sample-5dfdb4b-eboot.elf (HeadlessAnalyzer)
+INFO  /sharpprospero-sample-5dfdb4b-eboot.elf: file created (ryan) (LocalFileSystem)
+INFO  REPORT: Save succeeded for: /sharpprospero-sample-5dfdb4b-eboot.elf (Phase21:/sharpprospero-sample-5dfdb4b-eboot.elf) (HeadlessAnalyzer)
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)
+INFO  IMPORTING: file://AUDIT_WORKSPACE/work/phase21/samples/sharpemu-demo-0.elf (HeadlessAnalyzer)
+INFO  Using Loader: Executable and Linking Format (ELF) (ProgramLoader)
+INFO  Using Language/Compiler: x86:LE:64:default:gcc (ProgramLoader)
+INFO  Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib/x86_64-linux-gnu/jni, /usr/lib/x86_64-linux-gnu, /usr/lib/jni] (ProgramLoader)
+INFO  Additional info:
+Loading file://AUDIT_WORKSPACE/work/phase21/samples/sharpemu-demo-0.elf?MD5=d09e27db003337f67759422126898a4c...
+------------------------------------------------
+
+Linking the External Programs of 'sharpemu-demo-0.elf' to imported libraries...
+  [libkernel.sprx] -> not found in project
+  [libSceVideoOut.sprx] -> not found in project
+  [libSceSystemService.sprx] -> not found in project
+  [libSceUserService.sprx] -> not found in project
+  [libScePad.sprx] -> not found in project
+------------------------------------------------
+
+Resolving External Symbols of [/sharpemu-demo-0.elf] - 19 unresolved symbols, no external libraries configured - skipping
+ (ProgramLoader)
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)
+INFO  ANALYZING all memory and code: file://AUDIT_WORKSPACE/work/phase21/samples/sharpemu-demo-0.elf (HeadlessAnalyzer)
+INFO  Unable to find DWARF information, skipping DWARF analysis (DWARFAnalyzer)
+INFO  Applied data type archive: generic_clib_64 (ApplyDataArchiveAnalyzer)
+INFO  No functions detected that make variadic function calls with format strings containing format specifiers (FormatStringAnalyzer)
+INFO  -----------------------------------------------------
+    ASCII Strings                              0.002 secs
+    Apply Data Archives                        0.077 secs
+    Call Convention ID                         0.483 secs
+    Call-Fixup Installer                       0.000 secs
+    Create Address Tables                      0.004 secs
+    Create Function                            0.000 secs
+    DWARF                                      0.000 secs
+    Data Reference                             0.008 secs
+    Decompiler Switch Analysis                 0.002 secs
+    Demangler GNU                              0.005 secs
+    Disassemble Entry Points                   0.157 secs
+    ELF Scalar Operand References              0.030 secs
+    Embedded Media                             0.001 secs
+    External Entry References                  0.000 secs
+    Function ID                                0.000 secs
+    Function Start Pre Search                  0.002 secs
+    Function Start Search                      0.024 secs
+    Function Start Search After Code           0.001 secs
+    Function Start Search After Data           0.000 secs
+    Non-Returning Functions - Discovered       0.001 secs
+    Non-Returning Functions - Known            0.001 secs
+    Reference                                  0.009 secs
+    Shared Return Calls                        0.003 secs
+    Source Language Support                    0.001 secs
+    Stack                                      0.181 secs
+    Subroutine References                      0.002 secs
+    Variadic Function Signature Override       0.004 secs
+    x86 Constant Reference Analyzer            0.214 secs
+-----------------------------------------------------
+     Total Time   1 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)
+INFO  REPORT: Analysis succeeded for file: file://AUDIT_WORKSPACE/work/phase21/samples/sharpemu-demo-0.elf (HeadlessAnalyzer)
+INFO  REPORT: Execute script: RegressionExport.java 'work/phase21/evidence/ghidra' '~/PS5-Research/14.22/test-binaries/sharpprospero-sample-5dfdb4b-eboot.elf' 'work/phase21/samples/sharpemu-demo-0.elf' 'work/phase21/freebsd-control.o' 'work/phase21/freebsd-control.elf'  (HeadlessAnalyzer)
+INFO  SCRIPT: AUDIT_WORKSPACE/work/phase21/scripts/RegressionExport.java (HeadlessAnalyzer)
+INFO  RegressionExport.java> Phase21 metrics exported: sharpemu-demo-0.elf (GhidraScript)
+INFO  ANALYZING changes made by post scripts: file://AUDIT_WORKSPACE/work/phase21/samples/sharpemu-demo-0.elf (HeadlessAnalyzer)
+INFO  REPORT: Post-analysis succeeded for file: file://AUDIT_WORKSPACE/work/phase21/samples/sharpemu-demo-0.elf (HeadlessAnalyzer)
+INFO  /sharpemu-demo-0.elf: file created (ryan) (LocalFileSystem)
+INFO  REPORT: Save succeeded for: /sharpemu-demo-0.elf (Phase21:/sharpemu-demo-0.elf) (HeadlessAnalyzer)
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)
+INFO  IMPORTING: file://AUDIT_WORKSPACE/work/phase21/freebsd-control.o (HeadlessAnalyzer)
+INFO  Using Loader: Executable and Linking Format (ELF) (ProgramLoader)
+INFO  Using Language/Compiler: x86:LE:64:default:gcc (ProgramLoader)
+INFO  Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib/x86_64-linux-gnu/jni, /usr/lib/x86_64-linux-gnu, /usr/lib/jni] (ProgramLoader)
+INFO  Additional info:
+Loading file://AUDIT_WORKSPACE/work/phase21/freebsd-control.o?MD5=5fef629ab5782ec3f237f5e4d2a87b50...
+Skipping section [.note.GNU-stack] with invalid size 0x0
+------------------------------------------------
+
+ (ProgramLoader)
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)
+INFO  ANALYZING all memory and code: file://AUDIT_WORKSPACE/work/phase21/freebsd-control.o (HeadlessAnalyzer)
+INFO  Unable to find DWARF information, skipping DWARF analysis (DWARFAnalyzer)
+INFO  Applied data type archive: generic_clib_64 (ApplyDataArchiveAnalyzer)
+INFO  No functions detected that make variadic function calls with format strings containing format specifiers (FormatStringAnalyzer)
+INFO  REPORT: Analysis succeeded for file: file://AUDIT_WORKSPACE/work/phase21/freebsd-control.o (HeadlessAnalyzer)
+INFO  REPORT: Execute script: RegressionExport.java 'work/phase21/evidence/ghidra' '~/PS5-Research/14.22/test-binaries/sharpprospero-sample-5dfdb4b-eboot.elf' 'work/phase21/samples/sharpemu-demo-0.elf' 'work/phase21/freebsd-control.o' 'work/phase21/freebsd-control.elf'  (HeadlessAnalyzer)
+INFO  SCRIPT: AUDIT_WORKSPACE/work/phase21/scripts/RegressionExport.java (HeadlessAnalyzer)
+INFO  RegressionExport.java> Phase21 metrics exported: freebsd-control.o (GhidraScript)
+INFO  ANALYZING changes made by post scripts: file://AUDIT_WORKSPACE/work/phase21/freebsd-control.o (HeadlessAnalyzer)
+INFO  REPORT: Post-analysis succeeded for file: file://AUDIT_WORKSPACE/work/phase21/freebsd-control.o (HeadlessAnalyzer)
+INFO  /freebsd-control.o: file created (ryan) (LocalFileSystem)
+INFO  REPORT: Save succeeded for: /freebsd-control.o (Phase21:/freebsd-control.o) (HeadlessAnalyzer)
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)
+INFO  IMPORTING: file://AUDIT_WORKSPACE/work/phase21/freebsd-control.elf (HeadlessAnalyzer)
+INFO  Using Loader: Executable and Linking Format (ELF) (ProgramLoader)
+INFO  Using Language/Compiler: x86:LE:64:default:gcc (ProgramLoader)
+INFO  Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib/x86_64-linux-gnu/jni, /usr/lib/x86_64-linux-gnu, /usr/lib/jni] (ProgramLoader)
+INFO  Additional info:
+Loading file://AUDIT_WORKSPACE/work/phase21/freebsd-control.elf?MD5=4490c3c1915bf826b4c3557bc7ee0068...
+------------------------------------------------
+
+ (ProgramLoader)
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)
+INFO  ANALYZING all memory and code: file://AUDIT_WORKSPACE/work/phase21/freebsd-control.elf (HeadlessAnalyzer)
+INFO  Unable to find DWARF information, skipping DWARF analysis (DWARFAnalyzer)
+INFO  Applied data type archive: generic_clib_64 (ApplyDataArchiveAnalyzer)
+INFO  No functions detected that make variadic function calls with format strings containing format specifiers (FormatStringAnalyzer)
+INFO  REPORT: Analysis succeeded for file: file://AUDIT_WORKSPACE/work/phase21/freebsd-control.elf (HeadlessAnalyzer)
+INFO  REPORT: Execute script: RegressionExport.java 'work/phase21/evidence/ghidra' '~/PS5-Research/14.22/test-binaries/sharpprospero-sample-5dfdb4b-eboot.elf' 'work/phase21/samples/sharpemu-demo-0.elf' 'work/phase21/freebsd-control.o' 'work/phase21/freebsd-control.elf'  (HeadlessAnalyzer)
+INFO  SCRIPT: AUDIT_WORKSPACE/work/phase21/scripts/RegressionExport.java (HeadlessAnalyzer)
+INFO  RegressionExport.java> Phase21 metrics exported: freebsd-control.elf (GhidraScript)
+INFO  ANALYZING changes made by post scripts: file://AUDIT_WORKSPACE/work/phase21/freebsd-control.elf (HeadlessAnalyzer)
+INFO  REPORT: Post-analysis succeeded for file: file://AUDIT_WORKSPACE/work/phase21/freebsd-control.elf (HeadlessAnalyzer)
+INFO  /freebsd-control.elf: file created (ryan) (LocalFileSystem)
+INFO  REPORT: Save succeeded for: /freebsd-control.elf (Phase21:/freebsd-control.elf) (HeadlessAnalyzer)
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)

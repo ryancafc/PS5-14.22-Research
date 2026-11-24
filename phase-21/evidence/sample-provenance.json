@@ -1,0 +1,59 @@
+{
+  "samples": [
+    {
+      "file": "sharpprospero-sample-5dfdb4b-eboot.elf",
+      "repository": "https://github.com/SvenGDK/SharpProspero",
+      "commit": "5dfdb4b0b166e83dc9ae275001afb695f12c7174",
+      "path": "src/SharpProspero.Sample/out/module/eboot.bin",
+      "licence": "GPL-3.0 (upstream LICENSE)",
+      "provenance": "Existing previously verified lawful homebrew sample; unchanged this phase."
+    },
+    {
+      "file": "sharpemu-demo-0.elf",
+      "repository": "https://github.com/sharpemu/sharpemu-demo",
+      "commit": "49e6b3b25678f14ec57a70b907ee215fddb608d8",
+      "url": "https://github.com/sharpemu/sharpemu-demo/releases/download/49e6b3b/sharpemu-demo.zip",
+      "archive_member": "eboot.bin",
+      "licence": "GPL-2.0-or-later (author README declaration; LICENSE.txt)",
+      "provenance": "New prebuilt release; no local header edits. Upstream build chooses ABI 2; retail provenance not claimed."
+    },
+    {
+      "file": "freebsd-control.o",
+      "licence": "Original Phase 21 control; MIT",
+      "provenance": "clang --target=x86_64-unknown-freebsd -ffreestanding -fno-stack-protector -c freebsd-control.c; genuine compiler output OSABI 9 / ABI 0 / ET_REL, no header edits."
+    },
+    {
+      "file": "freebsd-control.elf",
+      "licence": "Original Phase 21 control; MIT",
+      "provenance": "GNU ld -e _start from the preceding object. GNU ld output OSABI 0 / ABI 0 / ET_EXEC: System V linked control, not a FreeBSD executable."
+    }
+  ],
+  "search_scope": [
+    {
+      "repo": "SvenGDK/SharpProspero",
+      "commit": "5dfdb4b0b166e83dc9ae275001afb695f12c7174",
+      "result": "Only the already analysed prebuilt SCE executable on current tree."
+    },
+    {
+      "repo": "SvenGDK/SharpProspero",
+      "commit": "e36e610fa5b4be23ad38b9c8429f11f11750cc0c",
+      "result": "v0.6 tree/release has no additional x86-64 ELF executable; shader ELFs not used."
+    },
+    {
+      "repo": "Rufidj/ps5link-sdk",
+      "commit": "ea771e535378740b6a058b8e5419eb8a0e0e0ec8",
+      "result": "No tracked ELF/PRX/BIN samples and no published releases in checked response."
+    },
+    {
+      "repo": "PS5Dev/PS5SDK",
+      "commit": "a2e03a2a0231a3a3397fa6cd087a01ca6d04f273",
+      "result": "No tracked prebuilt ELF/PRX/BIN samples in checked tree."
+    },
+    {
+      "repo": "ps5-payload-dev/sdk",
+      "commit": "4122b714c7e7a9449d403812b9d640bf7a55af3f",
+      "result": "No tracked prebuilt ELF/PRX/BIN samples in checked tree."
+    }
+  ],
+  "limits": "Bounded search, not proof no ABI 3 or other SCE samples exist. No header spoofing, vendor system libraries, decrypted games or exploit payloads used."
+}
